@@ -1,0 +1,5 @@
+workload,system,data_bytes,data_mib,source,source_field,notes
+T-mgBench,PETG,14352636,13.687740325927734,doc/aeong-workload-adaptation/README.md,Storage and write-cost table,2026-10-30 application database measurement including temporal properties and excluding logs and system database
+T-mgBench,AeonG,65008435,61.99687480926514,doc/aeong-workload-adaptation/results/aeong-side-2026-10-28/aeong-create.log,first line second field,Byte count recovered from original harness output divided by 2^20; snapshots plus retained history deltas
+T-LDBC,PETG,207638318,198.01933097839355,doc/aeong-workload-adaptation/results/tldbc-2026-10-28/tldbc-results.json,/petgraph_side/storage_bytes_neo4j_store,2026-10-30 application database measurement including temporal properties and excluding logs and system database
+T-LDBC,AeonG,321292210,306.4081287384033,doc/aeong-workload-adaptation/results/tldbc-2026-10-28/aeong-create.log,last line second field,Byte count recovered from original harness output divided by 2^20; snapshots plus retained history deltas

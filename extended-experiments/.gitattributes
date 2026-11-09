@@ -1,0 +1,2 @@
+# CSV exports intentionally retain Python csv's CRLF records.
+*.csv whitespace=cr-at-eol

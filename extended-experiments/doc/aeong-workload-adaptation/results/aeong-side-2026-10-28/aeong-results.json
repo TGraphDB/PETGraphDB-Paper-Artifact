@@ -1,0 +1,34 @@
+{
+  "date": "2026-10-28",
+  "phase": "P4 AeonG 同机对照（T-mgBench）",
+  "machine": "PowerEdge-T630 (mashuai@server, 192.168.1.60), 188GiB, 32核, NVMe /mnt/nvm2t",
+  "image": "songjinghe/temporal-graph-dbms:aeong-2.2-latest = afb858534be6 (15.3GB, 2026-10-28 自 client 推送)",
+  "harness": "AeonG 原生 harness：tests/scripts/create_temporal_database.py + evaluate_temporal_q.py，C++ Bolt client (build/tests/mgbench/client)",
+  "db_flags": "--bolt-port 7687 --storage-properties-on-edges=true --memory-limit 0 --anchor-num 10 --storage-gc-cycle-sec 30 --real-time-flag=false；造库期 --storage-snapshot-on-exit=true --storage-snapshot-interval-sec 30；查询期 --storage-recover-on-startup=true",
+  "dataset": "Pokec small 10000点/121716边 + 逆向重构的 AeonG 操作流 320000 条",
+  "ops_file": {
+    "path": "aeong/data/aeong_ops.txt",
+    "sha256": "5101d126ce83f0e550b21073d440fdc45d25aef21bcf1a91a80d8231b90d9b94",
+    "stats": {"update": 256000, "create_v": 16000, "create_e": 16000, "delete_e": 32000},
+    "note": "由冻结的 petgraph_ops.txt (sha256 46a3405d...) 逆向重构；正向往写 32 万行全部一致（仅 Neo4j 侧 YIELD 后缀差异）"
+  },
+  "ts_window": {"lo": 264242, "hi": 958716, "max_snapshot_ts": 958717,
+    "note": "提交时间戳（逻辑 ts）。探针：count(User) TT AS t 在 259242=10000（导入完成）、264242=10002（首个 create_v）、958716=26000（全部完成）"},
+  "create_result": {
+    "graph_op_avg_latency_ms": 0.0422,
+    "graph_op_latency_raw": "4.219357004468749e-05 s/op (duration/count, 20 workers)",
+    "wall_clock_s": 14.4,
+    "failures": 0,
+    "storage_mb": 62.0,
+    "storage_raw": "snapshot + history_deltas（AeonG 论文口径）"
+  },
+  "query_protocol": "单线程，每组文件跑两遍取第二遍；组间独立容器 + drop_caches；每组 100 条",
+  "query_results_avg_ms": {
+    "q1_mix": 1.418, "q2_mix": 1.890, "q3_mix": 6.059, "q4_mix": 9.609,
+    "q3_hot": 4.430, "q3_warm": 4.714, "q3_cold": 4.618,
+    "q4_mix_int1": 5.661, "q4_mix_int20": 5.675, "q4_mix_int50": 3.765,
+    "q4_mix_int100": 4.734, "q4_mix_int150": 5.647, "q4_mix_int200": 4.871
+  },
+  "correctness_spotcheck": "q3_mix 首行 TT AS 748659 返回真实历史行（含 transaction_ts/te），语义验证通过",
+  "log_files": ["aeong-create.log", "aeong-eval.log", "queries-manifest.json"]
+}

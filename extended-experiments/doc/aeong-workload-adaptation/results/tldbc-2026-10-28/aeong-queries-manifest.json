@@ -1,0 +1,38 @@
+{
+  "format": "aeong",
+  "time_window": [
+    1010000,
+    1350000
+  ],
+  "seed": 42,
+  "files": {
+    "IS1.txt": {
+      "lines": 100,
+      "sha256": "9314f89f6828d666961d6bf5850b87979695f46e29ec0765b5a0da83d1ff04f0"
+    },
+    "IS2.txt": {
+      "lines": 100,
+      "sha256": "2d3364af63ac45bd87501e4002c1d4790e13be55d27db33707b7848281fc4eb7"
+    },
+    "IS3.txt": {
+      "lines": 100,
+      "sha256": "fa3f72a7088d909108f119fe7d54a84ced80c9f9d0434dd5aeec2c6b16de3990"
+    },
+    "IS4.txt": {
+      "lines": 100,
+      "sha256": "54e3c0f4015b7e2e99a6bfb97405ceb5f2975162f0927e808ddb8d7314d024a7"
+    },
+    "IS5.txt": {
+      "lines": 100,
+      "sha256": "bf57966d188e8ac66d04aac1d1b495d6c87eb8f6144841787132ca8d07dc09a0"
+    },
+    "IS6.txt": {
+      "lines": 100,
+      "sha256": "afb0dc7e590148711083a6013132705e4affbe22ee5b9b2ca4a8b8b2e6703494"
+    },
+    "IS7.txt": {
+      "lines": 100,
+      "sha256": "e6e0254f03c55e2955c2f3bbe34b56618af4e86c9e5c54fbf760bf6d0bdfed4c"
+    }
+  }
+}

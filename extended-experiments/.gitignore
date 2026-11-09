@@ -1,0 +1,7 @@
+.venv/
+__pycache__/
+*.pyc
+work/
+local-config/
+figures/*.pdf
+figures/*.png

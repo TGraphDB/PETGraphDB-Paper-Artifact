@@ -1,0 +1,38 @@
+{
+  "format": "petgraph",
+  "time_window": [
+    1,
+    1500000
+  ],
+  "seed": 42,
+  "files": {
+    "IS1.txt": {
+      "lines": 100,
+      "sha256": "bc48436c36711a864483909a457ac6b5122f332f44d29063b2afa1d859429bf6"
+    },
+    "IS2.txt": {
+      "lines": 100,
+      "sha256": "0b6f3aa4f8585f119804f1f56821e630ef93dc02df64c64fe3f4462b01daf2e2"
+    },
+    "IS3.txt": {
+      "lines": 100,
+      "sha256": "4e2ed02729f0a96b470538d9c40834e6ff0474d604fe8bc6337a03f666d3f9ce"
+    },
+    "IS4.txt": {
+      "lines": 100,
+      "sha256": "9b6fced38cbd1125da3b3fc569cc4fef152bacc0175df729514741ab8f4213aa"
+    },
+    "IS5.txt": {
+      "lines": 100,
+      "sha256": "d68012c086254adee6245be544177d978db19ebcf45fd38651245a2b02f0c259"
+    },
+    "IS6.txt": {
+      "lines": 100,
+      "sha256": "befd1ec9ee62e9eec58e87b2ada0c940a7f1e4aca22f5a8761f9524344151285"
+    },
+    "IS7.txt": {
+      "lines": 100,
+      "sha256": "ad477ac7f7587ffd12a7ac3990b003eb4becb34db2bae4fed115a4a0f4afda5f"
+    }
+  }
+}

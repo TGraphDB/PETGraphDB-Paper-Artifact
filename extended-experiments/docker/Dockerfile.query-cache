@@ -1,0 +1,7 @@
+# Resolve and record the base image digest before timing a new campaign.
+ARG PET_IMAGE=songjinghe/petgraphdb:4.4-latest
+FROM ${PET_IMAGE}
+RUN source_file=/db/bin/temporal-storage/src/main/java/org/act/temporalProperty/impl/TemporalPropertyStoreImpl.java \
+    && grep -q 'mSize!=null && Integer.parseInt(mSize)>=defaultVal' "$source_file" \
+    && sed -i 's/mSize!=null && Integer.parseInt(mSize)>=defaultVal/mSize!=null \&\& Integer.parseInt(mSize)>0/' "$source_file" \
+    && cd /db/bin/temporal-storage && mvn -B -Dmaven.test.skip=true install

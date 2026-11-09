@@ -1,0 +1,5413 @@
+{
+  "interactive": {
+    "ro-1-neo": {
+      "LdbcQuery1": {
+        "mean_ms": 810.9740740740741,
+        "p50_ms": 929,
+        "p95_ms": 1128,
+        "count": 1080
+      },
+      "LdbcQuery10": {
+        "mean_ms": 1712.0106837606838,
+        "p50_ms": 1721,
+        "p95_ms": 2178,
+        "count": 936
+      },
+      "LdbcQuery11": {
+        "mean_ms": 78.36638176638176,
+        "p50_ms": 75,
+        "p95_ms": 122,
+        "count": 1755
+      },
+      "LdbcQuery12": {
+        "mean_ms": 726.8575899843505,
+        "p50_ms": 720,
+        "p95_ms": 925,
+        "count": 639
+      },
+      "LdbcQuery13": {
+        "mean_ms": 3.2726657645466846,
+        "p50_ms": 3,
+        "p95_ms": 6,
+        "count": 1478
+      },
+      "LdbcQuery14": {
+        "mean_ms": 8420.720767888308,
+        "p50_ms": 5240,
+        "p95_ms": 32156,
+        "count": 573
+      },
+      "LdbcQuery2": {
+        "mean_ms": 187.2068511198946,
+        "p50_ms": 192,
+        "p95_ms": 241,
+        "count": 759
+      },
+      "LdbcQuery3": {
+        "mean_ms": 4578.992628992629,
+        "p50_ms": 4575,
+        "p95_ms": 5626,
+        "count": 407
+      },
+      "LdbcQuery4": {
+        "mean_ms": 133.9525641025641,
+        "p50_ms": 135,
+        "p95_ms": 171,
+        "count": 780
+      },
+      "LdbcQuery5": {
+        "mean_ms": 3427.973630831643,
+        "p50_ms": 3617,
+        "p95_ms": 4762,
+        "count": 493
+      },
+      "LdbcQuery6": {
+        "mean_ms": 10501.248847926267,
+        "p50_ms": 10689,
+        "p95_ms": 11774,
+        "count": 217
+      },
+      "LdbcQuery7": {
+        "mean_ms": 1.7244582043343653,
+        "p50_ms": 1,
+        "p95_ms": 3,
+        "count": 323
+      },
+      "LdbcQuery8": {
+        "mean_ms": 1.3493589743589745,
+        "p50_ms": 1,
+        "p95_ms": 2,
+        "count": 624
+      },
+      "LdbcQuery9": {
+        "mean_ms": 19978.983240223464,
+        "p50_ms": 20437,
+        "p95_ms": 22345,
+        "count": 179
+      },
+      "LdbcShortQuery1PersonProfile": {
+        "mean_ms": 1.3586028663168612,
+        "p50_ms": 1,
+        "p95_ms": 3,
+        "count": 12769
+      },
+      "LdbcShortQuery2PersonPosts": {
+        "mean_ms": 7.232672879630354,
+        "p50_ms": 4,
+        "p95_ms": 23,
+        "count": 12769
+      },
+      "LdbcShortQuery3PersonFriends": {
+        "mean_ms": 3.095465580703266,
+        "p50_ms": 2,
+        "p95_ms": 10,
+        "count": 12769
+      },
+      "LdbcShortQuery4MessageContent": {
+        "mean_ms": 1.435397405019035,
+        "p50_ms": 1,
+        "p95_ms": 3,
+        "count": 12871
+      },
+      "LdbcShortQuery5MessageCreator": {
+        "mean_ms": 1.194468184290265,
+        "p50_ms": 1,
+        "p95_ms": 2,
+        "count": 12871
+      },
+      "LdbcShortQuery6MessageForum": {
+        "mean_ms": 1.0767617123766606,
+        "p50_ms": 1,
+        "p95_ms": 2,
+        "count": 12871
+      },
+      "LdbcShortQuery7MessageReplies": {
+        "mean_ms": 1.2879341154533448,
+        "p50_ms": 1,
+        "p95_ms": 2,
+        "count": 12871
+      }
+    },
+    "ro-1-pet": {
+      "LdbcQuery1": {
+        "mean_ms": 666.3592592592593,
+        "p50_ms": 733,
+        "p95_ms": 1024,
+        "count": 1080
+      },
+      "LdbcQuery10": {
+        "mean_ms": 1136.798076923077,
+        "p50_ms": 1092,
+        "p95_ms": 1645,
+        "count": 936
+      },
+      "LdbcQuery11": {
+        "mean_ms": 53.527065527065524,
+        "p50_ms": 50,
+        "p95_ms": 91,
+        "count": 1755
+      },
+      "LdbcQuery12": {
+        "mean_ms": 456.2112676056338,
+        "p50_ms": 446,
+        "p95_ms": 627,
+        "count": 639
+      },
+      "LdbcQuery13": {
+        "mean_ms": 1.8585926928281462,
+        "p50_ms": 2,
+        "p95_ms": 2,
+        "count": 1478
+      },
+      "LdbcQuery14": {
+        "mean_ms": 7246.267015706806,
+        "p50_ms": 4290,
+        "p95_ms": 29445,
+        "count": 573
+      },
+      "LdbcQuery2": {
+        "mean_ms": 82.33465085638998,
+        "p50_ms": 80,
+        "p95_ms": 113,
+        "count": 759
+      },
+      "LdbcQuery3": {
+        "mean_ms": 1894.8992628992628,
+        "p50_ms": 1863,
+        "p95_ms": 2543,
+        "count": 407
+      },
+      "LdbcQuery4": {
+        "mean_ms": 81.59102564102564,
+        "p50_ms": 79,
+        "p95_ms": 116,
+        "count": 780
+      },
+      "LdbcQuery5": {
+        "mean_ms": 1845.997971602434,
+        "p50_ms": 2020,
+        "p95_ms": 3064,
+        "count": 493
+      },
+      "LdbcQuery6": {
+        "mean_ms": 6336.594470046083,
+        "p50_ms": 6136,
+        "p95_ms": 8236,
+        "count": 217
+      },
+      "LdbcQuery7": {
+        "mean_ms": 1.3869969040247678,
+        "p50_ms": 1,
+        "p95_ms": 2,
+        "count": 323
+      },
+      "LdbcQuery8": {
+        "mean_ms": 1.0993589743589745,
+        "p50_ms": 1,
+        "p95_ms": 2,
+        "count": 624
+      },
+      "LdbcQuery9": {
+        "mean_ms": 8652.6312849162,
+        "p50_ms": 8572,
+        "p95_ms": 10945,
+        "count": 179
+      },
+      "LdbcShortQuery1PersonProfile": {
+        "mean_ms": 1.3165478894196883,
+        "p50_ms": 1,
+        "p95_ms": 2,
+        "count": 12769
+      },
+      "LdbcShortQuery2PersonPosts": {
+        "mean_ms": 3.40974234474117,
+        "p50_ms": 2,
+        "p95_ms": 9,
+        "count": 12769
+      },
+      "LdbcShortQuery3PersonFriends": {
+        "mean_ms": 2.228992090218498,
+        "p50_ms": 2,
+        "p95_ms": 6,
+        "count": 12769
+      },
+      "LdbcShortQuery4MessageContent": {
+        "mean_ms": 1.324994172946935,
+        "p50_ms": 1,
+        "p95_ms": 2,
+        "count": 12871
+      },
+      "LdbcShortQuery5MessageCreator": {
+        "mean_ms": 1.122135032243027,
+        "p50_ms": 1,
+        "p95_ms": 2,
+        "count": 12871
+      },
+      "LdbcShortQuery6MessageForum": {
+        "mean_ms": 1.0199673685028359,
+        "p50_ms": 1,
+        "p95_ms": 1,
+        "count": 12871
+      },
+      "LdbcShortQuery7MessageReplies": {
+        "mean_ms": 1.0808794965426152,
+        "p50_ms": 1,
+        "p95_ms": 2,
+        "count": 12871
+      }
+    },
+    "ro-2-neo": {
+      "LdbcQuery1": {
+        "mean_ms": 812.7296296296296,
+        "p50_ms": 923,
+        "p95_ms": 1141,
+        "count": 1080
+      },
+      "LdbcQuery10": {
+        "mean_ms": 1710.5662393162393,
+        "p50_ms": 1711,
+        "p95_ms": 2180,
+        "count": 936
+      },
+      "LdbcQuery11": {
+        "mean_ms": 78.74700854700855,
+        "p50_ms": 75,
+        "p95_ms": 125,
+        "count": 1755
+      },
+      "LdbcQuery12": {
+        "mean_ms": 720.6541471048513,
+        "p50_ms": 708,
+        "p95_ms": 919,
+        "count": 639
+      },
+      "LdbcQuery13": {
+        "mean_ms": 3.286874154262517,
+        "p50_ms": 3,
+        "p95_ms": 6,
+        "count": 1478
+      },
+      "LdbcQuery14": {
+        "mean_ms": 8367.099476439791,
+        "p50_ms": 5254,
+        "p95_ms": 32254,
+        "count": 573
+      },
+      "LdbcQuery2": {
+        "mean_ms": 188.68906455862978,
+        "p50_ms": 192,
+        "p95_ms": 243,
+        "count": 759
+      },
+      "LdbcQuery3": {
+        "mean_ms": 4614.095823095823,
+        "p50_ms": 4583,
+        "p95_ms": 5681,
+        "count": 407
+      },
+      "LdbcQuery4": {
+        "mean_ms": 134.97948717948717,
+        "p50_ms": 136,
+        "p95_ms": 171,
+        "count": 780
+      },
+      "LdbcQuery5": {
+        "mean_ms": 3448.3630831643004,
+        "p50_ms": 3625,
+        "p95_ms": 4789,
+        "count": 493
+      },
+      "LdbcQuery6": {
+        "mean_ms": 10311.861751152073,
+        "p50_ms": 10476,
+        "p95_ms": 11622,
+        "count": 217
+      },
+      "LdbcQuery7": {
+        "mean_ms": 2.1424148606811144,
+        "p50_ms": 2,
+        "p95_ms": 5,
+        "count": 323
+      },
+      "LdbcQuery8": {
+        "mean_ms": 1.748397435897436,
+        "p50_ms": 2,
+        "p95_ms": 3,
+        "count": 624
+      },
+      "LdbcQuery9": {
+        "mean_ms": 19833.670391061452,
+        "p50_ms": 20384,
+        "p95_ms": 22086,
+        "count": 179
+      },
+      "LdbcShortQuery1PersonProfile": {
+        "mean_ms": 1.3867178322499805,
+        "p50_ms": 1,
+        "p95_ms": 3,
+        "count": 12769
+      },
+      "LdbcShortQuery2PersonPosts": {
+        "mean_ms": 7.830605372386248,
+        "p50_ms": 5,
+        "p95_ms": 23,
+        "count": 12769
+      },
+      "LdbcShortQuery3PersonFriends": {
+        "mean_ms": 3.1379121309421256,
+        "p50_ms": 2,
+        "p95_ms": 10,
+        "count": 12769
+      },
+      "LdbcShortQuery4MessageContent": {
+        "mean_ms": 1.5096729080879496,
+        "p50_ms": 1,
+        "p95_ms": 3,
+        "count": 12871
+      },
+      "LdbcShortQuery5MessageCreator": {
+        "mean_ms": 1.187398026571362,
+        "p50_ms": 1,
+        "p95_ms": 2,
+        "count": 12871
+      },
+      "LdbcShortQuery6MessageForum": {
+        "mean_ms": 1.0658845466552715,
+        "p50_ms": 1,
+        "p95_ms": 2,
+        "count": 12871
+      },
+      "LdbcShortQuery7MessageReplies": {
+        "mean_ms": 1.3420868619376893,
+        "p50_ms": 1,
+        "p95_ms": 2,
+        "count": 12871
+      }
+    },
+    "ro-2-pet": {
+      "LdbcQuery1": {
+        "mean_ms": 627.1388888888889,
+        "p50_ms": 708,
+        "p95_ms": 908,
+        "count": 1080
+      },
+      "LdbcQuery10": {
+        "mean_ms": 1050.08547008547,
+        "p50_ms": 1022,
+        "p95_ms": 1500,
+        "count": 936
+      },
+      "LdbcQuery11": {
+        "mean_ms": 50.142450142450144,
+        "p50_ms": 47,
+        "p95_ms": 82,
+        "count": 1755
+      },
+      "LdbcQuery12": {
+        "mean_ms": 410.2206572769953,
+        "p50_ms": 398,
+        "p95_ms": 552,
+        "count": 639
+      },
+      "LdbcQuery13": {
+        "mean_ms": 1.7753721244925575,
+        "p50_ms": 2,
+        "p95_ms": 2,
+        "count": 1478
+      },
+      "LdbcQuery14": {
+        "mean_ms": 6733.973821989529,
+        "p50_ms": 4008,
+        "p95_ms": 27111,
+        "count": 573
+      },
+      "LdbcQuery2": {
+        "mean_ms": 77.72463768115942,
+        "p50_ms": 79,
+        "p95_ms": 108,
+        "count": 759
+      },
+      "LdbcQuery3": {
+        "mean_ms": 1776.5528255528257,
+        "p50_ms": 1710,
+        "p95_ms": 2464,
+        "count": 407
+      },
+      "LdbcQuery4": {
+        "mean_ms": 72.88717948717948,
+        "p50_ms": 72,
+        "p95_ms": 103,
+        "count": 780
+      },
+      "LdbcQuery5": {
+        "mean_ms": 1684.3549695740364,
+        "p50_ms": 1909,
+        "p95_ms": 2524,
+        "count": 493
+      },
+      "LdbcQuery6": {
+        "mean_ms": 6005.1336405529955,
+        "p50_ms": 5881,
+        "p95_ms": 7492,
+        "count": 217
+      },
+      "LdbcQuery7": {
+        "mean_ms": 1.3219814241486068,
+        "p50_ms": 1,
+        "p95_ms": 2,
+        "count": 323
+      },
+      "LdbcQuery8": {
+        "mean_ms": 1.0945512820512822,
+        "p50_ms": 1,
+        "p95_ms": 2,
+        "count": 624
+      },
+      "LdbcQuery9": {
+        "mean_ms": 8473.77094972067,
+        "p50_ms": 8464,
+        "p95_ms": 10189,
+        "count": 179
+      },
+      "LdbcShortQuery1PersonProfile": {
+        "mean_ms": 1.2939149502701857,
+        "p50_ms": 1,
+        "p95_ms": 2,
+        "count": 12769
+      },
+      "LdbcShortQuery2PersonPosts": {
+        "mean_ms": 3.1692379982770773,
+        "p50_ms": 2,
+        "p95_ms": 8,
+        "count": 12769
+      },
+      "LdbcShortQuery3PersonFriends": {
+        "mean_ms": 2.1339963975252565,
+        "p50_ms": 2,
+        "p95_ms": 6,
+        "count": 12769
+      },
+      "LdbcShortQuery4MessageContent": {
+        "mean_ms": 1.2988112811747339,
+        "p50_ms": 1,
+        "p95_ms": 2,
+        "count": 12871
+      },
+      "LdbcShortQuery5MessageCreator": {
+        "mean_ms": 1.1023230518219254,
+        "p50_ms": 1,
+        "p95_ms": 2,
+        "count": 12871
+      },
+      "LdbcShortQuery6MessageForum": {
+        "mean_ms": 1.0104886955170538,
+        "p50_ms": 1,
+        "p95_ms": 1,
+        "count": 12871
+      },
+      "LdbcShortQuery7MessageReplies": {
+        "mean_ms": 1.0673607334317459,
+        "p50_ms": 1,
+        "p95_ms": 2,
+        "count": 12871
+      }
+    },
+    "ro-3-neo": {
+      "LdbcQuery1": {
+        "mean_ms": 710.8675925925926,
+        "p50_ms": 776,
+        "p95_ms": 1095,
+        "count": 1080
+      },
+      "LdbcQuery10": {
+        "mean_ms": 1437.179487179487,
+        "p50_ms": 1389,
+        "p95_ms": 2056,
+        "count": 936
+      },
+      "LdbcQuery11": {
+        "mean_ms": 66.10598290598291,
+        "p50_ms": 63,
+        "p95_ms": 106,
+        "count": 1755
+      },
+      "LdbcQuery12": {
+        "mean_ms": 626.378716744914,
+        "p50_ms": 590,
+        "p95_ms": 899,
+        "count": 639
+      },
+      "LdbcQuery13": {
+        "mean_ms": 3.1901217861975644,
+        "p50_ms": 3,
+        "p95_ms": 6,
+        "count": 1478
+      },
+      "LdbcQuery14": {
+        "mean_ms": 6743.446771378709,
+        "p50_ms": 4064,
+        "p95_ms": 26807,
+        "count": 573
+      },
+      "LdbcQuery2": {
+        "mean_ms": 166.231884057971,
+        "p50_ms": 168,
+        "p95_ms": 224,
+        "count": 759
+      },
+      "LdbcQuery3": {
+        "mean_ms": 4114.088452088452,
+        "p50_ms": 3992,
+        "p95_ms": 5178,
+        "count": 407
+      },
+      "LdbcQuery4": {
+        "mean_ms": 111.67307692307692,
+        "p50_ms": 109,
+        "p95_ms": 151,
+        "count": 780
+      },
+      "LdbcQuery5": {
+        "mean_ms": 2988.1135902636915,
+        "p50_ms": 3337,
+        "p95_ms": 4171,
+        "count": 493
+      },
+      "LdbcQuery6": {
+        "mean_ms": 8710.884792626728,
+        "p50_ms": 8428,
+        "p95_ms": 11409,
+        "count": 217
+      },
+      "LdbcQuery7": {
+        "mean_ms": 1.5975232198142415,
+        "p50_ms": 1,
+        "p95_ms": 3,
+        "count": 323
+      },
+      "LdbcQuery8": {
+        "mean_ms": 1.2756410256410255,
+        "p50_ms": 1,
+        "p95_ms": 2,
+        "count": 624
+      },
+      "LdbcQuery9": {
+        "mean_ms": 17706.90502793296,
+        "p50_ms": 17651,
+        "p95_ms": 21869,
+        "count": 179
+      },
+      "LdbcShortQuery1PersonProfile": {
+        "mean_ms": 1.3300180123737175,
+        "p50_ms": 1,
+        "p95_ms": 2,
+        "count": 12769
+      },
+      "LdbcShortQuery2PersonPosts": {
+        "mean_ms": 6.668963896937896,
+        "p50_ms": 4,
+        "p95_ms": 21,
+        "count": 12769
+      },
+      "LdbcShortQuery3PersonFriends": {
+        "mean_ms": 2.919570835617511,
+        "p50_ms": 2,
+        "p95_ms": 9,
+        "count": 12769
+      },
+      "LdbcShortQuery4MessageContent": {
+        "mean_ms": 1.4218009478672986,
+        "p50_ms": 1,
+        "p95_ms": 3,
+        "count": 12871
+      },
+      "LdbcShortQuery5MessageCreator": {
+        "mean_ms": 1.180250174811592,
+        "p50_ms": 1,
+        "p95_ms": 2,
+        "count": 12871
+      },
+      "LdbcShortQuery6MessageForum": {
+        "mean_ms": 1.0549296868930154,
+        "p50_ms": 1,
+        "p95_ms": 2,
+        "count": 12871
+      },
+      "LdbcShortQuery7MessageReplies": {
+        "mean_ms": 1.261129671354207,
+        "p50_ms": 1,
+        "p95_ms": 2,
+        "count": 12871
+      }
+    },
+    "ro-3-pet": {
+      "LdbcQuery1": {
+        "mean_ms": 661.7277777777778,
+        "p50_ms": 725,
+        "p95_ms": 1013,
+        "count": 1080
+      },
+      "LdbcQuery10": {
+        "mean_ms": 1084.9594017094016,
+        "p50_ms": 1057,
+        "p95_ms": 1579,
+        "count": 936
+      },
+      "LdbcQuery11": {
+        "mean_ms": 53.34245014245014,
+        "p50_ms": 50,
+        "p95_ms": 90,
+        "count": 1755
+      },
+      "LdbcQuery12": {
+        "mean_ms": 441.13615023474176,
+        "p50_ms": 428,
+        "p95_ms": 623,
+        "count": 639
+      },
+      "LdbcQuery13": {
+        "mean_ms": 1.844384303112314,
+        "p50_ms": 2,
+        "p95_ms": 2,
+        "count": 1478
+      },
+      "LdbcQuery14": {
+        "mean_ms": 7078.650959860384,
+        "p50_ms": 4197,
+        "p95_ms": 26966,
+        "count": 573
+      },
+      "LdbcQuery2": {
+        "mean_ms": 86.25428194993412,
+        "p50_ms": 84,
+        "p95_ms": 117,
+        "count": 759
+      },
+      "LdbcQuery3": {
+        "mean_ms": 1898.6461916461917,
+        "p50_ms": 1851,
+        "p95_ms": 2607,
+        "count": 407
+      },
+      "LdbcQuery4": {
+        "mean_ms": 78.57692307692308,
+        "p50_ms": 76,
+        "p95_ms": 110,
+        "count": 780
+      },
+      "LdbcQuery5": {
+        "mean_ms": 1823.316430020284,
+        "p50_ms": 1970,
+        "p95_ms": 2980,
+        "count": 493
+      },
+      "LdbcQuery6": {
+        "mean_ms": 6339.705069124424,
+        "p50_ms": 6073,
+        "p95_ms": 8168,
+        "count": 217
+      },
+      "LdbcQuery7": {
+        "mean_ms": 1.4055727554179567,
+        "p50_ms": 1,
+        "p95_ms": 3,
+        "count": 323
+      },
+      "LdbcQuery8": {
+        "mean_ms": 1.1185897435897436,
+        "p50_ms": 1,
+        "p95_ms": 2,
+        "count": 624
+      },
+      "LdbcQuery9": {
+        "mean_ms": 9332.977653631286,
+        "p50_ms": 9202,
+        "p95_ms": 11684,
+        "count": 179
+      },
+      "LdbcShortQuery1PersonProfile": {
+        "mean_ms": 1.3185840707964602,
+        "p50_ms": 1,
+        "p95_ms": 2,
+        "count": 12769
+      },
+      "LdbcShortQuery2PersonPosts": {
+        "mean_ms": 3.461116767170491,
+        "p50_ms": 2,
+        "p95_ms": 9,
+        "count": 12769
+      },
+      "LdbcShortQuery3PersonFriends": {
+        "mean_ms": 2.259769754875088,
+        "p50_ms": 2,
+        "p95_ms": 6,
+        "count": 12769
+      },
+      "LdbcShortQuery4MessageContent": {
+        "mean_ms": 1.324994172946935,
+        "p50_ms": 1,
+        "p95_ms": 2,
+        "count": 12871
+      },
+      "LdbcShortQuery5MessageCreator": {
+        "mean_ms": 1.1313029290653407,
+        "p50_ms": 1,
+        "p95_ms": 2,
+        "count": 12871
+      },
+      "LdbcShortQuery6MessageForum": {
+        "mean_ms": 1.0264936679356693,
+        "p50_ms": 1,
+        "p95_ms": 1,
+        "count": 12871
+      },
+      "LdbcShortQuery7MessageReplies": {
+        "mean_ms": 1.1000699246367804,
+        "p50_ms": 1,
+        "p95_ms": 2,
+        "count": 12871
+      }
+    },
+    "rw-1-neo": {
+      "LdbcQuery1": {
+        "mean_ms": 680.4926470588235,
+        "p50_ms": 745,
+        "p95_ms": 1029,
+        "count": 272
+      },
+      "LdbcQuery10": {
+        "mean_ms": 1561.927966101695,
+        "p50_ms": 1509,
+        "p95_ms": 2118,
+        "count": 236
+      },
+      "LdbcQuery11": {
+        "mean_ms": 70.67342342342343,
+        "p50_ms": 68,
+        "p95_ms": 112,
+        "count": 444
+      },
+      "LdbcQuery12": {
+        "mean_ms": 704.0124223602485,
+        "p50_ms": 687,
+        "p95_ms": 980,
+        "count": 161
+      },
+      "LdbcQuery13": {
+        "mean_ms": 3.1179624664879357,
+        "p50_ms": 3,
+        "p95_ms": 6,
+        "count": 373
+      },
+      "LdbcQuery14": {
+        "mean_ms": 7392.489655172414,
+        "p50_ms": 4485,
+        "p95_ms": 24513,
+        "count": 145
+      },
+      "LdbcQuery2": {
+        "mean_ms": 185.03645833333334,
+        "p50_ms": 184,
+        "p95_ms": 233,
+        "count": 192
+      },
+      "LdbcQuery3": {
+        "mean_ms": 4273.844660194175,
+        "p50_ms": 4161,
+        "p95_ms": 5099,
+        "count": 103
+      },
+      "LdbcQuery4": {
+        "mean_ms": 114.94923857868021,
+        "p50_ms": 111,
+        "p95_ms": 164,
+        "count": 197
+      },
+      "LdbcQuery5": {
+        "mean_ms": 2661.298387096774,
+        "p50_ms": 2842,
+        "p95_ms": 3576,
+        "count": 124
+      },
+      "LdbcQuery6": {
+        "mean_ms": 9187.50909090909,
+        "p50_ms": 8873,
+        "p95_ms": 10970,
+        "count": 55
+      },
+      "LdbcQuery7": {
+        "mean_ms": 1.7160493827160495,
+        "p50_ms": 1,
+        "p95_ms": 3,
+        "count": 81
+      },
+      "LdbcQuery8": {
+        "mean_ms": 1.2229299363057324,
+        "p50_ms": 1,
+        "p95_ms": 2,
+        "count": 157
+      },
+      "LdbcQuery9": {
+        "mean_ms": 19203.155555555557,
+        "p50_ms": 19105,
+        "p95_ms": 22423,
+        "count": 45
+      },
+      "LdbcShortQuery1PersonProfile": {
+        "mean_ms": 1.3472658705216844,
+        "p50_ms": 1,
+        "p95_ms": 2,
+        "count": 3182
+      },
+      "LdbcShortQuery2PersonPosts": {
+        "mean_ms": 6.6583909490886235,
+        "p50_ms": 4,
+        "p95_ms": 22,
+        "count": 3182
+      },
+      "LdbcShortQuery3PersonFriends": {
+        "mean_ms": 3.1043368950345696,
+        "p50_ms": 2,
+        "p95_ms": 10,
+        "count": 3182
+      },
+      "LdbcShortQuery4MessageContent": {
+        "mean_ms": 1.3776796973518286,
+        "p50_ms": 1,
+        "p95_ms": 2,
+        "count": 3172
+      },
+      "LdbcShortQuery5MessageCreator": {
+        "mean_ms": 1.1809583858764188,
+        "p50_ms": 1,
+        "p95_ms": 2,
+        "count": 3172
+      },
+      "LdbcShortQuery6MessageForum": {
+        "mean_ms": 1.0671500630517023,
+        "p50_ms": 1,
+        "p95_ms": 2,
+        "count": 3172
+      },
+      "LdbcShortQuery7MessageReplies": {
+        "mean_ms": 1.260718789407314,
+        "p50_ms": 1,
+        "p95_ms": 2,
+        "count": 3172
+      },
+      "LdbcUpdate1AddPerson": {
+        "mean_ms": 6.25,
+        "p50_ms": 6,
+        "p95_ms": 14,
+        "count": 24
+      },
+      "LdbcUpdate2AddPostLike": {
+        "mean_ms": 1.9805752003771806,
+        "p50_ms": 2,
+        "p95_ms": 3,
+        "count": 10605
+      },
+      "LdbcUpdate3AddCommentLike": {
+        "mean_ms": 1.959889447948409,
+        "p50_ms": 2,
+        "p95_ms": 3,
+        "count": 14111
+      },
+      "LdbcUpdate4AddForum": {
+        "mean_ms": 2.191256830601093,
+        "p50_ms": 2,
+        "p95_ms": 3,
+        "count": 366
+      },
+      "LdbcUpdate5AddForumMembership": {
+        "mean_ms": 1.9454842813011084,
+        "p50_ms": 2,
+        "p95_ms": 3,
+        "count": 33018
+      },
+      "LdbcUpdate6AddPost": {
+        "mean_ms": 2.4785698423273375,
+        "p50_ms": 2,
+        "p95_ms": 3,
+        "count": 4503
+      },
+      "LdbcUpdate7AddComment": {
+        "mean_ms": 2.62572939460248,
+        "p50_ms": 3,
+        "p95_ms": 3,
+        "count": 10968
+      },
+      "LdbcUpdate8AddFriendship": {
+        "mean_ms": 1.9263233190271818,
+        "p50_ms": 2,
+        "p95_ms": 3,
+        "count": 1398
+      }
+    },
+    "rw-1-pet": {
+      "LdbcQuery1": {
+        "mean_ms": 626.8602941176471,
+        "p50_ms": 712,
+        "p95_ms": 878,
+        "count": 272
+      },
+      "LdbcQuery10": {
+        "mean_ms": 1175.0338983050847,
+        "p50_ms": 1136,
+        "p95_ms": 1623,
+        "count": 236
+      },
+      "LdbcQuery11": {
+        "mean_ms": 54.851351351351354,
+        "p50_ms": 51,
+        "p95_ms": 91,
+        "count": 444
+      },
+      "LdbcQuery12": {
+        "mean_ms": 456.88198757763973,
+        "p50_ms": 444,
+        "p95_ms": 578,
+        "count": 161
+      },
+      "LdbcQuery13": {
+        "mean_ms": 1.8525469168900803,
+        "p50_ms": 2,
+        "p95_ms": 2,
+        "count": 373
+      },
+      "LdbcQuery14": {
+        "mean_ms": 7363.668965517241,
+        "p50_ms": 4147,
+        "p95_ms": 25803,
+        "count": 145
+      },
+      "LdbcQuery2": {
+        "mean_ms": 82.65104166666667,
+        "p50_ms": 79,
+        "p95_ms": 115,
+        "count": 192
+      },
+      "LdbcQuery3": {
+        "mean_ms": 1801.9611650485438,
+        "p50_ms": 1726,
+        "p95_ms": 2299,
+        "count": 103
+      },
+      "LdbcQuery4": {
+        "mean_ms": 76.35532994923858,
+        "p50_ms": 75,
+        "p95_ms": 107,
+        "count": 197
+      },
+      "LdbcQuery5": {
+        "mean_ms": 1396.274193548387,
+        "p50_ms": 1465,
+        "p95_ms": 2190,
+        "count": 124
+      },
+      "LdbcQuery6": {
+        "mean_ms": 6183.163636363636,
+        "p50_ms": 6106,
+        "p95_ms": 7191,
+        "count": 55
+      },
+      "LdbcQuery7": {
+        "mean_ms": 1.5432098765432098,
+        "p50_ms": 1,
+        "p95_ms": 3,
+        "count": 81
+      },
+      "LdbcQuery8": {
+        "mean_ms": 1.089171974522293,
+        "p50_ms": 1,
+        "p95_ms": 2,
+        "count": 157
+      },
+      "LdbcQuery9": {
+        "mean_ms": 8502.155555555555,
+        "p50_ms": 8417,
+        "p95_ms": 10435,
+        "count": 45
+      },
+      "LdbcShortQuery1PersonProfile": {
+        "mean_ms": 1.305468258956631,
+        "p50_ms": 1,
+        "p95_ms": 2,
+        "count": 3182
+      },
+      "LdbcShortQuery2PersonPosts": {
+        "mean_ms": 3.2966687617850408,
+        "p50_ms": 2,
+        "p95_ms": 8,
+        "count": 3182
+      },
+      "LdbcShortQuery3PersonFriends": {
+        "mean_ms": 2.2743557510999373,
+        "p50_ms": 2,
+        "p95_ms": 7,
+        "count": 3182
+      },
+      "LdbcShortQuery4MessageContent": {
+        "mean_ms": 1.3048549810844894,
+        "p50_ms": 1,
+        "p95_ms": 2,
+        "count": 3172
+      },
+      "LdbcShortQuery5MessageCreator": {
+        "mean_ms": 1.1283102143757882,
+        "p50_ms": 1,
+        "p95_ms": 2,
+        "count": 3172
+      },
+      "LdbcShortQuery6MessageForum": {
+        "mean_ms": 1.0163934426229508,
+        "p50_ms": 1,
+        "p95_ms": 1,
+        "count": 3172
+      },
+      "LdbcShortQuery7MessageReplies": {
+        "mean_ms": 1.0873266078184112,
+        "p50_ms": 1,
+        "p95_ms": 2,
+        "count": 3172
+      },
+      "LdbcUpdate1AddPerson": {
+        "mean_ms": 6.125,
+        "p50_ms": 5,
+        "p95_ms": 11,
+        "count": 24
+      },
+      "LdbcUpdate2AddPostLike": {
+        "mean_ms": 1.999151343705799,
+        "p50_ms": 2,
+        "p95_ms": 3,
+        "count": 10605
+      },
+      "LdbcUpdate3AddCommentLike": {
+        "mean_ms": 2.0089292041669617,
+        "p50_ms": 2,
+        "p95_ms": 3,
+        "count": 14111
+      },
+      "LdbcUpdate4AddForum": {
+        "mean_ms": 2.2650273224043715,
+        "p50_ms": 2,
+        "p95_ms": 3,
+        "count": 366
+      },
+      "LdbcUpdate5AddForumMembership": {
+        "mean_ms": 1.9824035374644133,
+        "p50_ms": 2,
+        "p95_ms": 3,
+        "count": 33018
+      },
+      "LdbcUpdate6AddPost": {
+        "mean_ms": 2.5805018876304686,
+        "p50_ms": 3,
+        "p95_ms": 3,
+        "count": 4503
+      },
+      "LdbcUpdate7AddComment": {
+        "mean_ms": 2.6618344274252372,
+        "p50_ms": 3,
+        "p95_ms": 3,
+        "count": 10968
+      },
+      "LdbcUpdate8AddFriendship": {
+        "mean_ms": 1.9828326180257512,
+        "p50_ms": 2,
+        "p95_ms": 3,
+        "count": 1398
+      }
+    },
+    "rw-2-neo": {
+      "LdbcQuery1": {
+        "mean_ms": 670.9117647058823,
+        "p50_ms": 746,
+        "p95_ms": 1006,
+        "count": 272
+      },
+      "LdbcQuery10": {
+        "mean_ms": 1580.199152542373,
+        "p50_ms": 1551,
+        "p95_ms": 2101,
+        "count": 236
+      },
+      "LdbcQuery11": {
+        "mean_ms": 69.26576576576576,
+        "p50_ms": 67,
+        "p95_ms": 110,
+        "count": 444
+      },
+      "LdbcQuery12": {
+        "mean_ms": 695.2732919254659,
+        "p50_ms": 681,
+        "p95_ms": 901,
+        "count": 161
+      },
+      "LdbcQuery13": {
+        "mean_ms": 3.201072386058981,
+        "p50_ms": 3,
+        "p95_ms": 6,
+        "count": 373
+      },
+      "LdbcQuery14": {
+        "mean_ms": 7128.331034482759,
+        "p50_ms": 4044,
+        "p95_ms": 23271,
+        "count": 145
+      },
+      "LdbcQuery2": {
+        "mean_ms": 184.66666666666666,
+        "p50_ms": 183,
+        "p95_ms": 230,
+        "count": 192
+      },
+      "LdbcQuery3": {
+        "mean_ms": 4295.553398058252,
+        "p50_ms": 4218,
+        "p95_ms": 5075,
+        "count": 103
+      },
+      "LdbcQuery4": {
+        "mean_ms": 113.32994923857868,
+        "p50_ms": 109,
+        "p95_ms": 152,
+        "count": 197
+      },
+      "LdbcQuery5": {
+        "mean_ms": 2702.2580645161293,
+        "p50_ms": 2849,
+        "p95_ms": 3689,
+        "count": 124
+      },
+      "LdbcQuery6": {
+        "mean_ms": 9054.927272727273,
+        "p50_ms": 8729,
+        "p95_ms": 11712,
+        "count": 55
+      },
+      "LdbcQuery7": {
+        "mean_ms": 2.2839506172839505,
+        "p50_ms": 2,
+        "p95_ms": 5,
+        "count": 81
+      },
+      "LdbcQuery8": {
+        "mean_ms": 1.4777070063694266,
+        "p50_ms": 1,
+        "p95_ms": 2,
+        "count": 157
+      },
+      "LdbcQuery9": {
+        "mean_ms": 18528.755555555555,
+        "p50_ms": 18281,
+        "p95_ms": 21047,
+        "count": 45
+      },
+      "LdbcShortQuery1PersonProfile": {
+        "mean_ms": 1.350722815839095,
+        "p50_ms": 1,
+        "p95_ms": 3,
+        "count": 3182
+      },
+      "LdbcShortQuery2PersonPosts": {
+        "mean_ms": 7.4443746071653045,
+        "p50_ms": 5,
+        "p95_ms": 22,
+        "count": 3182
+      },
+      "LdbcShortQuery3PersonFriends": {
+        "mean_ms": 3.04588309239472,
+        "p50_ms": 2,
+        "p95_ms": 9,
+        "count": 3182
+      },
+      "LdbcShortQuery4MessageContent": {
+        "mean_ms": 1.460592686002522,
+        "p50_ms": 1,
+        "p95_ms": 3,
+        "count": 3172
+      },
+      "LdbcShortQuery5MessageCreator": {
+        "mean_ms": 1.1686633039092056,
+        "p50_ms": 1,
+        "p95_ms": 2,
+        "count": 3172
+      },
+      "LdbcShortQuery6MessageForum": {
+        "mean_ms": 1.0523329129886507,
+        "p50_ms": 1,
+        "p95_ms": 2,
+        "count": 3172
+      },
+      "LdbcShortQuery7MessageReplies": {
+        "mean_ms": 1.305170239596469,
+        "p50_ms": 1,
+        "p95_ms": 2,
+        "count": 3172
+      },
+      "LdbcUpdate1AddPerson": {
+        "mean_ms": 6.333333333333333,
+        "p50_ms": 5,
+        "p95_ms": 12,
+        "count": 24
+      },
+      "LdbcUpdate2AddPostLike": {
+        "mean_ms": 2.3142857142857145,
+        "p50_ms": 2,
+        "p95_ms": 3,
+        "count": 10605
+      },
+      "LdbcUpdate3AddCommentLike": {
+        "mean_ms": 2.2887818014315076,
+        "p50_ms": 2,
+        "p95_ms": 3,
+        "count": 14111
+      },
+      "LdbcUpdate4AddForum": {
+        "mean_ms": 2.5846994535519126,
+        "p50_ms": 2,
+        "p95_ms": 3,
+        "count": 366
+      },
+      "LdbcUpdate5AddForumMembership": {
+        "mean_ms": 2.265188684959719,
+        "p50_ms": 2,
+        "p95_ms": 3,
+        "count": 33018
+      },
+      "LdbcUpdate6AddPost": {
+        "mean_ms": 2.8369975571840995,
+        "p50_ms": 3,
+        "p95_ms": 3,
+        "count": 4503
+      },
+      "LdbcUpdate7AddComment": {
+        "mean_ms": 2.9606126914660833,
+        "p50_ms": 3,
+        "p95_ms": 4,
+        "count": 10968
+      },
+      "LdbcUpdate8AddFriendship": {
+        "mean_ms": 2.2331902718168815,
+        "p50_ms": 2,
+        "p95_ms": 3,
+        "count": 1398
+      }
+    },
+    "rw-2-pet": {
+      "LdbcQuery1": {
+        "mean_ms": 615.5036764705883,
+        "p50_ms": 701,
+        "p95_ms": 864,
+        "count": 272
+      },
+      "LdbcQuery10": {
+        "mean_ms": 1166.1059322033898,
+        "p50_ms": 1140,
+        "p95_ms": 1593,
+        "count": 236
+      },
+      "LdbcQuery11": {
+        "mean_ms": 55.171171171171174,
+        "p50_ms": 51,
+        "p95_ms": 91,
+        "count": 444
+      },
+      "LdbcQuery12": {
+        "mean_ms": 448.0621118012422,
+        "p50_ms": 438,
+        "p95_ms": 563,
+        "count": 161
+      },
+      "LdbcQuery13": {
+        "mean_ms": 1.8230563002680966,
+        "p50_ms": 2,
+        "p95_ms": 2,
+        "count": 373
+      },
+      "LdbcQuery14": {
+        "mean_ms": 7490.393103448276,
+        "p50_ms": 4249,
+        "p95_ms": 26825,
+        "count": 145
+      },
+      "LdbcQuery2": {
+        "mean_ms": 84.65104166666667,
+        "p50_ms": 84,
+        "p95_ms": 108,
+        "count": 192
+      },
+      "LdbcQuery3": {
+        "mean_ms": 1850.0194174757282,
+        "p50_ms": 1804,
+        "p95_ms": 2284,
+        "count": 103
+      },
+      "LdbcQuery4": {
+        "mean_ms": 72.8527918781726,
+        "p50_ms": 72,
+        "p95_ms": 97,
+        "count": 197
+      },
+      "LdbcQuery5": {
+        "mean_ms": 1394.5725806451612,
+        "p50_ms": 1550,
+        "p95_ms": 2177,
+        "count": 124
+      },
+      "LdbcQuery6": {
+        "mean_ms": 6156.127272727273,
+        "p50_ms": 6073,
+        "p95_ms": 7030,
+        "count": 55
+      },
+      "LdbcQuery7": {
+        "mean_ms": 1.5061728395061729,
+        "p50_ms": 1,
+        "p95_ms": 3,
+        "count": 81
+      },
+      "LdbcQuery8": {
+        "mean_ms": 1.0955414012738853,
+        "p50_ms": 1,
+        "p95_ms": 2,
+        "count": 157
+      },
+      "LdbcQuery9": {
+        "mean_ms": 8735.266666666666,
+        "p50_ms": 8710,
+        "p95_ms": 9929,
+        "count": 45
+      },
+      "LdbcShortQuery1PersonProfile": {
+        "mean_ms": 1.2837837837837838,
+        "p50_ms": 1,
+        "p95_ms": 2,
+        "count": 3182
+      },
+      "LdbcShortQuery2PersonPosts": {
+        "mean_ms": 3.2218730358265244,
+        "p50_ms": 2,
+        "p95_ms": 8,
+        "count": 3182
+      },
+      "LdbcShortQuery3PersonFriends": {
+        "mean_ms": 2.2963544940289125,
+        "p50_ms": 2,
+        "p95_ms": 7,
+        "count": 3182
+      },
+      "LdbcShortQuery4MessageContent": {
+        "mean_ms": 1.2812105926860025,
+        "p50_ms": 1,
+        "p95_ms": 2,
+        "count": 3172
+      },
+      "LdbcShortQuery5MessageCreator": {
+        "mean_ms": 1.1475409836065573,
+        "p50_ms": 1,
+        "p95_ms": 2,
+        "count": 3172
+      },
+      "LdbcShortQuery6MessageForum": {
+        "mean_ms": 1.025220680958386,
+        "p50_ms": 1,
+        "p95_ms": 1,
+        "count": 3172
+      },
+      "LdbcShortQuery7MessageReplies": {
+        "mean_ms": 1.0882723833543506,
+        "p50_ms": 1,
+        "p95_ms": 2,
+        "count": 3172
+      },
+      "LdbcUpdate1AddPerson": {
+        "mean_ms": 5.833333333333333,
+        "p50_ms": 5,
+        "p95_ms": 15,
+        "count": 24
+      },
+      "LdbcUpdate2AddPostLike": {
+        "mean_ms": 1.8822253653936822,
+        "p50_ms": 2,
+        "p95_ms": 2,
+        "count": 10605
+      },
+      "LdbcUpdate3AddCommentLike": {
+        "mean_ms": 1.893133016795408,
+        "p50_ms": 2,
+        "p95_ms": 2,
+        "count": 14111
+      },
+      "LdbcUpdate4AddForum": {
+        "mean_ms": 2.0846994535519126,
+        "p50_ms": 2,
+        "p95_ms": 3,
+        "count": 366
+      },
+      "LdbcUpdate5AddForumMembership": {
+        "mean_ms": 1.864801017626749,
+        "p50_ms": 2,
+        "p95_ms": 2,
+        "count": 33018
+      },
+      "LdbcUpdate6AddPost": {
+        "mean_ms": 2.402398401065956,
+        "p50_ms": 2,
+        "p95_ms": 3,
+        "count": 4503
+      },
+      "LdbcUpdate7AddComment": {
+        "mean_ms": 2.4931619256017505,
+        "p50_ms": 2,
+        "p95_ms": 3,
+        "count": 10968
+      },
+      "LdbcUpdate8AddFriendship": {
+        "mean_ms": 1.8948497854077253,
+        "p50_ms": 2,
+        "p95_ms": 2,
+        "count": 1398
+      }
+    },
+    "rw-3-neo": {
+      "LdbcQuery1": {
+        "mean_ms": 675.6654411764706,
+        "p50_ms": 770,
+        "p95_ms": 941,
+        "count": 272
+      },
+      "LdbcQuery10": {
+        "mean_ms": 1522.0974576271187,
+        "p50_ms": 1509,
+        "p95_ms": 1958,
+        "count": 236
+      },
+      "LdbcQuery11": {
+        "mean_ms": 68.24324324324324,
+        "p50_ms": 67,
+        "p95_ms": 106,
+        "count": 444
+      },
+      "LdbcQuery12": {
+        "mean_ms": 680.6894409937888,
+        "p50_ms": 666,
+        "p95_ms": 874,
+        "count": 161
+      },
+      "LdbcQuery13": {
+        "mean_ms": 3.187667560321716,
+        "p50_ms": 3,
+        "p95_ms": 6,
+        "count": 373
+      },
+      "LdbcQuery14": {
+        "mean_ms": 7093.88275862069,
+        "p50_ms": 4201,
+        "p95_ms": 23850,
+        "count": 145
+      },
+      "LdbcQuery2": {
+        "mean_ms": 174.58854166666666,
+        "p50_ms": 176,
+        "p95_ms": 212,
+        "count": 192
+      },
+      "LdbcQuery3": {
+        "mean_ms": 4138.9126213592235,
+        "p50_ms": 4069,
+        "p95_ms": 5124,
+        "count": 103
+      },
+      "LdbcQuery4": {
+        "mean_ms": 108.99492385786802,
+        "p50_ms": 108,
+        "p95_ms": 144,
+        "count": 197
+      },
+      "LdbcQuery5": {
+        "mean_ms": 2630.9435483870966,
+        "p50_ms": 2877,
+        "p95_ms": 3586,
+        "count": 124
+      },
+      "LdbcQuery6": {
+        "mean_ms": 8671.945454545454,
+        "p50_ms": 8764,
+        "p95_ms": 9588,
+        "count": 55
+      },
+      "LdbcQuery7": {
+        "mean_ms": 1.7530864197530864,
+        "p50_ms": 1,
+        "p95_ms": 4,
+        "count": 81
+      },
+      "LdbcQuery8": {
+        "mean_ms": 1.2611464968152866,
+        "p50_ms": 1,
+        "p95_ms": 2,
+        "count": 157
+      },
+      "LdbcQuery9": {
+        "mean_ms": 17890.48888888889,
+        "p50_ms": 18086,
+        "p95_ms": 19442,
+        "count": 45
+      },
+      "LdbcShortQuery1PersonProfile": {
+        "mean_ms": 1.3356379635449402,
+        "p50_ms": 1,
+        "p95_ms": 2,
+        "count": 3182
+      },
+      "LdbcShortQuery2PersonPosts": {
+        "mean_ms": 6.4682589566310495,
+        "p50_ms": 4,
+        "p95_ms": 20,
+        "count": 3182
+      },
+      "LdbcShortQuery3PersonFriends": {
+        "mean_ms": 3.0207416719044624,
+        "p50_ms": 2,
+        "p95_ms": 10,
+        "count": 3182
+      },
+      "LdbcShortQuery4MessageContent": {
+        "mean_ms": 1.3874527112232031,
+        "p50_ms": 1,
+        "p95_ms": 2,
+        "count": 3172
+      },
+      "LdbcShortQuery5MessageCreator": {
+        "mean_ms": 1.1674022698612863,
+        "p50_ms": 1,
+        "p95_ms": 2,
+        "count": 3172
+      },
+      "LdbcShortQuery6MessageForum": {
+        "mean_ms": 1.0510718789407314,
+        "p50_ms": 1,
+        "p95_ms": 2,
+        "count": 3172
+      },
+      "LdbcShortQuery7MessageReplies": {
+        "mean_ms": 1.2774274905422447,
+        "p50_ms": 1,
+        "p95_ms": 2,
+        "count": 3172
+      },
+      "LdbcUpdate1AddPerson": {
+        "mean_ms": 5.958333333333333,
+        "p50_ms": 5,
+        "p95_ms": 11,
+        "count": 24
+      },
+      "LdbcUpdate2AddPostLike": {
+        "mean_ms": 1.882885431400283,
+        "p50_ms": 2,
+        "p95_ms": 2,
+        "count": 10605
+      },
+      "LdbcUpdate3AddCommentLike": {
+        "mean_ms": 1.8822904117355255,
+        "p50_ms": 2,
+        "p95_ms": 2,
+        "count": 14111
+      },
+      "LdbcUpdate4AddForum": {
+        "mean_ms": 2.092896174863388,
+        "p50_ms": 2,
+        "p95_ms": 3,
+        "count": 366
+      },
+      "LdbcUpdate5AddForumMembership": {
+        "mean_ms": 1.869010842570719,
+        "p50_ms": 2,
+        "p95_ms": 2,
+        "count": 33018
+      },
+      "LdbcUpdate6AddPost": {
+        "mean_ms": 2.398623140128803,
+        "p50_ms": 2,
+        "p95_ms": 3,
+        "count": 4503
+      },
+      "LdbcUpdate7AddComment": {
+        "mean_ms": 2.510029175784099,
+        "p50_ms": 3,
+        "p95_ms": 3,
+        "count": 10968
+      },
+      "LdbcUpdate8AddFriendship": {
+        "mean_ms": 1.8619456366237481,
+        "p50_ms": 2,
+        "p95_ms": 2,
+        "count": 1398
+      }
+    },
+    "rw-3-pet": {
+      "LdbcQuery1": {
+        "mean_ms": 612.7610294117648,
+        "p50_ms": 697,
+        "p95_ms": 862,
+        "count": 272
+      },
+      "LdbcQuery10": {
+        "mean_ms": 1100.0593220338983,
+        "p50_ms": 1068,
+        "p95_ms": 1493,
+        "count": 236
+      },
+      "LdbcQuery11": {
+        "mean_ms": 54.16891891891892,
+        "p50_ms": 51,
+        "p95_ms": 88,
+        "count": 444
+      },
+      "LdbcQuery12": {
+        "mean_ms": 423.6894409937888,
+        "p50_ms": 413,
+        "p95_ms": 534,
+        "count": 161
+      },
+      "LdbcQuery13": {
+        "mean_ms": 1.7667560321715818,
+        "p50_ms": 2,
+        "p95_ms": 2,
+        "count": 373
+      },
+      "LdbcQuery14": {
+        "mean_ms": 7059.151724137931,
+        "p50_ms": 3956,
+        "p95_ms": 23393,
+        "count": 145
+      },
+      "LdbcQuery2": {
+        "mean_ms": 84.90625,
+        "p50_ms": 84,
+        "p95_ms": 101,
+        "count": 192
+      },
+      "LdbcQuery3": {
+        "mean_ms": 1784.7669902912621,
+        "p50_ms": 1747,
+        "p95_ms": 2192,
+        "count": 103
+      },
+      "LdbcQuery4": {
+        "mean_ms": 73.1725888324873,
+        "p50_ms": 73,
+        "p95_ms": 94,
+        "count": 197
+      },
+      "LdbcQuery5": {
+        "mean_ms": 1376.8225806451612,
+        "p50_ms": 1521,
+        "p95_ms": 2129,
+        "count": 124
+      },
+      "LdbcQuery6": {
+        "mean_ms": 6096.418181818181,
+        "p50_ms": 6002,
+        "p95_ms": 7521,
+        "count": 55
+      },
+      "LdbcQuery7": {
+        "mean_ms": 1.3950617283950617,
+        "p50_ms": 1,
+        "p95_ms": 3,
+        "count": 81
+      },
+      "LdbcQuery8": {
+        "mean_ms": 1.0636942675159236,
+        "p50_ms": 1,
+        "p95_ms": 2,
+        "count": 157
+      },
+      "LdbcQuery9": {
+        "mean_ms": 8890.866666666667,
+        "p50_ms": 8785,
+        "p95_ms": 9716,
+        "count": 45
+      },
+      "LdbcShortQuery1PersonProfile": {
+        "mean_ms": 1.2888120678818353,
+        "p50_ms": 1,
+        "p95_ms": 2,
+        "count": 3182
+      },
+      "LdbcShortQuery2PersonPosts": {
+        "mean_ms": 3.2118164676304213,
+        "p50_ms": 2,
+        "p95_ms": 8,
+        "count": 3182
+      },
+      "LdbcShortQuery3PersonFriends": {
+        "mean_ms": 2.258642363293526,
+        "p50_ms": 2,
+        "p95_ms": 6,
+        "count": 3182
+      },
+      "LdbcShortQuery4MessageContent": {
+        "mean_ms": 1.2969735182849937,
+        "p50_ms": 1,
+        "p95_ms": 2,
+        "count": 3172
+      },
+      "LdbcShortQuery5MessageCreator": {
+        "mean_ms": 1.130517023959647,
+        "p50_ms": 1,
+        "p95_ms": 2,
+        "count": 3172
+      },
+      "LdbcShortQuery6MessageForum": {
+        "mean_ms": 1.0236443883984867,
+        "p50_ms": 1,
+        "p95_ms": 1,
+        "count": 3172
+      },
+      "LdbcShortQuery7MessageReplies": {
+        "mean_ms": 1.0879571248423707,
+        "p50_ms": 1,
+        "p95_ms": 2,
+        "count": 3172
+      },
+      "LdbcUpdate1AddPerson": {
+        "mean_ms": 6.5,
+        "p50_ms": 5,
+        "p95_ms": 14,
+        "count": 24
+      },
+      "LdbcUpdate2AddPostLike": {
+        "mean_ms": 2.1619047619047618,
+        "p50_ms": 2,
+        "p95_ms": 3,
+        "count": 10605
+      },
+      "LdbcUpdate3AddCommentLike": {
+        "mean_ms": 2.1938204237828645,
+        "p50_ms": 2,
+        "p95_ms": 3,
+        "count": 14111
+      },
+      "LdbcUpdate4AddForum": {
+        "mean_ms": 2.4863387978142075,
+        "p50_ms": 2,
+        "p95_ms": 3,
+        "count": 366
+      },
+      "LdbcUpdate5AddForumMembership": {
+        "mean_ms": 2.110909201041856,
+        "p50_ms": 2,
+        "p95_ms": 3,
+        "count": 33018
+      },
+      "LdbcUpdate6AddPost": {
+        "mean_ms": 2.583833000222074,
+        "p50_ms": 2,
+        "p95_ms": 3,
+        "count": 4503
+      },
+      "LdbcUpdate7AddComment": {
+        "mean_ms": 2.726659372720642,
+        "p50_ms": 2,
+        "p95_ms": 3,
+        "count": 10968
+      },
+      "LdbcUpdate8AddFriendship": {
+        "mean_ms": 2.148068669527897,
+        "p50_ms": 2,
+        "p95_ms": 3,
+        "count": 1398
+      }
+    }
+  },
+  "microbench": {
+    "1-neo-param": {
+      "point-by-id.sparse": {
+        "count": 100,
+        "mean_ms": 8.468715746421367,
+        "median_ms": 8.122556377202272,
+        "p90_ms": 9.806855814531446,
+        "p95_ms": 10.057228850200772,
+        "p99_ms": 11.557946912944317,
+        "min_ms": 7.059360155835748,
+        "max_ms": 12.971163028851151,
+        "probe": "point-by-id",
+        "tier": "sparse",
+        "query": "MATCH (p:Person {id: $id}) RETURN p.id AS prop_id, p.browserUsed AS browser_used",
+        "n_params": 100,
+        "warmup": 20,
+        "reps": 100,
+        "threads": 1,
+        "errors": 0,
+        "timeouts": 0,
+        "wall_s": 1.199044942855835,
+        "measure_wall_s": 1.199044942855835,
+        "throughput_qps": 83.39970957370805
+      },
+      "point-by-id.dense": {
+        "count": 100,
+        "mean_ms": 12.292401334270835,
+        "median_ms": 7.758713443763554,
+        "p90_ms": 8.852537022903562,
+        "p95_ms": 9.28731681779027,
+        "p99_ms": 11.202126974239945,
+        "min_ms": 6.931563140824437,
+        "max_ms": 443.84197099134326,
+        "probe": "point-by-id",
+        "tier": "dense",
+        "query": "MATCH (p:Person {id: $id}) RETURN p.id AS prop_id, p.browserUsed AS browser_used",
+        "n_params": 100,
+        "warmup": 20,
+        "reps": 100,
+        "threads": 1,
+        "errors": 0,
+        "timeouts": 0,
+        "wall_s": 1.433835744857788,
+        "measure_wall_s": 1.433835744857788,
+        "throughput_qps": 69.74299556879738
+      },
+      "point-by-internal-id.na": {
+        "count": 100,
+        "mean_ms": 5.028893342241645,
+        "median_ms": 4.852836485952139,
+        "p90_ms": 6.137054180726409,
+        "p95_ms": 6.311474135145545,
+        "p99_ms": 6.506240926682949,
+        "min_ms": 3.658515866845846,
+        "max_ms": 6.5323051530867815,
+        "probe": "point-by-internal-id",
+        "tier": "na",
+        "query": "MATCH (n) WHERE id(n) = $iid RETURN n.id AS prop_id, n.browserUsed AS browser_used",
+        "n_params": 100,
+        "warmup": 20,
+        "reps": 100,
+        "threads": 1,
+        "errors": 0,
+        "timeouts": 0,
+        "wall_s": 0.753889799118042,
+        "measure_wall_s": 0.753889799118042,
+        "throughput_qps": 132.6453814827945
+      },
+      "expand-1hop-out.sparse": {
+        "count": 100,
+        "mean_ms": 4.049798361957073,
+        "median_ms": 4.203947493806481,
+        "p90_ms": 4.962341161444783,
+        "p95_ms": 5.3913770243525505,
+        "p99_ms": 5.814599106088281,
+        "min_ms": 2.5055271107703447,
+        "max_ms": 6.046657916158438,
+        "probe": "expand-1hop-out",
+        "tier": "sparse",
+        "query": "MATCH (p:Person {id: $id})-[:KNOWS]->(p2) RETURN count(p2) AS c",
+        "n_params": 100,
+        "warmup": 20,
+        "reps": 100,
+        "threads": 1,
+        "errors": 0,
+        "timeouts": 0,
+        "wall_s": 0.7013521194458008,
+        "measure_wall_s": 0.7013521194458008,
+        "throughput_qps": 142.58173209630945
+      },
+      "expand-1hop-out.dense": {
+        "count": 100,
+        "mean_ms": 5.108564996626228,
+        "median_ms": 4.95276297442615,
+        "p90_ms": 5.429621785879135,
+        "p95_ms": 5.731865065172315,
+        "p99_ms": 9.893261129036546,
+        "min_ms": 3.592338180169463,
+        "max_ms": 18.842522986233234,
+        "probe": "expand-1hop-out",
+        "tier": "dense",
+        "query": "MATCH (p:Person {id: $id})-[:KNOWS]->(p2) RETURN count(p2) AS c",
+        "n_params": 100,
+        "warmup": 20,
+        "reps": 100,
+        "threads": 1,
+        "errors": 0,
+        "timeouts": 0,
+        "wall_s": 0.6359837055206299,
+        "measure_wall_s": 0.6359837055206299,
+        "throughput_qps": 157.23673284701195
+      },
+      "expand-1hop-in.sparse": {
+        "count": 100,
+        "mean_ms": 3.866237378679216,
+        "median_ms": 3.9517225231975317,
+        "p90_ms": 4.24779299646616,
+        "p95_ms": 4.5049970503896475,
+        "p99_ms": 5.050824023783207,
+        "min_ms": 2.9019571375101805,
+        "max_ms": 5.090044112876058,
+        "probe": "expand-1hop-in",
+        "tier": "sparse",
+        "query": "MATCH (p:Person {id: $id})<-[:KNOWS]-(p2) RETURN count(p2) AS c",
+        "n_params": 100,
+        "warmup": 20,
+        "reps": 100,
+        "threads": 1,
+        "errors": 0,
+        "timeouts": 0,
+        "wall_s": 0.585545539855957,
+        "measure_wall_s": 0.585545539855957,
+        "throughput_qps": 170.78090975571223
+      },
+      "expand-1hop-in.dense": {
+        "count": 100,
+        "mean_ms": 4.3883689772337675,
+        "median_ms": 4.377944627776742,
+        "p90_ms": 5.258561111986637,
+        "p95_ms": 5.523479077965021,
+        "p99_ms": 5.918771028518677,
+        "min_ms": 3.0655348673462868,
+        "max_ms": 5.977137945592403,
+        "probe": "expand-1hop-in",
+        "tier": "dense",
+        "query": "MATCH (p:Person {id: $id})<-[:KNOWS]-(p2) RETURN count(p2) AS c",
+        "n_params": 100,
+        "warmup": 20,
+        "reps": 100,
+        "threads": 1,
+        "errors": 0,
+        "timeouts": 0,
+        "wall_s": 0.5792973041534424,
+        "measure_wall_s": 0.5792973041534424,
+        "throughput_qps": 172.62293347996027
+      },
+      "expand-2hop.sparse": {
+        "count": 100,
+        "mean_ms": 5.46065459260717,
+        "median_ms": 5.469133495353162,
+        "p90_ms": 6.628981092944741,
+        "p95_ms": 7.529583061113954,
+        "p99_ms": 8.363757049664855,
+        "min_ms": 3.7055329885333776,
+        "max_ms": 8.590954821556807,
+        "probe": "expand-2hop",
+        "tier": "sparse",
+        "query": "MATCH (p:Person {id: $id})-[:KNOWS]-()-[:KNOWS]-(p2) RETURN count(DISTINCT p2) AS c",
+        "n_params": 100,
+        "warmup": 20,
+        "reps": 100,
+        "threads": 1,
+        "errors": 0,
+        "timeouts": 0,
+        "wall_s": 0.8616786003112793,
+        "measure_wall_s": 0.8616786003112793,
+        "throughput_qps": 116.05255133860264
+      },
+      "expand-2hop.dense": {
+        "count": 100,
+        "mean_ms": 110.28827240690589,
+        "median_ms": 111.90683394670486,
+        "p90_ms": 124.63251408189535,
+        "p95_ms": 131.12897193059325,
+        "p99_ms": 148.49802991375327,
+        "min_ms": 85.15763282775879,
+        "max_ms": 154.23985105007887,
+        "probe": "expand-2hop",
+        "tier": "dense",
+        "query": "MATCH (p:Person {id: $id})-[:KNOWS]-()-[:KNOWS]-(p2) RETURN count(DISTINCT p2) AS c",
+        "n_params": 100,
+        "warmup": 20,
+        "reps": 100,
+        "threads": 1,
+        "errors": 0,
+        "timeouts": 0,
+        "wall_s": 13.729485750198364,
+        "measure_wall_s": 13.729485750198364,
+        "throughput_qps": 7.283593997579639
+      },
+      "khop-3-limited.sparse": {
+        "count": 100,
+        "mean_ms": 56.79994075326249,
+        "median_ms": 62.478051404468715,
+        "p90_ms": 74.91441699676216,
+        "p95_ms": 78.71363894082606,
+        "p99_ms": 83.90908408910036,
+        "min_ms": 6.089741131290793,
+        "max_ms": 125.28809299692512,
+        "probe": "khop-3-limited",
+        "tier": "sparse",
+        "query": "MATCH (p:Person {id: $id})-[:KNOWS*1..3]-(p2) WITH DISTINCT p2 LIMIT $cap RETURN count(*) AS c",
+        "n_params": 100,
+        "warmup": 20,
+        "reps": 100,
+        "threads": 1,
+        "errors": 0,
+        "timeouts": 0,
+        "wall_s": 8.809920072555542,
+        "measure_wall_s": 8.809920072555542,
+        "throughput_qps": 11.350840776809958
+      },
+      "khop-3-limited.dense": {
+        "count": 100,
+        "mean_ms": 2198.0664773401804,
+        "median_ms": 2130.0046865362674,
+        "p90_ms": 2499.0452718921006,
+        "p95_ms": 2721.5758219826967,
+        "p99_ms": 3066.7109929490834,
+        "min_ms": 1758.7343559134752,
+        "max_ms": 3144.2927320022136,
+        "probe": "khop-3-limited",
+        "tier": "dense",
+        "query": "MATCH (p:Person {id: $id})-[:KNOWS*1..3]-(p2) WITH DISTINCT p2 LIMIT $cap RETURN count(*) AS c",
+        "n_params": 100,
+        "warmup": 20,
+        "reps": 100,
+        "threads": 1,
+        "errors": 0,
+        "timeouts": 0,
+        "wall_s": 258.1958894729614,
+        "measure_wall_s": 258.1958894729614,
+        "throughput_qps": 0.38730283508433666
+      },
+      "shortest-path.sparse": {
+        "count": 100,
+        "mean_ms": 2.9163468652404845,
+        "median_ms": 3.0480974819511175,
+        "p90_ms": 3.450135001912713,
+        "p95_ms": 3.6879300605505705,
+        "p99_ms": 4.0132710710167885,
+        "min_ms": 1.9644368439912796,
+        "max_ms": 4.054789897054434,
+        "probe": "shortest-path",
+        "tier": "sparse",
+        "query": "MATCH (a:Person {id: $ida}), (b:Person {id: $idb}) MATCH path = shortestPath((a)-[:KNOWS*..7]-(b)) RETURN length(path) AS len",
+        "n_params": 100,
+        "warmup": 20,
+        "reps": 100,
+        "threads": 1,
+        "errors": 0,
+        "timeouts": 0,
+        "wall_s": 0.5255322456359863,
+        "measure_wall_s": 0.5255322456359863,
+        "throughput_qps": 190.28328105534692
+      },
+      "shortest-path.dense": {
+        "count": 100,
+        "mean_ms": 7.460622314829379,
+        "median_ms": 4.503692383877933,
+        "p90_ms": 17.350805923342705,
+        "p95_ms": 18.2881869841367,
+        "p99_ms": 21.53041702695191,
+        "min_ms": 3.0162129551172256,
+        "max_ms": 23.157750954851508,
+        "probe": "shortest-path",
+        "tier": "dense",
+        "query": "MATCH (a:Person {id: $ida}), (b:Person {id: $idb}) MATCH path = shortestPath((a)-[:KNOWS*..7]-(b)) RETURN length(path) AS len",
+        "n_params": 100,
+        "warmup": 20,
+        "reps": 100,
+        "threads": 1,
+        "errors": 0,
+        "timeouts": 0,
+        "wall_s": 0.9367372989654541,
+        "measure_wall_s": 0.9367372989654541,
+        "throughput_qps": 106.75351575136531
+      },
+      "write-set-prop.sparse": {
+        "count": 100,
+        "mean_ms": 3.5008731321431696,
+        "median_ms": 3.5510024754330516,
+        "p90_ms": 3.708756994456053,
+        "p95_ms": 3.733089892193675,
+        "p99_ms": 4.130519926548004,
+        "min_ms": 2.869740128517151,
+        "max_ms": 4.161242162808776,
+        "probe": "write-set-prop",
+        "tier": "sparse",
+        "query": "MATCH (p:Person {id: $id}) SET p.browserUsed = p.browserUsed RETURN count(p) AS c",
+        "n_params": 100,
+        "warmup": 20,
+        "reps": 100,
+        "threads": 1,
+        "errors": 0,
+        "timeouts": 0,
+        "wall_s": 0.5559947490692139,
+        "measure_wall_s": 0.5559947490692139,
+        "throughput_qps": 179.85781370671066
+      },
+      "write-set-prop.dense": {
+        "count": 100,
+        "mean_ms": 3.016787695232779,
+        "median_ms": 2.8815005207434297,
+        "p90_ms": 3.5568890161812305,
+        "p95_ms": 3.6017950624227524,
+        "p99_ms": 3.70446196757257,
+        "min_ms": 2.7134050615131855,
+        "max_ms": 3.954648971557617,
+        "probe": "write-set-prop",
+        "tier": "dense",
+        "query": "MATCH (p:Person {id: $id}) SET p.browserUsed = p.browserUsed RETURN count(p) AS c",
+        "n_params": 100,
+        "warmup": 20,
+        "reps": 100,
+        "threads": 1,
+        "errors": 0,
+        "timeouts": 0,
+        "wall_s": 0.3787539005279541,
+        "measure_wall_s": 0.3787539005279541,
+        "throughput_qps": 264.0236836125189
+      },
+      "write-create-delete.sparse": {
+        "count": 100,
+        "mean_ms": 3.7308382033370435,
+        "median_ms": 3.7440218729898334,
+        "p90_ms": 3.9201430045068264,
+        "p95_ms": 4.112649010494351,
+        "p99_ms": 4.280415829271078,
+        "min_ms": 3.1884529162198305,
+        "max_ms": 4.321785876527429,
+        "probe": "write-create-delete",
+        "tier": "sparse",
+        "query": "CREATE (n:_MicroBenchTmp {id: $id, ts: $ts}) WITH n DELETE n RETURN count(*) AS c",
+        "n_params": 100,
+        "warmup": 20,
+        "reps": 100,
+        "threads": 1,
+        "errors": 0,
+        "timeouts": 0,
+        "wall_s": 0.7764415740966797,
+        "measure_wall_s": 0.7764415740966797,
+        "throughput_qps": 128.7926913449232
+      },
+      "write-create-delete.dense": {
+        "count": 100,
+        "mean_ms": 3.502495316788554,
+        "median_ms": 3.5365865333005786,
+        "p90_ms": 3.7057979498058558,
+        "p95_ms": 3.8538568187505007,
+        "p99_ms": 4.112133057788014,
+        "min_ms": 2.972989110276103,
+        "max_ms": 4.723189864307642,
+        "probe": "write-create-delete",
+        "tier": "dense",
+        "query": "CREATE (n:_MicroBenchTmp {id: $id, ts: $ts}) WITH n DELETE n RETURN count(*) AS c",
+        "n_params": 100,
+        "warmup": 20,
+        "reps": 100,
+        "threads": 1,
+        "errors": 0,
+        "timeouts": 0,
+        "wall_s": 0.4448049068450928,
+        "measure_wall_s": 0.4448049068450928,
+        "throughput_qps": 224.81766379170335
+      }
+    },
+    "1-neo-agg": {
+      "agg-person-ip-prefix.na": {
+        "count": 20,
+        "mean_ms": 307.4063280480914,
+        "median_ms": 307.079975027591,
+        "p90_ms": 311.19417306035757,
+        "p95_ms": 315.3804070316255,
+        "p99_ms": 321.06814393773675,
+        "min_ms": 298.5858251340687,
+        "max_ms": 321.06814393773675,
+        "probe": "agg-person-ip-prefix",
+        "tier": "na",
+        "query": "MATCH (p:Person) RETURN substring(p.locationIP, 0, $prefix_len) AS g, count(*) AS c ORDER BY c DESC",
+        "n_params": 1,
+        "warmup": 5,
+        "reps": 20,
+        "threads": 1,
+        "errors": 0,
+        "timeouts": 0,
+        "wall_s": 7.919839859008789,
+        "measure_wall_s": 7.919839859008789,
+        "throughput_qps": 2.5253035864418485
+      },
+      "agg-message-year.na": {
+        "count": 20,
+        "mean_ms": 46201.562508323696,
+        "median_ms": 46041.170768556185,
+        "p90_ms": 47603.70811400935,
+        "p95_ms": 47650.861331028864,
+        "p99_ms": 47892.4648349639,
+        "min_ms": 43765.13676112518,
+        "max_ms": 47892.4648349639,
+        "probe": "agg-message-year",
+        "tier": "na",
+        "query": "MATCH (m:Message) RETURN datetime({epochMillis: m.creationDate}).year AS y, count(*) AS c ORDER BY y",
+        "n_params": 1,
+        "warmup": 5,
+        "reps": 20,
+        "threads": 1,
+        "errors": 0,
+        "timeouts": 0,
+        "wall_s": 1159.1541624069214,
+        "measure_wall_s": 1159.1541624069214,
+        "throughput_qps": 0.017253960386486532
+      }
+    },
+    "1-pet-param": {
+      "point-by-id.sparse": {
+        "count": 100,
+        "mean_ms": 6.446259836666286,
+        "median_ms": 6.149464985355735,
+        "p90_ms": 7.358404109254479,
+        "p95_ms": 7.688682060688734,
+        "p99_ms": 15.78088104724884,
+        "min_ms": 4.953776951879263,
+        "max_ms": 16.904457937926054,
+        "probe": "point-by-id",
+        "tier": "sparse",
+        "query": "MATCH (p:Person {id: $id}) RETURN p.id AS prop_id, p.browserUsed AS browser_used",
+        "n_params": 100,
+        "warmup": 20,
+        "reps": 100,
+        "threads": 1,
+        "errors": 0,
+        "timeouts": 0,
+        "wall_s": 0.8600418567657471,
+        "measure_wall_s": 0.8600418567657471,
+        "throughput_qps": 116.27341066405491
+      },
+      "point-by-id.dense": {
+        "count": 100,
+        "mean_ms": 5.186775010079145,
+        "median_ms": 5.162891466170549,
+        "p90_ms": 5.52472984418273,
+        "p95_ms": 5.626898957416415,
+        "p99_ms": 6.133562885224819,
+        "min_ms": 4.415296018123627,
+        "max_ms": 6.34619896300137,
+        "probe": "point-by-id",
+        "tier": "dense",
+        "query": "MATCH (p:Person {id: $id}) RETURN p.id AS prop_id, p.browserUsed AS browser_used",
+        "n_params": 100,
+        "warmup": 20,
+        "reps": 100,
+        "threads": 1,
+        "errors": 0,
+        "timeouts": 0,
+        "wall_s": 0.6433415412902832,
+        "measure_wall_s": 0.6433415412902832,
+        "throughput_qps": 155.43843134929605
+      },
+      "point-by-internal-id.na": {
+        "count": 100,
+        "mean_ms": 2.653489946387708,
+        "median_ms": 2.7082625310868025,
+        "p90_ms": 2.8796971309930086,
+        "p95_ms": 2.9519449453800917,
+        "p99_ms": 3.103352151811123,
+        "min_ms": 2.2769770585000515,
+        "max_ms": 3.1852039974182844,
+        "probe": "point-by-internal-id",
+        "tier": "na",
+        "query": "MATCH (n) WHERE id(n) = $iid RETURN n.id AS prop_id, n.browserUsed AS browser_used",
+        "n_params": 100,
+        "warmup": 20,
+        "reps": 100,
+        "threads": 1,
+        "errors": 0,
+        "timeouts": 0,
+        "wall_s": 0.46859288215637207,
+        "measure_wall_s": 0.46859288215637207,
+        "throughput_qps": 213.40486338550366
+      },
+      "expand-1hop-out.sparse": {
+        "count": 100,
+        "mean_ms": 4.41110810963437,
+        "median_ms": 4.397270502522588,
+        "p90_ms": 4.743658937513828,
+        "p95_ms": 4.962855018675327,
+        "p99_ms": 5.588121945038438,
+        "min_ms": 3.722677007317543,
+        "max_ms": 5.5934779811650515,
+        "probe": "expand-1hop-out",
+        "tier": "sparse",
+        "query": "MATCH (p:Person {id: $id})-[:KNOWS]->(p2) RETURN count(p2) AS c",
+        "n_params": 100,
+        "warmup": 20,
+        "reps": 100,
+        "threads": 1,
+        "errors": 0,
+        "timeouts": 0,
+        "wall_s": 0.7133185863494873,
+        "measure_wall_s": 0.7133185863494873,
+        "throughput_qps": 140.18981407979945
+      },
+      "expand-1hop-out.dense": {
+        "count": 100,
+        "mean_ms": 5.091299116611481,
+        "median_ms": 4.9545770743861794,
+        "p90_ms": 5.994964158162475,
+        "p95_ms": 6.396025884896517,
+        "p99_ms": 8.692933013662696,
+        "min_ms": 3.5520000383257866,
+        "max_ms": 17.190305050462484,
+        "probe": "expand-1hop-out",
+        "tier": "dense",
+        "query": "MATCH (p:Person {id: $id})-[:KNOWS]->(p2) RETURN count(p2) AS c",
+        "n_params": 100,
+        "warmup": 20,
+        "reps": 100,
+        "threads": 1,
+        "errors": 0,
+        "timeouts": 0,
+        "wall_s": 0.6520602703094482,
+        "measure_wall_s": 0.6520602703094482,
+        "throughput_qps": 153.360056659399
+      },
+      "expand-1hop-in.sparse": {
+        "count": 100,
+        "mean_ms": 4.044497227296233,
+        "median_ms": 3.9990870282053947,
+        "p90_ms": 4.365759901702404,
+        "p95_ms": 4.840110195800662,
+        "p99_ms": 5.145213799551129,
+        "min_ms": 3.311879001557827,
+        "max_ms": 6.1048169154673815,
+        "probe": "expand-1hop-in",
+        "tier": "sparse",
+        "query": "MATCH (p:Person {id: $id})<-[:KNOWS]-(p2) RETURN count(p2) AS c",
+        "n_params": 100,
+        "warmup": 20,
+        "reps": 100,
+        "threads": 1,
+        "errors": 0,
+        "timeouts": 0,
+        "wall_s": 0.5808634757995605,
+        "measure_wall_s": 0.5808634757995605,
+        "throughput_qps": 172.15749339782408
+      },
+      "expand-1hop-in.dense": {
+        "count": 100,
+        "mean_ms": 4.581683804281056,
+        "median_ms": 4.5347874984145164,
+        "p90_ms": 5.859742872416973,
+        "p95_ms": 6.031085969880223,
+        "p99_ms": 6.417628843337297,
+        "min_ms": 3.0065730679780245,
+        "max_ms": 7.321878103539348,
+        "probe": "expand-1hop-in",
+        "tier": "dense",
+        "query": "MATCH (p:Person {id: $id})<-[:KNOWS]-(p2) RETURN count(p2) AS c",
+        "n_params": 100,
+        "warmup": 20,
+        "reps": 100,
+        "threads": 1,
+        "errors": 0,
+        "timeouts": 0,
+        "wall_s": 0.6285247802734375,
+        "measure_wall_s": 0.6285247802734375,
+        "throughput_qps": 159.10271661285233
+      },
+      "expand-2hop.sparse": {
+        "count": 100,
+        "mean_ms": 5.851293180603534,
+        "median_ms": 5.8201245265081525,
+        "p90_ms": 7.2798109613358974,
+        "p95_ms": 7.947409059852362,
+        "p99_ms": 8.84662801399827,
+        "min_ms": 3.322276985272765,
+        "max_ms": 9.241570951417089,
+        "probe": "expand-2hop",
+        "tier": "sparse",
+        "query": "MATCH (p:Person {id: $id})-[:KNOWS]-()-[:KNOWS]-(p2) RETURN count(DISTINCT p2) AS c",
+        "n_params": 100,
+        "warmup": 20,
+        "reps": 100,
+        "threads": 1,
+        "errors": 0,
+        "timeouts": 0,
+        "wall_s": 0.8713746070861816,
+        "measure_wall_s": 0.8713746070861816,
+        "throughput_qps": 114.76120509684498
+      },
+      "expand-2hop.dense": {
+        "count": 100,
+        "mean_ms": 165.08743395563215,
+        "median_ms": 160.6440384639427,
+        "p90_ms": 194.0418821759522,
+        "p95_ms": 205.81257692538202,
+        "p99_ms": 237.99311486072838,
+        "min_ms": 129.1008919943124,
+        "max_ms": 326.844641007483,
+        "probe": "expand-2hop",
+        "tier": "dense",
+        "query": "MATCH (p:Person {id: $id})-[:KNOWS]-()-[:KNOWS]-(p2) RETURN count(DISTINCT p2) AS c",
+        "n_params": 100,
+        "warmup": 20,
+        "reps": 100,
+        "threads": 1,
+        "errors": 0,
+        "timeouts": 0,
+        "wall_s": 20.368475437164307,
+        "measure_wall_s": 20.368475437164307,
+        "throughput_qps": 4.909547614817556
+      },
+      "khop-3-limited.sparse": {
+        "count": 100,
+        "mean_ms": 67.97393352957442,
+        "median_ms": 72.62925989925861,
+        "p90_ms": 98.78706303425133,
+        "p95_ms": 112.04438610002398,
+        "p99_ms": 147.4407308269292,
+        "min_ms": 6.149710854515433,
+        "max_ms": 148.31708604469895,
+        "probe": "khop-3-limited",
+        "tier": "sparse",
+        "query": "MATCH (p:Person {id: $id})-[:KNOWS*1..3]-(p2) WITH DISTINCT p2 LIMIT $cap RETURN count(*) AS c",
+        "n_params": 100,
+        "warmup": 20,
+        "reps": 100,
+        "threads": 1,
+        "errors": 0,
+        "timeouts": 0,
+        "wall_s": 8.592591524124146,
+        "measure_wall_s": 8.592591524124146,
+        "throughput_qps": 11.637932481631976
+      },
+      "khop-3-limited.dense": {
+        "count": 100,
+        "mean_ms": 2120.3076115367003,
+        "median_ms": 2133.352537988685,
+        "p90_ms": 2352.720480877906,
+        "p95_ms": 2455.130027839914,
+        "p99_ms": 2575.2489289734513,
+        "min_ms": 1544.3019508384168,
+        "max_ms": 2599.129255861044,
+        "probe": "khop-3-limited",
+        "tier": "dense",
+        "query": "MATCH (p:Person {id: $id})-[:KNOWS*1..3]-(p2) WITH DISTINCT p2 LIMIT $cap RETURN count(*) AS c",
+        "n_params": 100,
+        "warmup": 20,
+        "reps": 100,
+        "threads": 1,
+        "errors": 0,
+        "timeouts": 0,
+        "wall_s": 259.91470170021057,
+        "measure_wall_s": 259.91470170021057,
+        "throughput_qps": 0.38474160694204
+      },
+      "shortest-path.sparse": {
+        "count": 100,
+        "mean_ms": 4.287001988850534,
+        "median_ms": 4.295796039514244,
+        "p90_ms": 4.768294980749488,
+        "p95_ms": 4.905033158138394,
+        "p99_ms": 5.146292969584465,
+        "min_ms": 3.4668808802962303,
+        "max_ms": 6.362125044688582,
+        "probe": "shortest-path",
+        "tier": "sparse",
+        "query": "MATCH (a:Person {id: $ida}), (b:Person {id: $idb}) MATCH path = shortestPath((a)-[:KNOWS*..7]-(b)) RETURN length(path) AS len",
+        "n_params": 100,
+        "warmup": 20,
+        "reps": 100,
+        "threads": 1,
+        "errors": 0,
+        "timeouts": 0,
+        "wall_s": 0.679755687713623,
+        "measure_wall_s": 0.679755687713623,
+        "throughput_qps": 147.11167822126322
+      },
+      "shortest-path.dense": {
+        "count": 100,
+        "mean_ms": 7.313151529524475,
+        "median_ms": 4.6285949647426605,
+        "p90_ms": 17.07131089642644,
+        "p95_ms": 18.99531506933272,
+        "p99_ms": 22.640936076641083,
+        "min_ms": 3.3269741106778383,
+        "max_ms": 24.69971403479576,
+        "probe": "shortest-path",
+        "tier": "dense",
+        "query": "MATCH (a:Person {id: $ida}), (b:Person {id: $idb}) MATCH path = shortestPath((a)-[:KNOWS*..7]-(b)) RETURN length(path) AS len",
+        "n_params": 100,
+        "warmup": 20,
+        "reps": 100,
+        "threads": 1,
+        "errors": 0,
+        "timeouts": 0,
+        "wall_s": 0.9402358531951904,
+        "measure_wall_s": 0.9402358531951904,
+        "throughput_qps": 106.35629311536184
+      },
+      "write-set-prop.sparse": {
+        "count": 100,
+        "mean_ms": 3.493718842510134,
+        "median_ms": 3.498634439893067,
+        "p90_ms": 3.7112149875611067,
+        "p95_ms": 3.9017328526824713,
+        "p99_ms": 3.9584070909768343,
+        "min_ms": 2.654072130098939,
+        "max_ms": 4.303089110180736,
+        "probe": "write-set-prop",
+        "tier": "sparse",
+        "query": "MATCH (p:Person {id: $id}) SET p.browserUsed = p.browserUsed RETURN count(p) AS c",
+        "n_params": 100,
+        "warmup": 20,
+        "reps": 100,
+        "threads": 1,
+        "errors": 0,
+        "timeouts": 0,
+        "wall_s": 0.5491869449615479,
+        "measure_wall_s": 0.5491869449615479,
+        "throughput_qps": 182.0873582619515
+      },
+      "write-set-prop.dense": {
+        "count": 100,
+        "mean_ms": 2.957086921669543,
+        "median_ms": 3.0395949725061655,
+        "p90_ms": 3.5248601343482733,
+        "p95_ms": 3.6439260002225637,
+        "p99_ms": 3.841223893687129,
+        "min_ms": 2.2168729919940233,
+        "max_ms": 4.075574921444058,
+        "probe": "write-set-prop",
+        "tier": "dense",
+        "query": "MATCH (p:Person {id: $id}) SET p.browserUsed = p.browserUsed RETURN count(p) AS c",
+        "n_params": 100,
+        "warmup": 20,
+        "reps": 100,
+        "threads": 1,
+        "errors": 0,
+        "timeouts": 0,
+        "wall_s": 0.3717944622039795,
+        "measure_wall_s": 0.3717944622039795,
+        "throughput_qps": 268.96581354979
+      },
+      "write-create-delete.sparse": {
+        "count": 100,
+        "mean_ms": 3.8379036309197545,
+        "median_ms": 3.821547026745975,
+        "p90_ms": 4.162931116297841,
+        "p95_ms": 4.343640990555286,
+        "p99_ms": 4.45841602049768,
+        "min_ms": 3.204026957973838,
+        "max_ms": 4.611194133758545,
+        "probe": "write-create-delete",
+        "tier": "sparse",
+        "query": "CREATE (n:_MicroBenchTmp {id: $id, ts: $ts}) WITH n DELETE n RETURN count(*) AS c",
+        "n_params": 100,
+        "warmup": 20,
+        "reps": 100,
+        "threads": 1,
+        "errors": 0,
+        "timeouts": 0,
+        "wall_s": 0.812114953994751,
+        "measure_wall_s": 0.812114953994751,
+        "throughput_qps": 123.13527722658625
+      },
+      "write-create-delete.dense": {
+        "count": 100,
+        "mean_ms": 3.5137280425988138,
+        "median_ms": 3.527175635099411,
+        "p90_ms": 3.7519969046115875,
+        "p95_ms": 3.847514046356082,
+        "p99_ms": 4.0738568641245365,
+        "min_ms": 2.970334142446518,
+        "max_ms": 4.544795956462622,
+        "probe": "write-create-delete",
+        "tier": "dense",
+        "query": "CREATE (n:_MicroBenchTmp {id: $id, ts: $ts}) WITH n DELETE n RETURN count(*) AS c",
+        "n_params": 100,
+        "warmup": 20,
+        "reps": 100,
+        "threads": 1,
+        "errors": 0,
+        "timeouts": 0,
+        "wall_s": 0.43418240547180176,
+        "measure_wall_s": 0.43418240547180176,
+        "throughput_qps": 230.31794642008947
+      }
+    },
+    "1-pet-agg": {
+      "agg-person-ip-prefix.na": {
+        "count": 20,
+        "mean_ms": 289.04818282462656,
+        "median_ms": 289.9431788828224,
+        "p90_ms": 300.8738891221583,
+        "p95_ms": 302.63182893395424,
+        "p99_ms": 302.66993097029626,
+        "min_ms": 251.3914101291448,
+        "max_ms": 302.66993097029626,
+        "probe": "agg-person-ip-prefix",
+        "tier": "na",
+        "query": "MATCH (p:Person) RETURN substring(p.locationIP, 0, $prefix_len) AS g, count(*) AS c ORDER BY c DESC",
+        "n_params": 1,
+        "warmup": 5,
+        "reps": 20,
+        "threads": 1,
+        "errors": 0,
+        "timeouts": 0,
+        "wall_s": 7.491320848464966,
+        "measure_wall_s": 7.491320848464966,
+        "throughput_qps": 2.669756162439387
+      },
+      "agg-message-year.na": {
+        "count": 20,
+        "mean_ms": 51948.21373494342,
+        "median_ms": 52067.180932615884,
+        "p90_ms": 55049.69250992872,
+        "p95_ms": 55102.75669116527,
+        "p99_ms": 55581.024868180975,
+        "min_ms": 46746.19846907444,
+        "max_ms": 55581.024868180975,
+        "probe": "agg-message-year",
+        "tier": "na",
+        "query": "MATCH (m:Message) RETURN datetime({epochMillis: m.creationDate}).year AS y, count(*) AS c ORDER BY y",
+        "n_params": 1,
+        "warmup": 5,
+        "reps": 20,
+        "threads": 1,
+        "errors": 0,
+        "timeouts": 0,
+        "wall_s": 1294.044355392456,
+        "measure_wall_s": 1294.044355392456,
+        "throughput_qps": 0.0154554207641008
+      }
+    },
+    "2-neo-param": {
+      "point-by-id.sparse": {
+        "count": 100,
+        "mean_ms": 9.194929047953337,
+        "median_ms": 8.300262968987226,
+        "p90_ms": 10.611950885504484,
+        "p95_ms": 12.316640000790358,
+        "p99_ms": 33.86204317212105,
+        "min_ms": 6.972497096285224,
+        "max_ms": 36.874922923743725,
+        "probe": "point-by-id",
+        "tier": "sparse",
+        "query": "MATCH (p:Person {id: $id}) RETURN p.id AS prop_id, p.browserUsed AS browser_used",
+        "n_params": 100,
+        "warmup": 20,
+        "reps": 100,
+        "threads": 1,
+        "errors": 0,
+        "timeouts": 0,
+        "wall_s": 1.2904558181762695,
+        "measure_wall_s": 1.2904558181762695,
+        "throughput_qps": 77.49199824704151
+      },
+      "point-by-id.dense": {
+        "count": 100,
+        "mean_ms": 8.716524976771325,
+        "median_ms": 8.32981860730797,
+        "p90_ms": 10.865611955523491,
+        "p95_ms": 12.642346089705825,
+        "p99_ms": 13.97157902829349,
+        "min_ms": 3.4639560617506504,
+        "max_ms": 28.974415035918355,
+        "probe": "point-by-id",
+        "tier": "dense",
+        "query": "MATCH (p:Person {id: $id}) RETURN p.id AS prop_id, p.browserUsed AS browser_used",
+        "n_params": 100,
+        "warmup": 20,
+        "reps": 100,
+        "threads": 1,
+        "errors": 0,
+        "timeouts": 0,
+        "wall_s": 1.0542635917663574,
+        "measure_wall_s": 1.0542635917663574,
+        "throughput_qps": 94.85293884848646
+      },
+      "point-by-internal-id.na": {
+        "count": 100,
+        "mean_ms": 5.5395530560053885,
+        "median_ms": 5.4773715091869235,
+        "p90_ms": 6.250852020457387,
+        "p95_ms": 6.525357952341437,
+        "p99_ms": 6.923404987901449,
+        "min_ms": 4.569186130538583,
+        "max_ms": 7.49817700125277,
+        "probe": "point-by-internal-id",
+        "tier": "na",
+        "query": "MATCH (n) WHERE id(n) = $iid RETURN n.id AS prop_id, n.browserUsed AS browser_used",
+        "n_params": 100,
+        "warmup": 20,
+        "reps": 100,
+        "threads": 1,
+        "errors": 0,
+        "timeouts": 0,
+        "wall_s": 0.7756023406982422,
+        "measure_wall_s": 0.7756023406982422,
+        "throughput_qps": 128.932050295225
+      },
+      "expand-1hop-out.sparse": {
+        "count": 100,
+        "mean_ms": 5.887309252284467,
+        "median_ms": 5.849174573086202,
+        "p90_ms": 6.41530891880393,
+        "p95_ms": 6.6474799532443285,
+        "p99_ms": 6.976285949349403,
+        "min_ms": 4.896880127489567,
+        "max_ms": 7.270373869687319,
+        "probe": "expand-1hop-out",
+        "tier": "sparse",
+        "query": "MATCH (p:Person {id: $id})-[:KNOWS]->(p2) RETURN count(p2) AS c",
+        "n_params": 100,
+        "warmup": 20,
+        "reps": 100,
+        "threads": 1,
+        "errors": 0,
+        "timeouts": 0,
+        "wall_s": 0.9172296524047852,
+        "measure_wall_s": 0.9172296524047852,
+        "throughput_qps": 109.02395025915355
+      },
+      "expand-1hop-out.dense": {
+        "count": 100,
+        "mean_ms": 5.657385310623795,
+        "median_ms": 5.477380007505417,
+        "p90_ms": 6.495172157883644,
+        "p95_ms": 6.988622015342116,
+        "p99_ms": 9.264550870284438,
+        "min_ms": 4.016184946522117,
+        "max_ms": 17.713992157950997,
+        "probe": "expand-1hop-out",
+        "tier": "dense",
+        "query": "MATCH (p:Person {id: $id})-[:KNOWS]->(p2) RETURN count(p2) AS c",
+        "n_params": 100,
+        "warmup": 20,
+        "reps": 100,
+        "threads": 1,
+        "errors": 0,
+        "timeouts": 0,
+        "wall_s": 0.7370009422302246,
+        "measure_wall_s": 0.7370009422302246,
+        "throughput_qps": 135.6850368432256
+      },
+      "expand-1hop-in.sparse": {
+        "count": 100,
+        "mean_ms": 5.383815704844892,
+        "median_ms": 5.284634535200894,
+        "p90_ms": 6.048973882570863,
+        "p95_ms": 6.261987145990133,
+        "p99_ms": 6.763178156688809,
+        "min_ms": 4.324915818870068,
+        "max_ms": 8.385448949411511,
+        "probe": "expand-1hop-in",
+        "tier": "sparse",
+        "query": "MATCH (p:Person {id: $id})<-[:KNOWS]-(p2) RETURN count(p2) AS c",
+        "n_params": 100,
+        "warmup": 20,
+        "reps": 100,
+        "threads": 1,
+        "errors": 0,
+        "timeouts": 0,
+        "wall_s": 0.7254934310913086,
+        "measure_wall_s": 0.7254934310913086,
+        "throughput_qps": 137.8372232117623
+      },
+      "expand-1hop-in.dense": {
+        "count": 100,
+        "mean_ms": 5.475650036241859,
+        "median_ms": 5.42554201092571,
+        "p90_ms": 6.596401799470186,
+        "p95_ms": 7.021115161478519,
+        "p99_ms": 7.454063976183534,
+        "min_ms": 3.7699430249631405,
+        "max_ms": 9.205295005813241,
+        "probe": "expand-1hop-in",
+        "tier": "dense",
+        "query": "MATCH (p:Person {id: $id})<-[:KNOWS]-(p2) RETURN count(p2) AS c",
+        "n_params": 100,
+        "warmup": 20,
+        "reps": 100,
+        "threads": 1,
+        "errors": 0,
+        "timeouts": 0,
+        "wall_s": 0.7258813381195068,
+        "measure_wall_s": 0.7258813381195068,
+        "throughput_qps": 137.76356375143
+      },
+      "expand-2hop.sparse": {
+        "count": 100,
+        "mean_ms": 5.819686115719378,
+        "median_ms": 5.94569300301373,
+        "p90_ms": 6.648960988968611,
+        "p95_ms": 6.980173056945205,
+        "p99_ms": 7.282268954440951,
+        "min_ms": 3.4825310576707125,
+        "max_ms": 7.466058013960719,
+        "probe": "expand-2hop",
+        "tier": "sparse",
+        "query": "MATCH (p:Person {id: $id})-[:KNOWS]-()-[:KNOWS]-(p2) RETURN count(DISTINCT p2) AS c",
+        "n_params": 100,
+        "warmup": 20,
+        "reps": 100,
+        "threads": 1,
+        "errors": 0,
+        "timeouts": 0,
+        "wall_s": 0.8761827945709229,
+        "measure_wall_s": 0.8761827945709229,
+        "throughput_qps": 114.1314353804119
+      },
+      "expand-2hop.dense": {
+        "count": 100,
+        "mean_ms": 106.49832271505147,
+        "median_ms": 105.45460390858352,
+        "p90_ms": 116.14863015711308,
+        "p95_ms": 120.39650091901422,
+        "p99_ms": 158.7932389229536,
+        "min_ms": 83.60212622210383,
+        "max_ms": 180.61261298134923,
+        "probe": "expand-2hop",
+        "tier": "dense",
+        "query": "MATCH (p:Person {id: $id})-[:KNOWS]-()-[:KNOWS]-(p2) RETURN count(DISTINCT p2) AS c",
+        "n_params": 100,
+        "warmup": 20,
+        "reps": 100,
+        "threads": 1,
+        "errors": 0,
+        "timeouts": 0,
+        "wall_s": 13.591866254806519,
+        "measure_wall_s": 13.591866254806519,
+        "throughput_qps": 7.357341377946299
+      },
+      "khop-3-limited.sparse": {
+        "count": 100,
+        "mean_ms": 55.7916192850098,
+        "median_ms": 62.23721394781023,
+        "p90_ms": 73.26983707025647,
+        "p95_ms": 76.59744517877698,
+        "p99_ms": 81.85267611406744,
+        "min_ms": 5.883013131096959,
+        "max_ms": 82.5021241325885,
+        "probe": "khop-3-limited",
+        "tier": "sparse",
+        "query": "MATCH (p:Person {id: $id})-[:KNOWS*1..3]-(p2) WITH DISTINCT p2 LIMIT $cap RETURN count(*) AS c",
+        "n_params": 100,
+        "warmup": 20,
+        "reps": 100,
+        "threads": 1,
+        "errors": 0,
+        "timeouts": 0,
+        "wall_s": 7.089852333068848,
+        "measure_wall_s": 7.089852333068848,
+        "throughput_qps": 14.104666120276574
+      },
+      "khop-3-limited.dense": {
+        "count": 100,
+        "mean_ms": 2044.8473760206252,
+        "median_ms": 2003.4886224893853,
+        "p90_ms": 2531.2720839865506,
+        "p95_ms": 2611.7888470180333,
+        "p99_ms": 2818.7441369518638,
+        "min_ms": 1486.2028278876096,
+        "max_ms": 2910.0491548888385,
+        "probe": "khop-3-limited",
+        "tier": "dense",
+        "query": "MATCH (p:Person {id: $id})-[:KNOWS*1..3]-(p2) WITH DISTINCT p2 LIMIT $cap RETURN count(*) AS c",
+        "n_params": 100,
+        "warmup": 20,
+        "reps": 100,
+        "threads": 1,
+        "errors": 0,
+        "timeouts": 0,
+        "wall_s": 242.4918384552002,
+        "measure_wall_s": 242.4918384552002,
+        "throughput_qps": 0.4123850131907626
+      },
+      "shortest-path.sparse": {
+        "count": 100,
+        "mean_ms": 4.687881770078093,
+        "median_ms": 4.650385933928192,
+        "p90_ms": 5.093106999993324,
+        "p95_ms": 5.29051898047328,
+        "p99_ms": 5.716328974813223,
+        "min_ms": 3.991259029135108,
+        "max_ms": 5.7313640136271715,
+        "probe": "shortest-path",
+        "tier": "sparse",
+        "query": "MATCH (a:Person {id: $ida}), (b:Person {id: $idb}) MATCH path = shortestPath((a)-[:KNOWS*..7]-(b)) RETURN length(path) AS len",
+        "n_params": 100,
+        "warmup": 20,
+        "reps": 100,
+        "threads": 1,
+        "errors": 0,
+        "timeouts": 0,
+        "wall_s": 0.743302583694458,
+        "measure_wall_s": 0.743302583694458,
+        "throughput_qps": 134.53471331011275
+      },
+      "shortest-path.dense": {
+        "count": 100,
+        "mean_ms": 7.738806270062923,
+        "median_ms": 4.729285486973822,
+        "p90_ms": 17.94231403619051,
+        "p95_ms": 18.61737295985222,
+        "p99_ms": 21.276875864714384,
+        "min_ms": 3.292232984676957,
+        "max_ms": 22.266159998252988,
+        "probe": "shortest-path",
+        "tier": "dense",
+        "query": "MATCH (a:Person {id: $ida}), (b:Person {id: $idb}) MATCH path = shortestPath((a)-[:KNOWS*..7]-(b)) RETURN length(path) AS len",
+        "n_params": 100,
+        "warmup": 20,
+        "reps": 100,
+        "threads": 1,
+        "errors": 0,
+        "timeouts": 0,
+        "wall_s": 0.9839472770690918,
+        "measure_wall_s": 0.9839472770690918,
+        "throughput_qps": 101.6314616956637
+      },
+      "write-set-prop.sparse": {
+        "count": 100,
+        "mean_ms": 3.4865591442212462,
+        "median_ms": 3.5227559274062514,
+        "p90_ms": 3.672584192827344,
+        "p95_ms": 3.775630844756961,
+        "p99_ms": 4.130962071940303,
+        "min_ms": 3.044045064598322,
+        "max_ms": 4.191601881757379,
+        "probe": "write-set-prop",
+        "tier": "sparse",
+        "query": "MATCH (p:Person {id: $id}) SET p.browserUsed = p.browserUsed RETURN count(p) AS c",
+        "n_params": 100,
+        "warmup": 20,
+        "reps": 100,
+        "threads": 1,
+        "errors": 0,
+        "timeouts": 0,
+        "wall_s": 0.5563709735870361,
+        "measure_wall_s": 0.5563709735870361,
+        "throughput_qps": 179.73619176298826
+      },
+      "write-set-prop.dense": {
+        "count": 100,
+        "mean_ms": 3.5046800831332803,
+        "median_ms": 3.512355498969555,
+        "p90_ms": 3.6912951618433,
+        "p95_ms": 3.7528721150010824,
+        "p99_ms": 4.13458701223135,
+        "min_ms": 3.0442539136856794,
+        "max_ms": 4.215402062982321,
+        "probe": "write-set-prop",
+        "tier": "dense",
+        "query": "MATCH (p:Person {id: $id}) SET p.browserUsed = p.browserUsed RETURN count(p) AS c",
+        "n_params": 100,
+        "warmup": 20,
+        "reps": 100,
+        "threads": 1,
+        "errors": 0,
+        "timeouts": 0,
+        "wall_s": 0.43658995628356934,
+        "measure_wall_s": 0.43658995628356934,
+        "throughput_qps": 229.04787103038404
+      },
+      "write-create-delete.sparse": {
+        "count": 100,
+        "mean_ms": 3.800155718345195,
+        "median_ms": 3.728031530044973,
+        "p90_ms": 3.9281449280679226,
+        "p95_ms": 4.119256976991892,
+        "p99_ms": 4.268060205504298,
+        "min_ms": 3.3146939240396023,
+        "max_ms": 11.07785408385098,
+        "probe": "write-create-delete",
+        "tier": "sparse",
+        "query": "CREATE (n:_MicroBenchTmp {id: $id, ts: $ts}) WITH n DELETE n RETURN count(*) AS c",
+        "n_params": 100,
+        "warmup": 20,
+        "reps": 100,
+        "threads": 1,
+        "errors": 0,
+        "timeouts": 0,
+        "wall_s": 0.7818927764892578,
+        "measure_wall_s": 0.7818927764892578,
+        "throughput_qps": 127.8947740750408
+      },
+      "write-create-delete.dense": {
+        "count": 100,
+        "mean_ms": 3.551257373765111,
+        "median_ms": 3.541110665537417,
+        "p90_ms": 3.7439269945025444,
+        "p95_ms": 3.917024005204439,
+        "p99_ms": 4.178736824542284,
+        "min_ms": 3.0025329906493425,
+        "max_ms": 4.581828135997057,
+        "probe": "write-create-delete",
+        "tier": "dense",
+        "query": "CREATE (n:_MicroBenchTmp {id: $id, ts: $ts}) WITH n DELETE n RETURN count(*) AS c",
+        "n_params": 100,
+        "warmup": 20,
+        "reps": 100,
+        "threads": 1,
+        "errors": 0,
+        "timeouts": 0,
+        "wall_s": 0.4352598190307617,
+        "measure_wall_s": 0.4352598190307617,
+        "throughput_qps": 229.74783250767413
+      }
+    },
+    "2-neo-agg": {
+      "agg-person-ip-prefix.na": {
+        "count": 20,
+        "mean_ms": 305.93101603444666,
+        "median_ms": 305.6427009869367,
+        "p90_ms": 310.2285051718354,
+        "p95_ms": 312.2248980216682,
+        "p99_ms": 318.3644958771765,
+        "min_ms": 297.83635889180005,
+        "max_ms": 318.3644958771765,
+        "probe": "agg-person-ip-prefix",
+        "tier": "na",
+        "query": "MATCH (p:Person) RETURN substring(p.locationIP, 0, $prefix_len) AS g, count(*) AS c ORDER BY c DESC",
+        "n_params": 1,
+        "warmup": 5,
+        "reps": 20,
+        "threads": 1,
+        "errors": 0,
+        "timeouts": 0,
+        "wall_s": 7.9105682373046875,
+        "measure_wall_s": 7.9105682373046875,
+        "throughput_qps": 2.52826338134395
+      },
+      "agg-message-year.na": {
+        "count": 20,
+        "mean_ms": 47262.648586637806,
+        "median_ms": 47181.216957978904,
+        "p90_ms": 48275.84021585062,
+        "p95_ms": 49349.12115102634,
+        "p99_ms": 49406.459759920835,
+        "min_ms": 45341.36003209278,
+        "max_ms": 49406.459759920835,
+        "probe": "agg-message-year",
+        "tier": "na",
+        "query": "MATCH (m:Message) RETURN datetime({epochMillis: m.creationDate}).year AS y, count(*) AS c ORDER BY y",
+        "n_params": 1,
+        "warmup": 5,
+        "reps": 20,
+        "threads": 1,
+        "errors": 0,
+        "timeouts": 0,
+        "wall_s": 1202.3241941928864,
+        "measure_wall_s": 1202.3241941928864,
+        "throughput_qps": 0.01663444859264925
+      }
+    },
+    "2-pet-param": {
+      "point-by-id.sparse": {
+        "count": 100,
+        "mean_ms": 5.788948887493461,
+        "median_ms": 5.701962625607848,
+        "p90_ms": 6.350170122459531,
+        "p95_ms": 6.543918047100306,
+        "p99_ms": 6.840976886451244,
+        "min_ms": 4.812795203179121,
+        "max_ms": 7.362441858276725,
+        "probe": "point-by-id",
+        "tier": "sparse",
+        "query": "MATCH (p:Person {id: $id}) RETURN p.id AS prop_id, p.browserUsed AS browser_used",
+        "n_params": 100,
+        "warmup": 20,
+        "reps": 100,
+        "threads": 1,
+        "errors": 0,
+        "timeouts": 0,
+        "wall_s": 0.8118581771850586,
+        "measure_wall_s": 0.8118581771850586,
+        "throughput_qps": 123.17422280173147
+      },
+      "point-by-id.dense": {
+        "count": 100,
+        "mean_ms": 5.160884060896933,
+        "median_ms": 5.156395956873894,
+        "p90_ms": 5.4695820435881615,
+        "p95_ms": 5.575607065111399,
+        "p99_ms": 5.730014992877841,
+        "min_ms": 4.56853793002665,
+        "max_ms": 5.94241707585752,
+        "probe": "point-by-id",
+        "tier": "dense",
+        "query": "MATCH (p:Person {id: $id}) RETURN p.id AS prop_id, p.browserUsed AS browser_used",
+        "n_params": 100,
+        "warmup": 20,
+        "reps": 100,
+        "threads": 1,
+        "errors": 0,
+        "timeouts": 0,
+        "wall_s": 0.6416797637939453,
+        "measure_wall_s": 0.6416797637939453,
+        "throughput_qps": 155.8409749572713
+      },
+      "point-by-internal-id.na": {
+        "count": 100,
+        "mean_ms": 4.369352457579225,
+        "median_ms": 4.3431989615783095,
+        "p90_ms": 4.572135163471103,
+        "p95_ms": 4.710540873929858,
+        "p99_ms": 4.859257955104113,
+        "min_ms": 3.752217860892415,
+        "max_ms": 8.028947981074452,
+        "probe": "point-by-internal-id",
+        "tier": "na",
+        "query": "MATCH (n) WHERE id(n) = $iid RETURN n.id AS prop_id, n.browserUsed AS browser_used",
+        "n_params": 100,
+        "warmup": 20,
+        "reps": 100,
+        "threads": 1,
+        "errors": 0,
+        "timeouts": 0,
+        "wall_s": 0.6371805667877197,
+        "measure_wall_s": 0.6371805667877197,
+        "throughput_qps": 156.94138398498202
+      },
+      "expand-1hop-out.sparse": {
+        "count": 100,
+        "mean_ms": 4.482107327785343,
+        "median_ms": 4.471638007089496,
+        "p90_ms": 4.922745982185006,
+        "p95_ms": 5.002330057322979,
+        "p99_ms": 5.392411025241017,
+        "min_ms": 3.7863128818571568,
+        "max_ms": 5.521432962268591,
+        "probe": "expand-1hop-out",
+        "tier": "sparse",
+        "query": "MATCH (p:Person {id: $id})-[:KNOWS]->(p2) RETURN count(p2) AS c",
+        "n_params": 100,
+        "warmup": 20,
+        "reps": 100,
+        "threads": 1,
+        "errors": 0,
+        "timeouts": 0,
+        "wall_s": 0.7440435886383057,
+        "measure_wall_s": 0.7440435886383057,
+        "throughput_qps": 134.4007280312874
+      },
+      "expand-1hop-out.dense": {
+        "count": 100,
+        "mean_ms": 5.252292121294886,
+        "median_ms": 4.998552962206304,
+        "p90_ms": 6.244090851396322,
+        "p95_ms": 6.7442599684000015,
+        "p99_ms": 12.374704936519265,
+        "min_ms": 3.659469075500965,
+        "max_ms": 17.43110897950828,
+        "probe": "expand-1hop-out",
+        "tier": "dense",
+        "query": "MATCH (p:Person {id: $id})-[:KNOWS]->(p2) RETURN count(p2) AS c",
+        "n_params": 100,
+        "warmup": 20,
+        "reps": 100,
+        "threads": 1,
+        "errors": 0,
+        "timeouts": 0,
+        "wall_s": 0.6744349002838135,
+        "measure_wall_s": 0.6744349002838135,
+        "throughput_qps": 148.27227944152702
+      },
+      "expand-1hop-in.sparse": {
+        "count": 100,
+        "mean_ms": 4.144206184428185,
+        "median_ms": 4.099937039427459,
+        "p90_ms": 4.383848048746586,
+        "p95_ms": 4.567483905702829,
+        "p99_ms": 5.578391021117568,
+        "min_ms": 3.6458929535001516,
+        "max_ms": 6.770920008420944,
+        "probe": "expand-1hop-in",
+        "tier": "sparse",
+        "query": "MATCH (p:Person {id: $id})<-[:KNOWS]-(p2) RETURN count(p2) AS c",
+        "n_params": 100,
+        "warmup": 20,
+        "reps": 100,
+        "threads": 1,
+        "errors": 0,
+        "timeouts": 0,
+        "wall_s": 0.6184372901916504,
+        "measure_wall_s": 0.6184372901916504,
+        "throughput_qps": 161.6978820423499
+      },
+      "expand-1hop-in.dense": {
+        "count": 100,
+        "mean_ms": 5.330318703781813,
+        "median_ms": 5.264123436063528,
+        "p90_ms": 6.696151103824377,
+        "p95_ms": 7.076862035319209,
+        "p99_ms": 7.945242803543806,
+        "min_ms": 3.5729159135371447,
+        "max_ms": 8.33026715554297,
+        "probe": "expand-1hop-in",
+        "tier": "dense",
+        "query": "MATCH (p:Person {id: $id})<-[:KNOWS]-(p2) RETURN count(p2) AS c",
+        "n_params": 100,
+        "warmup": 20,
+        "reps": 100,
+        "threads": 1,
+        "errors": 0,
+        "timeouts": 0,
+        "wall_s": 0.7485446929931641,
+        "measure_wall_s": 0.7485446929931641,
+        "throughput_qps": 133.59255758014336
+      },
+      "expand-2hop.sparse": {
+        "count": 100,
+        "mean_ms": 6.662716020364314,
+        "median_ms": 6.937094032764435,
+        "p90_ms": 8.603023132309318,
+        "p95_ms": 9.047050960361958,
+        "p99_ms": 9.474560851231217,
+        "min_ms": 3.5369389224797487,
+        "max_ms": 12.652617180719972,
+        "probe": "expand-2hop",
+        "tier": "sparse",
+        "query": "MATCH (p:Person {id: $id})-[:KNOWS]-()-[:KNOWS]-(p2) RETURN count(DISTINCT p2) AS c",
+        "n_params": 100,
+        "warmup": 20,
+        "reps": 100,
+        "threads": 1,
+        "errors": 0,
+        "timeouts": 0,
+        "wall_s": 0.95218825340271,
+        "measure_wall_s": 0.95218825340271,
+        "throughput_qps": 105.02124936181805
+      },
+      "expand-2hop.dense": {
+        "count": 100,
+        "mean_ms": 135.99147975677624,
+        "median_ms": 109.73464499693364,
+        "p90_ms": 222.0520479604602,
+        "p95_ms": 236.690976889804,
+        "p99_ms": 260.9979829285294,
+        "min_ms": 80.05864080041647,
+        "max_ms": 441.00919109769166,
+        "probe": "expand-2hop",
+        "tier": "dense",
+        "query": "MATCH (p:Person {id: $id})-[:KNOWS]-()-[:KNOWS]-(p2) RETURN count(DISTINCT p2) AS c",
+        "n_params": 100,
+        "warmup": 20,
+        "reps": 100,
+        "threads": 1,
+        "errors": 0,
+        "timeouts": 0,
+        "wall_s": 18.58583402633667,
+        "measure_wall_s": 18.58583402633667,
+        "throughput_qps": 5.380441892373357
+      },
+      "khop-3-limited.sparse": {
+        "count": 100,
+        "mean_ms": 76.29961356520653,
+        "median_ms": 80.66988957580179,
+        "p90_ms": 108.49030804820359,
+        "p95_ms": 114.79021003469825,
+        "p99_ms": 119.57527091726661,
+        "min_ms": 7.426897995173931,
+        "max_ms": 123.56607406400144,
+        "probe": "khop-3-limited",
+        "tier": "sparse",
+        "query": "MATCH (p:Person {id: $id})-[:KNOWS*1..3]-(p2) WITH DISTINCT p2 LIMIT $cap RETURN count(*) AS c",
+        "n_params": 100,
+        "warmup": 20,
+        "reps": 100,
+        "threads": 1,
+        "errors": 0,
+        "timeouts": 0,
+        "wall_s": 9.519675493240356,
+        "measure_wall_s": 9.519675493240356,
+        "throughput_qps": 10.504559747966942
+      },
+      "khop-3-limited.dense": {
+        "count": 100,
+        "mean_ms": 2084.410339379683,
+        "median_ms": 2096.0087926359847,
+        "p90_ms": 2311.1370459664613,
+        "p95_ms": 2333.430028986186,
+        "p99_ms": 2411.9541100226343,
+        "min_ms": 1584.8769890144467,
+        "max_ms": 2439.1665239818394,
+        "probe": "khop-3-limited",
+        "tier": "dense",
+        "query": "MATCH (p:Person {id: $id})-[:KNOWS*1..3]-(p2) WITH DISTINCT p2 LIMIT $cap RETURN count(*) AS c",
+        "n_params": 100,
+        "warmup": 20,
+        "reps": 100,
+        "threads": 1,
+        "errors": 0,
+        "timeouts": 0,
+        "wall_s": 257.51751041412354,
+        "measure_wall_s": 257.51751041412354,
+        "throughput_qps": 0.3883231079672457
+      },
+      "shortest-path.sparse": {
+        "count": 100,
+        "mean_ms": 4.50344183947891,
+        "median_ms": 4.4185660080984235,
+        "p90_ms": 5.106880096718669,
+        "p95_ms": 5.349589977413416,
+        "p99_ms": 5.693136947229505,
+        "min_ms": 3.584690857678652,
+        "max_ms": 5.753164179623127,
+        "probe": "shortest-path",
+        "tier": "sparse",
+        "query": "MATCH (a:Person {id: $ida}), (b:Person {id: $idb}) MATCH path = shortestPath((a)-[:KNOWS*..7]-(b)) RETURN length(path) AS len",
+        "n_params": 100,
+        "warmup": 20,
+        "reps": 100,
+        "threads": 1,
+        "errors": 0,
+        "timeouts": 0,
+        "wall_s": 0.7337539196014404,
+        "measure_wall_s": 0.7337539196014404,
+        "throughput_qps": 136.285473002063
+      },
+      "shortest-path.dense": {
+        "count": 100,
+        "mean_ms": 7.4688148009590805,
+        "median_ms": 4.734060959890485,
+        "p90_ms": 17.146117985248566,
+        "p95_ms": 19.099794095382094,
+        "p99_ms": 20.815534982830286,
+        "min_ms": 3.495696932077408,
+        "max_ms": 25.27211420238018,
+        "probe": "shortest-path",
+        "tier": "dense",
+        "query": "MATCH (a:Person {id: $ida}), (b:Person {id: $idb}) MATCH path = shortestPath((a)-[:KNOWS*..7]-(b)) RETURN length(path) AS len",
+        "n_params": 100,
+        "warmup": 20,
+        "reps": 100,
+        "threads": 1,
+        "errors": 0,
+        "timeouts": 0,
+        "wall_s": 0.9355978965759277,
+        "measure_wall_s": 0.9355978965759277,
+        "throughput_qps": 106.88352375093714
+      },
+      "write-set-prop.sparse": {
+        "count": 100,
+        "mean_ms": 3.4377502952702343,
+        "median_ms": 3.4855875419452786,
+        "p90_ms": 3.6381520330905914,
+        "p95_ms": 3.7203540559858084,
+        "p99_ms": 3.949784906581044,
+        "min_ms": 2.9063380789011717,
+        "max_ms": 3.9642942138016224,
+        "probe": "write-set-prop",
+        "tier": "sparse",
+        "query": "MATCH (p:Person {id: $id}) SET p.browserUsed = p.browserUsed RETURN count(p) AS c",
+        "n_params": 100,
+        "warmup": 20,
+        "reps": 100,
+        "threads": 1,
+        "errors": 0,
+        "timeouts": 0,
+        "wall_s": 0.5613541603088379,
+        "measure_wall_s": 0.5613541603088379,
+        "throughput_qps": 178.14065891127166
+      },
+      "write-set-prop.dense": {
+        "count": 100,
+        "mean_ms": 2.802646867930889,
+        "median_ms": 2.775768516585231,
+        "p90_ms": 2.9220758005976677,
+        "p95_ms": 3.0716750770807266,
+        "p99_ms": 3.582756035029888,
+        "min_ms": 2.4315379559993744,
+        "max_ms": 3.8609569892287254,
+        "probe": "write-set-prop",
+        "tier": "dense",
+        "query": "MATCH (p:Person {id: $id}) SET p.browserUsed = p.browserUsed RETURN count(p) AS c",
+        "n_params": 100,
+        "warmup": 20,
+        "reps": 100,
+        "threads": 1,
+        "errors": 0,
+        "timeouts": 0,
+        "wall_s": 0.3468050956726074,
+        "measure_wall_s": 0.3468050956726074,
+        "throughput_qps": 288.3463975812007
+      },
+      "write-create-delete.sparse": {
+        "count": 100,
+        "mean_ms": 3.5684484359808266,
+        "median_ms": 3.3709679264575243,
+        "p90_ms": 4.0883938781917095,
+        "p95_ms": 4.178685834631324,
+        "p99_ms": 4.411081084981561,
+        "min_ms": 3.072883002460003,
+        "max_ms": 4.423164064064622,
+        "probe": "write-create-delete",
+        "tier": "sparse",
+        "query": "CREATE (n:_MicroBenchTmp {id: $id, ts: $ts}) WITH n DELETE n RETURN count(*) AS c",
+        "n_params": 100,
+        "warmup": 20,
+        "reps": 100,
+        "threads": 1,
+        "errors": 0,
+        "timeouts": 0,
+        "wall_s": 0.7760510444641113,
+        "measure_wall_s": 0.7760510444641113,
+        "throughput_qps": 128.85750327035933
+      },
+      "write-create-delete.dense": {
+        "count": 100,
+        "mean_ms": 3.7435109820216894,
+        "median_ms": 3.745950059965253,
+        "p90_ms": 4.01225290261209,
+        "p95_ms": 4.044826840981841,
+        "p99_ms": 4.27677296102047,
+        "min_ms": 3.2660309225320816,
+        "max_ms": 4.922233987599611,
+        "probe": "write-create-delete",
+        "tier": "dense",
+        "query": "CREATE (n:_MicroBenchTmp {id: $id, ts: $ts}) WITH n DELETE n RETURN count(*) AS c",
+        "n_params": 100,
+        "warmup": 20,
+        "reps": 100,
+        "threads": 1,
+        "errors": 0,
+        "timeouts": 0,
+        "wall_s": 0.4656672477722168,
+        "measure_wall_s": 0.4656672477722168,
+        "throughput_qps": 214.74561605611447
+      }
+    },
+    "2-pet-agg": {
+      "agg-person-ip-prefix.na": {
+        "count": 20,
+        "mean_ms": 308.93528391607106,
+        "median_ms": 310.22688292432576,
+        "p90_ms": 315.4155791271478,
+        "p95_ms": 316.5942959021777,
+        "p99_ms": 319.6697919629514,
+        "min_ms": 271.5920580085367,
+        "max_ms": 319.6697919629514,
+        "probe": "agg-person-ip-prefix",
+        "tier": "na",
+        "query": "MATCH (p:Person) RETURN substring(p.locationIP, 0, $prefix_len) AS g, count(*) AS c ORDER BY c DESC",
+        "n_params": 1,
+        "warmup": 5,
+        "reps": 20,
+        "threads": 1,
+        "errors": 0,
+        "timeouts": 0,
+        "wall_s": 7.962930679321289,
+        "measure_wall_s": 7.962930679321289,
+        "throughput_qps": 2.5116380897220965
+      },
+      "agg-message-year.na": {
+        "count": 20,
+        "mean_ms": 49429.64281409513,
+        "median_ms": 48399.425706476904,
+        "p90_ms": 55361.28931096755,
+        "p95_ms": 55650.89810616337,
+        "p99_ms": 57296.33185197599,
+        "min_ms": 46547.635435825214,
+        "max_ms": 57296.33185197599,
+        "probe": "agg-message-year",
+        "tier": "na",
+        "query": "MATCH (m:Message) RETURN datetime({epochMillis: m.creationDate}).year AS y, count(*) AS c ORDER BY y",
+        "n_params": 1,
+        "warmup": 5,
+        "reps": 20,
+        "threads": 1,
+        "errors": 0,
+        "timeouts": 0,
+        "wall_s": 1246.1858835220337,
+        "measure_wall_s": 1246.1858835220337,
+        "throughput_qps": 0.016048970113090182
+      }
+    },
+    "3-neo-param": {
+      "point-by-id.sparse": {
+        "count": 100,
+        "mean_ms": 8.190651377663016,
+        "median_ms": 7.767473929561675,
+        "p90_ms": 8.740659104660153,
+        "p95_ms": 9.037869982421398,
+        "p99_ms": 14.783358899876475,
+        "min_ms": 5.484310910105705,
+        "max_ms": 36.78007097914815,
+        "probe": "point-by-id",
+        "tier": "sparse",
+        "query": "MATCH (p:Person {id: $id}) RETURN p.id AS prop_id, p.browserUsed AS browser_used",
+        "n_params": 100,
+        "warmup": 20,
+        "reps": 100,
+        "threads": 1,
+        "errors": 0,
+        "timeouts": 0,
+        "wall_s": 1.1394460201263428,
+        "measure_wall_s": 1.1394460201263428,
+        "throughput_qps": 87.76194592255622
+      },
+      "point-by-id.dense": {
+        "count": 100,
+        "mean_ms": 6.782975769601762,
+        "median_ms": 6.773044937290251,
+        "p90_ms": 7.527806097641587,
+        "p95_ms": 7.96914380043745,
+        "p99_ms": 9.412386920303106,
+        "min_ms": 5.157652078196406,
+        "max_ms": 9.569250047206879,
+        "probe": "point-by-id",
+        "tier": "dense",
+        "query": "MATCH (p:Person {id: $id}) RETURN p.id AS prop_id, p.browserUsed AS browser_used",
+        "n_params": 100,
+        "warmup": 20,
+        "reps": 100,
+        "threads": 1,
+        "errors": 0,
+        "timeouts": 0,
+        "wall_s": 0.8683285713195801,
+        "measure_wall_s": 0.8683285713195801,
+        "throughput_qps": 115.16377936065396
+      },
+      "point-by-internal-id.na": {
+        "count": 100,
+        "mean_ms": 5.668338662944734,
+        "median_ms": 5.63432602211833,
+        "p90_ms": 6.191369146108627,
+        "p95_ms": 6.282273912802339,
+        "p99_ms": 6.721855839714408,
+        "min_ms": 4.6528729144483805,
+        "max_ms": 7.739278022199869,
+        "probe": "point-by-internal-id",
+        "tier": "na",
+        "query": "MATCH (n) WHERE id(n) = $iid RETURN n.id AS prop_id, n.browserUsed AS browser_used",
+        "n_params": 100,
+        "warmup": 20,
+        "reps": 100,
+        "threads": 1,
+        "errors": 0,
+        "timeouts": 0,
+        "wall_s": 0.8178653717041016,
+        "measure_wall_s": 0.8178653717041016,
+        "throughput_qps": 122.26951214677341
+      },
+      "expand-1hop-out.sparse": {
+        "count": 100,
+        "mean_ms": 4.275159083772451,
+        "median_ms": 4.696569521911442,
+        "p90_ms": 5.521985003724694,
+        "p95_ms": 5.920120980590582,
+        "p99_ms": 7.150708930566907,
+        "min_ms": 1.9239939283579588,
+        "max_ms": 7.356880931183696,
+        "probe": "expand-1hop-out",
+        "tier": "sparse",
+        "query": "MATCH (p:Person {id: $id})-[:KNOWS]->(p2) RETURN count(p2) AS c",
+        "n_params": 100,
+        "warmup": 20,
+        "reps": 100,
+        "threads": 1,
+        "errors": 0,
+        "timeouts": 0,
+        "wall_s": 0.7769186496734619,
+        "measure_wall_s": 0.7769186496734619,
+        "throughput_qps": 128.71360475389528
+      },
+      "expand-1hop-out.dense": {
+        "count": 100,
+        "mean_ms": 5.829796234611422,
+        "median_ms": 5.5731055326759815,
+        "p90_ms": 6.840066984295845,
+        "p95_ms": 7.911849999800324,
+        "p99_ms": 10.089554125443101,
+        "min_ms": 4.059168975800276,
+        "max_ms": 17.876222962513566,
+        "probe": "expand-1hop-out",
+        "tier": "dense",
+        "query": "MATCH (p:Person {id: $id})-[:KNOWS]->(p2) RETURN count(p2) AS c",
+        "n_params": 100,
+        "warmup": 20,
+        "reps": 100,
+        "threads": 1,
+        "errors": 0,
+        "timeouts": 0,
+        "wall_s": 0.7279574871063232,
+        "measure_wall_s": 0.7279574871063232,
+        "throughput_qps": 137.37065937395093
+      },
+      "expand-1hop-in.sparse": {
+        "count": 100,
+        "mean_ms": 4.917028080672026,
+        "median_ms": 4.909652983769774,
+        "p90_ms": 5.461101885885,
+        "p95_ms": 5.6604628916829824,
+        "p99_ms": 5.780062871053815,
+        "min_ms": 3.678329987451434,
+        "max_ms": 8.38933396153152,
+        "probe": "expand-1hop-in",
+        "tier": "sparse",
+        "query": "MATCH (p:Person {id: $id})<-[:KNOWS]-(p2) RETURN count(p2) AS c",
+        "n_params": 100,
+        "warmup": 20,
+        "reps": 100,
+        "threads": 1,
+        "errors": 0,
+        "timeouts": 0,
+        "wall_s": 0.6951329708099365,
+        "measure_wall_s": 0.6951329708099365,
+        "throughput_qps": 143.8573685887531
+      },
+      "expand-1hop-in.dense": {
+        "count": 100,
+        "mean_ms": 5.979364651720971,
+        "median_ms": 5.8116905856877565,
+        "p90_ms": 7.3438771069049835,
+        "p95_ms": 7.956516928970814,
+        "p99_ms": 8.726028958335519,
+        "min_ms": 4.419632023200393,
+        "max_ms": 9.222794091328979,
+        "probe": "expand-1hop-in",
+        "tier": "dense",
+        "query": "MATCH (p:Person {id: $id})<-[:KNOWS]-(p2) RETURN count(p2) AS c",
+        "n_params": 100,
+        "warmup": 20,
+        "reps": 100,
+        "threads": 1,
+        "errors": 0,
+        "timeouts": 0,
+        "wall_s": 0.7857785224914551,
+        "measure_wall_s": 0.7857785224914551,
+        "throughput_qps": 127.26232282721554
+      },
+      "expand-2hop.sparse": {
+        "count": 100,
+        "mean_ms": 6.416562972590327,
+        "median_ms": 6.4132134430110455,
+        "p90_ms": 7.642632117494941,
+        "p95_ms": 8.17549298517406,
+        "p99_ms": 8.711795089766383,
+        "min_ms": 4.287152085453272,
+        "max_ms": 10.745299980044365,
+        "probe": "expand-2hop",
+        "tier": "sparse",
+        "query": "MATCH (p:Person {id: $id})-[:KNOWS]-()-[:KNOWS]-(p2) RETURN count(DISTINCT p2) AS c",
+        "n_params": 100,
+        "warmup": 20,
+        "reps": 100,
+        "threads": 1,
+        "errors": 0,
+        "timeouts": 0,
+        "wall_s": 0.9707205295562744,
+        "measure_wall_s": 0.9707205295562744,
+        "throughput_qps": 103.01626158634035
+      },
+      "expand-2hop.dense": {
+        "count": 100,
+        "mean_ms": 99.37541050370783,
+        "median_ms": 97.7687455015257,
+        "p90_ms": 112.77474206872284,
+        "p95_ms": 117.61755007319152,
+        "p99_ms": 130.85017097182572,
+        "min_ms": 78.61876394599676,
+        "max_ms": 180.24431285448372,
+        "probe": "expand-2hop",
+        "tier": "dense",
+        "query": "MATCH (p:Person {id: $id})-[:KNOWS]-()-[:KNOWS]-(p2) RETURN count(DISTINCT p2) AS c",
+        "n_params": 100,
+        "warmup": 20,
+        "reps": 100,
+        "threads": 1,
+        "errors": 0,
+        "timeouts": 0,
+        "wall_s": 13.050204277038574,
+        "measure_wall_s": 13.050204277038574,
+        "throughput_qps": 7.662715301395463
+      },
+      "khop-3-limited.sparse": {
+        "count": 100,
+        "mean_ms": 54.56967851612717,
+        "median_ms": 59.52287500258535,
+        "p90_ms": 73.69278906844556,
+        "p95_ms": 74.29450913332403,
+        "p99_ms": 78.02017382346094,
+        "min_ms": 6.324450951069593,
+        "max_ms": 78.02840182557702,
+        "probe": "khop-3-limited",
+        "tier": "sparse",
+        "query": "MATCH (p:Person {id: $id})-[:KNOWS*1..3]-(p2) WITH DISTINCT p2 LIMIT $cap RETURN count(*) AS c",
+        "n_params": 100,
+        "warmup": 20,
+        "reps": 100,
+        "threads": 1,
+        "errors": 0,
+        "timeouts": 0,
+        "wall_s": 6.94918155670166,
+        "measure_wall_s": 6.94918155670166,
+        "throughput_qps": 14.390183820073297
+      },
+      "khop-3-limited.dense": {
+        "count": 100,
+        "mean_ms": 1896.0579441697337,
+        "median_ms": 1847.9434801265597,
+        "p90_ms": 2276.234942022711,
+        "p95_ms": 2358.9183611329645,
+        "p99_ms": 2466.332107083872,
+        "min_ms": 1444.498678902164,
+        "max_ms": 2523.128692060709,
+        "probe": "khop-3-limited",
+        "tier": "dense",
+        "query": "MATCH (p:Person {id: $id})-[:KNOWS*1..3]-(p2) WITH DISTINCT p2 LIMIT $cap RETURN count(*) AS c",
+        "n_params": 100,
+        "warmup": 20,
+        "reps": 100,
+        "threads": 1,
+        "errors": 0,
+        "timeouts": 0,
+        "wall_s": 227.47822093963623,
+        "measure_wall_s": 227.47822093963623,
+        "throughput_qps": 0.4396025236479059
+      },
+      "shortest-path.sparse": {
+        "count": 100,
+        "mean_ms": 4.278992239851505,
+        "median_ms": 4.3090470135211945,
+        "p90_ms": 4.645206034183502,
+        "p95_ms": 4.733964102342725,
+        "p99_ms": 5.153310019522905,
+        "min_ms": 3.429835895076394,
+        "max_ms": 5.211198003962636,
+        "probe": "shortest-path",
+        "tier": "sparse",
+        "query": "MATCH (a:Person {id: $ida}), (b:Person {id: $idb}) MATCH path = shortestPath((a)-[:KNOWS*..7]-(b)) RETURN length(path) AS len",
+        "n_params": 100,
+        "warmup": 20,
+        "reps": 100,
+        "threads": 1,
+        "errors": 0,
+        "timeouts": 0,
+        "wall_s": 0.6562833786010742,
+        "measure_wall_s": 0.6562833786010742,
+        "throughput_qps": 152.3732022791112
+      },
+      "shortest-path.dense": {
+        "count": 100,
+        "mean_ms": 7.261382567230612,
+        "median_ms": 4.5218984596431255,
+        "p90_ms": 16.62511914037168,
+        "p95_ms": 17.295588040724397,
+        "p99_ms": 18.451109994202852,
+        "min_ms": 3.204567125067115,
+        "max_ms": 18.55575293302536,
+        "probe": "shortest-path",
+        "tier": "dense",
+        "query": "MATCH (a:Person {id: $ida}), (b:Person {id: $idb}) MATCH path = shortestPath((a)-[:KNOWS*..7]-(b)) RETURN length(path) AS len",
+        "n_params": 100,
+        "warmup": 20,
+        "reps": 100,
+        "threads": 1,
+        "errors": 0,
+        "timeouts": 0,
+        "wall_s": 0.9206390380859375,
+        "measure_wall_s": 0.9206390380859375,
+        "throughput_qps": 108.62020386177177
+      },
+      "write-set-prop.sparse": {
+        "count": 100,
+        "mean_ms": 2.4412092729471624,
+        "median_ms": 2.2633629851043224,
+        "p90_ms": 3.186481073498726,
+        "p95_ms": 3.227059030905366,
+        "p99_ms": 3.3618160523474216,
+        "min_ms": 1.8178229220211506,
+        "max_ms": 3.745645983144641,
+        "probe": "write-set-prop",
+        "tier": "sparse",
+        "query": "MATCH (p:Person {id: $id}) SET p.browserUsed = p.browserUsed RETURN count(p) AS c",
+        "n_params": 100,
+        "warmup": 20,
+        "reps": 100,
+        "threads": 1,
+        "errors": 0,
+        "timeouts": 0,
+        "wall_s": 0.44779348373413086,
+        "measure_wall_s": 0.44779348373413086,
+        "throughput_qps": 223.31722910772226
+      },
+      "write-set-prop.dense": {
+        "count": 100,
+        "mean_ms": 2.812966131605208,
+        "median_ms": 2.7901034336537123,
+        "p90_ms": 2.90116504766047,
+        "p95_ms": 3.060408169403672,
+        "p99_ms": 3.239814192056656,
+        "min_ms": 2.671889029443264,
+        "max_ms": 3.2546240836381912,
+        "probe": "write-set-prop",
+        "tier": "dense",
+        "query": "MATCH (p:Person {id: $id}) SET p.browserUsed = p.browserUsed RETURN count(p) AS c",
+        "n_params": 100,
+        "warmup": 20,
+        "reps": 100,
+        "threads": 1,
+        "errors": 0,
+        "timeouts": 0,
+        "wall_s": 0.34690380096435547,
+        "measure_wall_s": 0.34690380096435547,
+        "throughput_qps": 288.26435375458755
+      },
+      "write-create-delete.sparse": {
+        "count": 100,
+        "mean_ms": 3.7870908714830875,
+        "median_ms": 3.722119494341314,
+        "p90_ms": 3.929481143131852,
+        "p95_ms": 4.016287857666612,
+        "p99_ms": 4.444685997441411,
+        "min_ms": 3.237888915464282,
+        "max_ms": 11.773435864597559,
+        "probe": "write-create-delete",
+        "tier": "sparse",
+        "query": "CREATE (n:_MicroBenchTmp {id: $id, ts: $ts}) WITH n DELETE n RETURN count(*) AS c",
+        "n_params": 100,
+        "warmup": 20,
+        "reps": 100,
+        "threads": 1,
+        "errors": 0,
+        "timeouts": 0,
+        "wall_s": 0.7666442394256592,
+        "measure_wall_s": 0.7666442394256592,
+        "throughput_qps": 130.43859831897544
+      },
+      "write-create-delete.dense": {
+        "count": 100,
+        "mean_ms": 3.5225106216967106,
+        "median_ms": 3.518754499964416,
+        "p90_ms": 3.7592528387904167,
+        "p95_ms": 3.8444760721176863,
+        "p99_ms": 3.958184039220214,
+        "min_ms": 3.065789118409157,
+        "max_ms": 4.407730884850025,
+        "probe": "write-create-delete",
+        "tier": "dense",
+        "query": "CREATE (n:_MicroBenchTmp {id: $id, ts: $ts}) WITH n DELETE n RETURN count(*) AS c",
+        "n_params": 100,
+        "warmup": 20,
+        "reps": 100,
+        "threads": 1,
+        "errors": 0,
+        "timeouts": 0,
+        "wall_s": 0.44217991828918457,
+        "measure_wall_s": 0.44217991828918457,
+        "throughput_qps": 226.15228748267182
+      }
+    },
+    "3-neo-agg": {
+      "agg-person-ip-prefix.na": {
+        "count": 20,
+        "mean_ms": 304.785729967989,
+        "median_ms": 304.9182901158929,
+        "p90_ms": 307.6203321106732,
+        "p95_ms": 307.99540411680937,
+        "p99_ms": 309.3443480320275,
+        "min_ms": 297.90364019572735,
+        "max_ms": 309.3443480320275,
+        "probe": "agg-person-ip-prefix",
+        "tier": "na",
+        "query": "MATCH (p:Person) RETURN substring(p.locationIP, 0, $prefix_len) AS g, count(*) AS c ORDER BY c DESC",
+        "n_params": 1,
+        "warmup": 5,
+        "reps": 20,
+        "threads": 1,
+        "errors": 0,
+        "timeouts": 0,
+        "wall_s": 7.796818017959595,
+        "measure_wall_s": 7.796818017959595,
+        "throughput_qps": 2.565149007445212
+      },
+      "agg-message-year.na": {
+        "count": 20,
+        "mean_ms": 47538.684906600975,
+        "median_ms": 47858.41095552314,
+        "p90_ms": 49455.80252399668,
+        "p95_ms": 49552.61579086073,
+        "p99_ms": 49627.13400507346,
+        "min_ms": 43460.87903203443,
+        "max_ms": 49627.13400507346,
+        "probe": "agg-message-year",
+        "tier": "na",
+        "query": "MATCH (m:Message) RETURN datetime({epochMillis: m.creationDate}).year AS y, count(*) AS c ORDER BY y",
+        "n_params": 1,
+        "warmup": 5,
+        "reps": 20,
+        "threads": 1,
+        "errors": 0,
+        "timeouts": 0,
+        "wall_s": 1186.264174938202,
+        "measure_wall_s": 1186.264174938202,
+        "throughput_qps": 0.01685965101411066
+      }
+    },
+    "3-pet-param": {
+      "point-by-id.sparse": {
+        "count": 100,
+        "mean_ms": 6.462544312234968,
+        "median_ms": 6.155935348942876,
+        "p90_ms": 6.857974920421839,
+        "p95_ms": 7.2237420827150345,
+        "p99_ms": 14.689481118693948,
+        "min_ms": 5.400999914854765,
+        "max_ms": 16.432092990726233,
+        "probe": "point-by-id",
+        "tier": "sparse",
+        "query": "MATCH (p:Person {id: $id}) RETURN p.id AS prop_id, p.browserUsed AS browser_used",
+        "n_params": 100,
+        "warmup": 20,
+        "reps": 100,
+        "threads": 1,
+        "errors": 0,
+        "timeouts": 0,
+        "wall_s": 0.8760848045349121,
+        "measure_wall_s": 0.8760848045349121,
+        "throughput_qps": 114.1442009750267
+      },
+      "point-by-id.dense": {
+        "count": 100,
+        "mean_ms": 5.2920092502608895,
+        "median_ms": 5.3238203981891274,
+        "p90_ms": 5.793411983177066,
+        "p95_ms": 6.075938930734992,
+        "p99_ms": 6.305753951892257,
+        "min_ms": 4.417990101501346,
+        "max_ms": 6.320473970845342,
+        "probe": "point-by-id",
+        "tier": "dense",
+        "query": "MATCH (p:Person {id: $id}) RETURN p.id AS prop_id, p.browserUsed AS browser_used",
+        "n_params": 100,
+        "warmup": 20,
+        "reps": 100,
+        "threads": 1,
+        "errors": 0,
+        "timeouts": 0,
+        "wall_s": 0.6700620651245117,
+        "measure_wall_s": 0.6700620651245117,
+        "throughput_qps": 149.23990657703908
+      },
+      "point-by-internal-id.na": {
+        "count": 100,
+        "mean_ms": 4.608930021058768,
+        "median_ms": 4.466036451049149,
+        "p90_ms": 4.82268794439733,
+        "p95_ms": 4.972177091985941,
+        "p99_ms": 5.280715879052877,
+        "min_ms": 3.799652913585305,
+        "max_ms": 15.737309120595455,
+        "probe": "point-by-internal-id",
+        "tier": "na",
+        "query": "MATCH (n) WHERE id(n) = $iid RETURN n.id AS prop_id, n.browserUsed AS browser_used",
+        "n_params": 100,
+        "warmup": 20,
+        "reps": 100,
+        "threads": 1,
+        "errors": 0,
+        "timeouts": 0,
+        "wall_s": 0.675072431564331,
+        "measure_wall_s": 0.675072431564331,
+        "throughput_qps": 148.1322526654986
+      },
+      "expand-1hop-out.sparse": {
+        "count": 100,
+        "mean_ms": 4.53080935170874,
+        "median_ms": 4.531375132501125,
+        "p90_ms": 4.835113883018494,
+        "p95_ms": 4.927234025672078,
+        "p99_ms": 5.235533928498626,
+        "min_ms": 3.8423629011958838,
+        "max_ms": 5.4393180180341005,
+        "probe": "expand-1hop-out",
+        "tier": "sparse",
+        "query": "MATCH (p:Person {id: $id})-[:KNOWS]->(p2) RETURN count(p2) AS c",
+        "n_params": 100,
+        "warmup": 20,
+        "reps": 100,
+        "threads": 1,
+        "errors": 0,
+        "timeouts": 0,
+        "wall_s": 0.7557291984558105,
+        "measure_wall_s": 0.7557291984558105,
+        "throughput_qps": 132.3225306159019
+      },
+      "expand-1hop-out.dense": {
+        "count": 100,
+        "mean_ms": 5.226440085098147,
+        "median_ms": 4.945993074215949,
+        "p90_ms": 6.156150950118899,
+        "p95_ms": 6.358747836202383,
+        "p99_ms": 11.693234089761972,
+        "min_ms": 4.000066081061959,
+        "max_ms": 16.800305107608438,
+        "probe": "expand-1hop-out",
+        "tier": "dense",
+        "query": "MATCH (p:Person {id: $id})-[:KNOWS]->(p2) RETURN count(p2) AS c",
+        "n_params": 100,
+        "warmup": 20,
+        "reps": 100,
+        "threads": 1,
+        "errors": 0,
+        "timeouts": 0,
+        "wall_s": 0.6610097885131836,
+        "measure_wall_s": 0.6610097885131836,
+        "throughput_qps": 151.2836901022768
+      },
+      "expand-1hop-in.sparse": {
+        "count": 100,
+        "mean_ms": 3.955375656951219,
+        "median_ms": 3.959546913392842,
+        "p90_ms": 4.245301941409707,
+        "p95_ms": 4.42783790640533,
+        "p99_ms": 4.552840953692794,
+        "min_ms": 3.5524179693311453,
+        "max_ms": 4.943497013300657,
+        "probe": "expand-1hop-in",
+        "tier": "sparse",
+        "query": "MATCH (p:Person {id: $id})<-[:KNOWS]-(p2) RETURN count(p2) AS c",
+        "n_params": 100,
+        "warmup": 20,
+        "reps": 100,
+        "threads": 1,
+        "errors": 0,
+        "timeouts": 0,
+        "wall_s": 0.5939009189605713,
+        "measure_wall_s": 0.5939009189605713,
+        "throughput_qps": 168.37825436441014
+      },
+      "expand-1hop-in.dense": {
+        "count": 100,
+        "mean_ms": 5.679939808323979,
+        "median_ms": 5.432793986983597,
+        "p90_ms": 7.075224071741104,
+        "p95_ms": 7.567320950329304,
+        "p99_ms": 8.165072882547975,
+        "min_ms": 3.842961974442005,
+        "max_ms": 18.1376610416919,
+        "probe": "expand-1hop-in",
+        "tier": "dense",
+        "query": "MATCH (p:Person {id: $id})<-[:KNOWS]-(p2) RETURN count(p2) AS c",
+        "n_params": 100,
+        "warmup": 20,
+        "reps": 100,
+        "threads": 1,
+        "errors": 0,
+        "timeouts": 0,
+        "wall_s": 0.7621052265167236,
+        "measure_wall_s": 0.7621052265167236,
+        "throughput_qps": 131.2154759219534
+      },
+      "expand-2hop.sparse": {
+        "count": 100,
+        "mean_ms": 6.355261148419231,
+        "median_ms": 6.302717491053045,
+        "p90_ms": 8.251265855506063,
+        "p95_ms": 9.14833601564169,
+        "p99_ms": 9.949796134606004,
+        "min_ms": 3.5466609988361597,
+        "max_ms": 9.956577094271779,
+        "probe": "expand-2hop",
+        "tier": "sparse",
+        "query": "MATCH (p:Person {id: $id})-[:KNOWS]-()-[:KNOWS]-(p2) RETURN count(DISTINCT p2) AS c",
+        "n_params": 100,
+        "warmup": 20,
+        "reps": 100,
+        "threads": 1,
+        "errors": 0,
+        "timeouts": 0,
+        "wall_s": 0.948326826095581,
+        "measure_wall_s": 0.948326826095581,
+        "throughput_qps": 105.44887822241262
+      },
+      "expand-2hop.dense": {
+        "count": 100,
+        "mean_ms": 178.17460279213265,
+        "median_ms": 195.51198557019234,
+        "p90_ms": 238.30650094896555,
+        "p95_ms": 248.035998782143,
+        "p99_ms": 267.4650331027806,
+        "min_ms": 86.77290007472038,
+        "max_ms": 271.89299603924155,
+        "probe": "expand-2hop",
+        "tier": "dense",
+        "query": "MATCH (p:Person {id: $id})-[:KNOWS]-()-[:KNOWS]-(p2) RETURN count(DISTINCT p2) AS c",
+        "n_params": 100,
+        "warmup": 20,
+        "reps": 100,
+        "threads": 1,
+        "errors": 0,
+        "timeouts": 0,
+        "wall_s": 22.579284191131592,
+        "measure_wall_s": 22.579284191131592,
+        "throughput_qps": 4.428838361460402
+      },
+      "khop-3-limited.sparse": {
+        "count": 100,
+        "mean_ms": 62.341110673733056,
+        "median_ms": 66.31965201813728,
+        "p90_ms": 80.58406901545823,
+        "p95_ms": 93.58838107436895,
+        "p99_ms": 138.7058210093528,
+        "min_ms": 6.836506072431803,
+        "max_ms": 138.9266918413341,
+        "probe": "khop-3-limited",
+        "tier": "sparse",
+        "query": "MATCH (p:Person {id: $id})-[:KNOWS*1..3]-(p2) WITH DISTINCT p2 LIMIT $cap RETURN count(*) AS c",
+        "n_params": 100,
+        "warmup": 20,
+        "reps": 100,
+        "threads": 1,
+        "errors": 0,
+        "timeouts": 0,
+        "wall_s": 8.613321781158447,
+        "measure_wall_s": 8.613321781158447,
+        "throughput_qps": 11.609922691933903
+      },
+      "khop-3-limited.dense": {
+        "count": 100,
+        "mean_ms": 2066.427943583112,
+        "median_ms": 2071.7846765182912,
+        "p90_ms": 2450.807221001014,
+        "p95_ms": 2541.72674799338,
+        "p99_ms": 2629.539252957329,
+        "min_ms": 1551.796650979668,
+        "max_ms": 2671.8315549660474,
+        "probe": "khop-3-limited",
+        "tier": "dense",
+        "query": "MATCH (p:Person {id: $id})-[:KNOWS*1..3]-(p2) WITH DISTINCT p2 LIMIT $cap RETURN count(*) AS c",
+        "n_params": 100,
+        "warmup": 20,
+        "reps": 100,
+        "threads": 1,
+        "errors": 0,
+        "timeouts": 0,
+        "wall_s": 256.95470094680786,
+        "measure_wall_s": 256.95470094680786,
+        "throughput_qps": 0.3891736544672167
+      },
+      "shortest-path.sparse": {
+        "count": 100,
+        "mean_ms": 4.414598492439836,
+        "median_ms": 4.346939502283931,
+        "p90_ms": 4.894347861409187,
+        "p95_ms": 5.136582069098949,
+        "p99_ms": 5.506532033905387,
+        "min_ms": 3.3748659770935774,
+        "max_ms": 5.675056949257851,
+        "probe": "shortest-path",
+        "tier": "sparse",
+        "query": "MATCH (a:Person {id: $ida}), (b:Person {id: $idb}) MATCH path = shortestPath((a)-[:KNOWS*..7]-(b)) RETURN length(path) AS len",
+        "n_params": 100,
+        "warmup": 20,
+        "reps": 100,
+        "threads": 1,
+        "errors": 0,
+        "timeouts": 0,
+        "wall_s": 0.7117514610290527,
+        "measure_wall_s": 0.7117514610290527,
+        "throughput_qps": 140.4984822306085
+      },
+      "shortest-path.dense": {
+        "count": 100,
+        "mean_ms": 7.449744371697307,
+        "median_ms": 4.510579397901893,
+        "p90_ms": 17.134531866759062,
+        "p95_ms": 20.27332386933267,
+        "p99_ms": 26.00209810771048,
+        "min_ms": 3.1667379662394524,
+        "max_ms": 26.146699907258153,
+        "probe": "shortest-path",
+        "tier": "dense",
+        "query": "MATCH (a:Person {id: $ida}), (b:Person {id: $idb}) MATCH path = shortestPath((a)-[:KNOWS*..7]-(b)) RETURN length(path) AS len",
+        "n_params": 100,
+        "warmup": 20,
+        "reps": 100,
+        "threads": 1,
+        "errors": 0,
+        "timeouts": 0,
+        "wall_s": 0.9656844139099121,
+        "measure_wall_s": 0.9656844139099121,
+        "throughput_qps": 103.55349901021486
+      },
+      "write-set-prop.sparse": {
+        "count": 100,
+        "mean_ms": 3.3548737736418843,
+        "median_ms": 3.449127427302301,
+        "p90_ms": 3.7798439152538776,
+        "p95_ms": 3.9086060132831335,
+        "p99_ms": 4.154909169301391,
+        "min_ms": 2.289365977048874,
+        "max_ms": 4.223310854285955,
+        "probe": "write-set-prop",
+        "tier": "sparse",
+        "query": "MATCH (p:Person {id: $id}) SET p.browserUsed = p.browserUsed RETURN count(p) AS c",
+        "n_params": 100,
+        "warmup": 20,
+        "reps": 100,
+        "threads": 1,
+        "errors": 0,
+        "timeouts": 0,
+        "wall_s": 0.5299854278564453,
+        "measure_wall_s": 0.5299854278564453,
+        "throughput_qps": 188.68443308801037
+      },
+      "write-set-prop.dense": {
+        "count": 100,
+        "mean_ms": 2.8085008822381496,
+        "median_ms": 2.952738432213664,
+        "p90_ms": 3.188328118994832,
+        "p95_ms": 3.2758740708231926,
+        "p99_ms": 3.4530318807810545,
+        "min_ms": 2.25678994320333,
+        "max_ms": 3.797380020841956,
+        "probe": "write-set-prop",
+        "tier": "dense",
+        "query": "MATCH (p:Person {id: $id}) SET p.browserUsed = p.browserUsed RETURN count(p) AS c",
+        "n_params": 100,
+        "warmup": 20,
+        "reps": 100,
+        "threads": 1,
+        "errors": 0,
+        "timeouts": 0,
+        "wall_s": 0.34116029739379883,
+        "measure_wall_s": 0.34116029739379883,
+        "throughput_qps": 293.11734326626737
+      },
+      "write-create-delete.sparse": {
+        "count": 100,
+        "mean_ms": 4.114381859544665,
+        "median_ms": 4.135210998356342,
+        "p90_ms": 4.349770024418831,
+        "p95_ms": 4.396062111482024,
+        "p99_ms": 4.739010939374566,
+        "min_ms": 3.5203921142965555,
+        "max_ms": 4.745258018374443,
+        "probe": "write-create-delete",
+        "tier": "sparse",
+        "query": "CREATE (n:_MicroBenchTmp {id: $id, ts: $ts}) WITH n DELETE n RETURN count(*) AS c",
+        "n_params": 100,
+        "warmup": 20,
+        "reps": 100,
+        "threads": 1,
+        "errors": 0,
+        "timeouts": 0,
+        "wall_s": 0.8546280860900879,
+        "measure_wall_s": 0.8546280860900879,
+        "throughput_qps": 117.00996214329753
+      },
+      "write-create-delete.dense": {
+        "count": 100,
+        "mean_ms": 3.965149421710521,
+        "median_ms": 3.9619154995307326,
+        "p90_ms": 4.275477956980467,
+        "p95_ms": 4.357941914349794,
+        "p99_ms": 4.605829948559403,
+        "min_ms": 3.4897520672529936,
+        "max_ms": 5.117718130350113,
+        "probe": "write-create-delete",
+        "tier": "dense",
+        "query": "CREATE (n:_MicroBenchTmp {id: $id, ts: $ts}) WITH n DELETE n RETURN count(*) AS c",
+        "n_params": 100,
+        "warmup": 20,
+        "reps": 100,
+        "threads": 1,
+        "errors": 0,
+        "timeouts": 0,
+        "wall_s": 0.4924135208129883,
+        "measure_wall_s": 0.4924135208129883,
+        "throughput_qps": 203.0813447910554
+      }
+    },
+    "3-pet-agg": {
+      "agg-person-ip-prefix.na": {
+        "count": 20,
+        "mean_ms": 312.08068903069943,
+        "median_ms": 311.3436120329425,
+        "p90_ms": 315.8533959649503,
+        "p95_ms": 316.2865899503231,
+        "p99_ms": 324.70383192412555,
+        "min_ms": 305.7831379119307,
+        "max_ms": 324.70383192412555,
+        "probe": "agg-person-ip-prefix",
+        "tier": "na",
+        "query": "MATCH (p:Person) RETURN substring(p.locationIP, 0, $prefix_len) AS g, count(*) AS c ORDER BY c DESC",
+        "n_params": 1,
+        "warmup": 5,
+        "reps": 20,
+        "threads": 1,
+        "errors": 0,
+        "timeouts": 0,
+        "wall_s": 8.03683090209961,
+        "measure_wall_s": 8.03683090209961,
+        "throughput_qps": 2.488543089139157
+      },
+      "agg-message-year.na": {
+        "count": 20,
+        "mean_ms": 41855.691718449816,
+        "median_ms": 41737.25216847379,
+        "p90_ms": 44134.22393496148,
+        "p95_ms": 44567.72080203518,
+        "p99_ms": 44908.66837417707,
+        "min_ms": 38710.03127517179,
+        "max_ms": 44908.66837417707,
+        "probe": "agg-message-year",
+        "tier": "na",
+        "query": "MATCH (m:Message) RETURN datetime({epochMillis: m.creationDate}).year AS y, count(*) AS c ORDER BY y",
+        "n_params": 1,
+        "warmup": 5,
+        "reps": 20,
+        "threads": 1,
+        "errors": 0,
+        "timeouts": 0,
+        "wall_s": 1044.7588849067688,
+        "measure_wall_s": 1044.7588849067688,
+        "throughput_qps": 0.019143172926243877
+      }
+    }
+  },
+  "graphalgos": {
+    "1-neo": {
+      "round": 1,
+      "bfs": {
+        "seeds": 50,
+        "depth": 3,
+        "cap": 1000000,
+        "reachable_min": 6477,
+        "reachable_median": 51330.5,
+        "reachable_max": 62360,
+        "lat": {
+          "count": 50,
+          "mean_s": 1.097611674964428,
+          "median_s": 1.4163795375498012,
+          "p95_s": 2.3684185962192714,
+          "min_s": 0.023467628052458167,
+          "max_s": 3.324401831952855,
+          "total_s": 54.8805837482214
+        },
+        "n_failed": 0
+      },
+      "pagerank": {
+        "nperson": 65645,
+        "iters": 20,
+        "damping": 0.85,
+        "per_iter_s": [
+          4.544909230899066,
+          3.8191499998793006,
+          3.795474195154384,
+          4.0801032008603215,
+          3.9068098689895123,
+          4.203086839988828,
+          4.087252350058407,
+          3.7630447319243103,
+          3.97254156623967,
+          4.121197815285996,
+          4.480316100176424,
+          4.973721810383722,
+          4.325565160019323,
+          3.8706688473466784,
+          4.14584602881223,
+          4.044888434000313,
+          3.7310652958694845,
+          6.530447489116341,
+          5.311598608037457,
+          4.246465363772586
+        ],
+        "total_s": 85.95415293681435,
+        "top3": [
+          {
+            "id": 32985348902205,
+            "pr": 0.001386247131095027
+          },
+          {
+            "id": 32985348905921,
+            "pr": 0.001378888399050826
+          },
+          {
+            "id": 32985348904217,
+            "pr": 0.0013688671927635796
+          }
+        ]
+      },
+      "wcc": {
+        "iters_run": 7,
+        "converged": true,
+        "per_iter_s": [
+          10.358892346033826,
+          10.23031177604571,
+          10.546983761014417,
+          11.258876928826794,
+          7.254878845997155,
+          6.185349403880537,
+          5.94119355105795
+        ],
+        "total_s": 61.77648661285639,
+        "components": 3275
+      }
+    },
+    "1-pet": {
+      "round": 1,
+      "bfs": {
+        "seeds": 50,
+        "depth": 3,
+        "cap": 1000000,
+        "reachable_min": 6477,
+        "reachable_median": 51330.5,
+        "reachable_max": 62360,
+        "lat": {
+          "count": 50,
+          "mean_s": 1.2335106039792298,
+          "median_s": 1.217720911023207,
+          "p95_s": 2.814440628979355,
+          "min_s": 0.015138317132368684,
+          "max_s": 3.13560688495636,
+          "total_s": 61.675530198961496
+        },
+        "n_failed": 0
+      },
+      "pagerank": {
+        "nperson": 65645,
+        "iters": 20,
+        "damping": 0.85,
+        "per_iter_s": [
+          5.085245534079149,
+          8.425011249026284,
+          7.3239527638070285,
+          7.616398350102827,
+          6.353815386304632,
+          4.993167445063591,
+          5.036199948983267,
+          5.819831130793318,
+          5.060695172986016,
+          5.892222484108061,
+          6.020664781099185,
+          5.432441692100838,
+          4.605393707053736,
+          6.0293394210748374,
+          6.08608796284534,
+          5.843342288862914,
+          5.822013997938484,
+          5.868354928679764,
+          5.857052162755281,
+          5.934334754245356
+        ],
+        "total_s": 119.10556516190991,
+        "top3": [
+          {
+            "id": 32985348902205,
+            "pr": 0.0013862471310950274
+          },
+          {
+            "id": 32985348905921,
+            "pr": 0.001378888399050826
+          },
+          {
+            "id": 32985348904217,
+            "pr": 0.0013688671927635796
+          }
+        ]
+      },
+      "wcc": {
+        "iters_run": 6,
+        "converged": true,
+        "per_iter_s": [
+          15.11023851390928,
+          10.312333618057892,
+          7.487132511101663,
+          8.058512395946309,
+          6.409043365856633,
+          7.765571645926684
+        ],
+        "total_s": 55.14283205079846,
+        "components": 3275
+      }
+    },
+    "2-neo": {
+      "round": 1,
+      "bfs": {
+        "seeds": 50,
+        "depth": 3,
+        "cap": 1000000,
+        "reachable_min": 6477,
+        "reachable_median": 51330.5,
+        "reachable_max": 62360,
+        "lat": {
+          "count": 50,
+          "mean_s": 1.055724307759665,
+          "median_s": 1.3373723535332829,
+          "p95_s": 2.1520085281226784,
+          "min_s": 0.016100625973194838,
+          "max_s": 2.1931060121860355,
+          "total_s": 52.78621538798325
+        },
+        "n_failed": 0
+      },
+      "pagerank": {
+        "nperson": 65645,
+        "iters": 20,
+        "damping": 0.85,
+        "per_iter_s": [
+          5.91490102885291,
+          5.690315147861838,
+          5.5018064097967,
+          5.492884539067745,
+          5.981915056006983,
+          4.695820224005729,
+          4.613914801040664,
+          4.832455768948421,
+          7.6512167972978204,
+          5.398440778953955,
+          4.359908106038347,
+          3.9281305999029428,
+          4.028903594007716,
+          4.355170338880271,
+          4.233658154029399,
+          5.47617400996387,
+          5.693884966196492,
+          4.3024730670731515,
+          4.157679948722944,
+          4.065857823006809
+        ],
+        "total_s": 100.3755111596547,
+        "top3": [
+          {
+            "id": 32985348902205,
+            "pr": 0.001386247131095027
+          },
+          {
+            "id": 32985348905921,
+            "pr": 0.001378888399050826
+          },
+          {
+            "id": 32985348904217,
+            "pr": 0.0013688671927635796
+          }
+        ]
+      },
+      "wcc": {
+        "iters_run": 7,
+        "converged": true,
+        "per_iter_s": [
+          17.02293850085698,
+          12.674278974998742,
+          10.795866686850786,
+          11.976648556999862,
+          7.540367733919993,
+          7.649923949036747,
+          7.346859622048214
+        ],
+        "total_s": 75.00688402471133,
+        "components": 3275
+      }
+    },
+    "2-pet": {
+      "round": 1,
+      "bfs": {
+        "seeds": 50,
+        "depth": 3,
+        "cap": 1000000,
+        "reachable_min": 6477,
+        "reachable_median": 51330.5,
+        "reachable_max": 62360,
+        "lat": {
+          "count": 50,
+          "mean_s": 1.2303255372680724,
+          "median_s": 1.3292491745669395,
+          "p95_s": 2.9297615580726415,
+          "min_s": 0.012493618996813893,
+          "max_s": 3.0286124791018665,
+          "total_s": 61.51627686340362
+        },
+        "n_failed": 0
+      },
+      "pagerank": {
+        "nperson": 65645,
+        "iters": 20,
+        "damping": 0.85,
+        "per_iter_s": [
+          6.0195526669267565,
+          7.915180949028581,
+          5.190110369818285,
+          6.384546563727781,
+          5.439383143093437,
+          5.052210482535884,
+          5.130602543242276,
+          5.360534914769232,
+          5.865201298613101,
+          5.3012168721761554,
+          5.146544413175434,
+          6.413877869024873,
+          6.365396108012646,
+          6.228338761255145,
+          5.440800044219941,
+          4.567850897787139,
+          5.223164946073666,
+          6.226168737979606,
+          6.8660570797510445,
+          5.626093731028959
+        ],
+        "total_s": 115.76283239223994,
+        "top3": [
+          {
+            "id": 32985348902205,
+            "pr": 0.0013862471310950274
+          },
+          {
+            "id": 32985348905921,
+            "pr": 0.001378888399050826
+          },
+          {
+            "id": 32985348904217,
+            "pr": 0.0013688671927635796
+          }
+        ]
+      },
+      "wcc": {
+        "iters_run": 6,
+        "converged": true,
+        "per_iter_s": [
+          13.932159892981872,
+          12.309272853191942,
+          9.279967840062454,
+          9.757023860001937,
+          7.5112695570569485,
+          7.398958848789334
+        ],
+        "total_s": 60.18865285208449,
+        "components": 3275
+      }
+    },
+    "3-neo": {
+      "round": 1,
+      "bfs": {
+        "seeds": 50,
+        "depth": 3,
+        "cap": 1000000,
+        "reachable_min": 6477,
+        "reachable_median": 51330.5,
+        "reachable_max": 62360,
+        "lat": {
+          "count": 50,
+          "mean_s": 1.0251360732223838,
+          "median_s": 1.2241068853763863,
+          "p95_s": 2.080632087076083,
+          "min_s": 0.017297680024057627,
+          "max_s": 2.8600668602157384,
+          "total_s": 51.25680366111919
+        },
+        "n_failed": 0
+      },
+      "pagerank": {
+        "nperson": 65645,
+        "iters": 20,
+        "damping": 0.85,
+        "per_iter_s": [
+          5.731342894025147,
+          6.243302062852308,
+          5.615924247074872,
+          5.111914473352954,
+          5.031978027895093,
+          4.686341957654804,
+          4.985883502988145,
+          5.1389108267612755,
+          4.757480476051569,
+          4.754726870218292,
+          4.7149556030053645,
+          4.678095184033737,
+          5.456816842081025,
+          7.1326714819297194,
+          5.772106263320893,
+          5.913569895084947,
+          5.711459583835676,
+          5.833864654880017,
+          7.081872687675059,
+          7.224780339049175
+        ],
+        "total_s": 111.57799787377007,
+        "top3": [
+          {
+            "id": 32985348902205,
+            "pr": 0.001386247131095027
+          },
+          {
+            "id": 32985348905921,
+            "pr": 0.001378888399050826
+          },
+          {
+            "id": 32985348904217,
+            "pr": 0.0013688671927635796
+          }
+        ]
+      },
+      "wcc": {
+        "iters_run": 7,
+        "converged": true,
+        "per_iter_s": [
+          11.245381307089701,
+          10.207507703918964,
+          12.105484022991732,
+          12.702790526906028,
+          7.22121997596696,
+          6.875481719151139,
+          6.817853207001463
+        ],
+        "total_s": 67.17571846302599,
+        "components": 3275
+      }
+    },
+    "3-pet": {
+      "round": 1,
+      "bfs": {
+        "seeds": 50,
+        "depth": 3,
+        "cap": 1000000,
+        "reachable_min": 6477,
+        "reachable_median": 51330.5,
+        "reachable_max": 62360,
+        "lat": {
+          "count": 50,
+          "mean_s": 1.244676442570053,
+          "median_s": 1.3334080000640824,
+          "p95_s": 2.7629517009481788,
+          "min_s": 0.015058981953188777,
+          "max_s": 2.8962866719812155,
+          "total_s": 62.23382212850265
+        },
+        "n_failed": 0
+      },
+      "pagerank": {
+        "nperson": 65645,
+        "iters": 20,
+        "damping": 0.85,
+        "per_iter_s": [
+          7.957342927111313,
+          5.118161641759798,
+          5.890007071895525,
+          5.1335404419805855,
+          5.2989656990394,
+          8.400763510959223,
+          6.115872584050521,
+          8.127747951773927,
+          6.007414383813739,
+          5.860105538973585,
+          5.006010247161612,
+          4.755548371933401,
+          7.380548392888159,
+          6.77869307086803,
+          6.128119503846392,
+          5.480203985935077,
+          4.845192227046937,
+          6.178862361237407,
+          6.084907616022974,
+          6.042949564987794
+        ],
+        "total_s": 122.5909570932854,
+        "top3": [
+          {
+            "id": 32985348902205,
+            "pr": 0.0013862471310950274
+          },
+          {
+            "id": 32985348905921,
+            "pr": 0.001378888399050826
+          },
+          {
+            "id": 32985348904217,
+            "pr": 0.0013688671927635796
+          }
+        ]
+      },
+      "wcc": {
+        "iters_run": 6,
+        "converged": true,
+        "per_iter_s": [
+          14.299519990105182,
+          15.199843974085525,
+          9.635124637046829,
+          10.032079960918054,
+          7.6254164590500295,
+          7.623186687007546
+        ],
+        "total_s": 64.41517170821317,
+        "components": 3275
+      }
+    }
+  },
+  "analysis": {
+    "1-neo": {
+      "q1-country-year-window": {
+        "count": 100,
+        "mean_ms": 36386.78053146228,
+        "median_ms": 18814.314084942453,
+        "p90_ms": 110547.10736614652,
+        "p95_ms": 125932.97777115367,
+        "p99_ms": 139258.22689104825,
+        "min_ms": 223.46974606625736,
+        "max_ms": 142915.6164568849,
+        "query_name": "q1-country-year-window",
+        "query": "MATCH (m:Message) WHERE m.creationDate >= $start AND m.creationDate < $end MATCH (m)-[:IS_LOCATED_IN]->(co:Country) RETURN co.name AS country, datetime({epochMillis: m.creationDate}).year AS y, count(*) AS c ORDER BY c DESC",
+        "n_params": 120,
+        "warmup": 5,
+        "reps": 100,
+        "errors": 0,
+        "timeouts": 0,
+        "empty_results": 0,
+        "wall_s": 3674.6040983200073
+      },
+      "q3-degree-distribution": {
+        "count": 100,
+        "mean_ms": 99.1918864264153,
+        "median_ms": 96.94703062996268,
+        "p90_ms": 107.64124989509583,
+        "p95_ms": 108.7768489960581,
+        "p99_ms": 110.96982611343265,
+        "min_ms": 91.06201911345124,
+        "max_ms": 115.70854880847037,
+        "query_name": "q3-degree-distribution",
+        "query": "MATCH (p:Person) RETURN size((p)-[:KNOWS]-()) AS d, count(*) AS c ORDER BY d",
+        "n_params": 1,
+        "warmup": 5,
+        "reps": 100,
+        "errors": 0,
+        "timeouts": 0,
+        "empty_results": 0,
+        "wall_s": 10.593173503875732
+      },
+      "q5-thread-depth": {
+        "count": 100,
+        "mean_ms": 3.828674559481442,
+        "median_ms": 3.782477928325534,
+        "p90_ms": 4.289739998057485,
+        "p95_ms": 4.735226975753903,
+        "p99_ms": 5.278176860883832,
+        "min_ms": 3.023180877789855,
+        "max_ms": 6.909658899530768,
+        "query_name": "q5-thread-depth",
+        "query": "MATCH path=(root:Post {id: $id})<-[:REPLY_OF*]-(c:Comment) RETURN length(path) AS d, count(*) AS c ORDER BY d",
+        "n_params": 120,
+        "warmup": 5,
+        "reps": 100,
+        "errors": 0,
+        "timeouts": 0,
+        "empty_results": 64,
+        "wall_s": 0.5215675830841064
+      },
+      "q2-tag-monthly-topk": {
+        "count": 100,
+        "mean_ms": 30.735078901052475,
+        "median_ms": 13.14470439683646,
+        "p90_ms": 53.30770509317517,
+        "p95_ms": 170.41289596818388,
+        "p99_ms": 245.13690313324332,
+        "min_ms": 3.1689610332250595,
+        "max_ms": 270.7465209532529,
+        "query_name": "q2-tag-monthly-topk",
+        "query": "MATCH (m:Message)-[:HAS_TAG]->(t:Tag {name: $tag}) RETURN datetime({epochMillis: m.creationDate}).year * 100 + datetime({epochMillis: m.creationDate}).month AS ym, count(*) AS c ORDER BY c DESC LIMIT 12",
+        "n_params": 120,
+        "warmup": 5,
+        "reps": 100,
+        "errors": 0,
+        "timeouts": 0,
+        "empty_results": 18,
+        "wall_s": 3.914458990097046
+      },
+      "q4-influence-3hop": {
+        "count": 100,
+        "mean_ms": 160.27408462716267,
+        "median_ms": 175.3801165614277,
+        "p90_ms": 217.15445490553975,
+        "p95_ms": 228.88496704399586,
+        "p99_ms": 240.11248303577304,
+        "min_ms": 13.227758929133415,
+        "max_ms": 262.3129920102656,
+        "query_name": "q4-influence-3hop",
+        "query": "MATCH (p:Person {id: $id})-[:KNOWS]-(a) WITH p, collect(DISTINCT a) AS l1 UNWIND l1 AS a MATCH (a)-[:KNOWS]-(b) WHERE b <> p WITH p, l1, collect(DISTINCT b) AS l2raw WITH p, l1, l1 + [x IN l2raw WHERE NOT x IN l1] AS l2 UNWIND l2 AS b MATCH (b)-[:KNOWS]-(c) WITH l1, l2, collect(DISTINCT c) AS l3raw WITH l1, l2, [x IN l3raw WHERE NOT x IN l1 AND NOT x IN l2] AS l3 RETURN size(l1) + size(l2) + size(l3) AS reach",
+        "n_params": 100,
+        "warmup": 5,
+        "reps": 100,
+        "errors": 0,
+        "timeouts": 0,
+        "empty_results": 0,
+        "wall_s": 17.16498637199402
+      }
+    },
+    "1-pet": {
+      "q1-country-year-window": {
+        "count": 100,
+        "mean_ms": 31508.236661315896,
+        "median_ms": 15784.472756553441,
+        "p90_ms": 97023.58209178783,
+        "p95_ms": 109408.93923584372,
+        "p99_ms": 124033.19694288075,
+        "min_ms": 148.05883495137095,
+        "max_ms": 127258.44108616002,
+        "query_name": "q1-country-year-window",
+        "query": "MATCH (m:Message) WHERE m.creationDate >= $start AND m.creationDate < $end MATCH (m)-[:IS_LOCATED_IN]->(co:Country) RETURN co.name AS country, datetime({epochMillis: m.creationDate}).year AS y, count(*) AS c ORDER BY c DESC",
+        "n_params": 120,
+        "warmup": 5,
+        "reps": 100,
+        "errors": 0,
+        "timeouts": 0,
+        "empty_results": 0,
+        "wall_s": 3183.23534989357
+      },
+      "q5-thread-depth": {
+        "count": 100,
+        "mean_ms": 3.8925546989776194,
+        "median_ms": 3.868699539452791,
+        "p90_ms": 4.362629959359765,
+        "p95_ms": 4.5646438375115395,
+        "p99_ms": 4.9781890120357275,
+        "min_ms": 2.866643015295267,
+        "max_ms": 7.099109934642911,
+        "query_name": "q5-thread-depth",
+        "query": "MATCH path=(root:Post {id: $id})<-[:REPLY_OF*]-(c:Comment) RETURN length(path) AS d, count(*) AS c ORDER BY d",
+        "n_params": 120,
+        "warmup": 5,
+        "reps": 100,
+        "errors": 0,
+        "timeouts": 0,
+        "empty_results": 64,
+        "wall_s": 0.5252459049224854
+      },
+      "q4-influence-3hop": {
+        "count": 100,
+        "mean_ms": 132.13016401277855,
+        "median_ms": 132.4906995287165,
+        "p90_ms": 205.37519291974604,
+        "p95_ms": 210.8058228623122,
+        "p99_ms": 233.95172087475657,
+        "min_ms": 10.762711986899376,
+        "max_ms": 235.84694298915565,
+        "query_name": "q4-influence-3hop",
+        "query": "MATCH (p:Person {id: $id})-[:KNOWS]-(a) WITH p, collect(DISTINCT a) AS l1 UNWIND l1 AS a MATCH (a)-[:KNOWS]-(b) WHERE b <> p WITH p, l1, collect(DISTINCT b) AS l2raw WITH p, l1, l1 + [x IN l2raw WHERE NOT x IN l1] AS l2 UNWIND l2 AS b MATCH (b)-[:KNOWS]-(c) WITH l1, l2, collect(DISTINCT c) AS l3raw WITH l1, l2, [x IN l3raw WHERE NOT x IN l1 AND NOT x IN l2] AS l3 RETURN size(l1) + size(l2) + size(l3) AS reach",
+        "n_params": 100,
+        "warmup": 5,
+        "reps": 100,
+        "errors": 0,
+        "timeouts": 0,
+        "empty_results": 0,
+        "wall_s": 14.459621667861938
+      },
+      "q3-degree-distribution": {
+        "count": 100,
+        "mean_ms": 100.1901850476861,
+        "median_ms": 98.78147242125124,
+        "p90_ms": 104.47058896534145,
+        "p95_ms": 109.06055802479386,
+        "p99_ms": 114.23237901180983,
+        "min_ms": 93.60396605916321,
+        "max_ms": 114.47934410534799,
+        "query_name": "q3-degree-distribution",
+        "query": "MATCH (p:Person) RETURN size((p)-[:KNOWS]-()) AS d, count(*) AS c ORDER BY d",
+        "n_params": 1,
+        "warmup": 5,
+        "reps": 100,
+        "errors": 0,
+        "timeouts": 0,
+        "empty_results": 0,
+        "wall_s": 10.63446855545044
+      },
+      "q2-tag-monthly-topk": {
+        "count": 100,
+        "mean_ms": 20.86396693950519,
+        "median_ms": 9.376217029057443,
+        "p90_ms": 41.77691414952278,
+        "p95_ms": 112.32787510380149,
+        "p99_ms": 163.1596339866519,
+        "min_ms": 3.0420951079577208,
+        "max_ms": 178.24931209906936,
+        "query_name": "q2-tag-monthly-topk",
+        "query": "MATCH (m:Message)-[:HAS_TAG]->(t:Tag {name: $tag}) RETURN datetime({epochMillis: m.creationDate}).year * 100 + datetime({epochMillis: m.creationDate}).month AS ym, count(*) AS c ORDER BY c DESC LIMIT 12",
+        "n_params": 120,
+        "warmup": 5,
+        "reps": 100,
+        "errors": 0,
+        "timeouts": 0,
+        "empty_results": 18,
+        "wall_s": 2.8187787532806396
+      }
+    },
+    "2-neo": {
+      "q4-influence-3hop": {
+        "count": 100,
+        "mean_ms": 169.64912265073508,
+        "median_ms": 182.48561851214617,
+        "p90_ms": 232.81183908693492,
+        "p95_ms": 242.73984599858522,
+        "p99_ms": 253.30112292431295,
+        "min_ms": 13.941264944151044,
+        "max_ms": 254.63672913610935,
+        "query_name": "q4-influence-3hop",
+        "query": "MATCH (p:Person {id: $id})-[:KNOWS]-(a) WITH p, collect(DISTINCT a) AS l1 UNWIND l1 AS a MATCH (a)-[:KNOWS]-(b) WHERE b <> p WITH p, l1, collect(DISTINCT b) AS l2raw WITH p, l1, l1 + [x IN l2raw WHERE NOT x IN l1] AS l2 UNWIND l2 AS b MATCH (b)-[:KNOWS]-(c) WITH l1, l2, collect(DISTINCT c) AS l3raw WITH l1, l2, [x IN l3raw WHERE NOT x IN l1 AND NOT x IN l2] AS l3 RETURN size(l1) + size(l2) + size(l3) AS reach",
+        "n_params": 100,
+        "warmup": 5,
+        "reps": 100,
+        "errors": 0,
+        "timeouts": 0,
+        "empty_results": 0,
+        "wall_s": 18.209337949752808
+      },
+      "q5-thread-depth": {
+        "count": 100,
+        "mean_ms": 4.2674878146499395,
+        "median_ms": 4.137561074458063,
+        "p90_ms": 4.885039059445262,
+        "p95_ms": 5.1931829657405615,
+        "p99_ms": 7.780751911923289,
+        "min_ms": 3.1193820759654045,
+        "max_ms": 9.278899990022182,
+        "query_name": "q5-thread-depth",
+        "query": "MATCH path=(root:Post {id: $id})<-[:REPLY_OF*]-(c:Comment) RETURN length(path) AS d, count(*) AS c ORDER BY d",
+        "n_params": 120,
+        "warmup": 5,
+        "reps": 100,
+        "errors": 0,
+        "timeouts": 0,
+        "empty_results": 64,
+        "wall_s": 0.5738954544067383
+      },
+      "q1-country-year-window": {
+        "count": 100,
+        "mean_ms": 40045.4022612609,
+        "median_ms": 20677.693405887112,
+        "p90_ms": 120289.53840211034,
+        "p95_ms": 138702.6653320063,
+        "p99_ms": 152668.99659694172,
+        "min_ms": 238.9643748756498,
+        "max_ms": 166818.75125784427,
+        "query_name": "q1-country-year-window",
+        "query": "MATCH (m:Message) WHERE m.creationDate >= $start AND m.creationDate < $end MATCH (m)-[:IS_LOCATED_IN]->(co:Country) RETURN co.name AS country, datetime({epochMillis: m.creationDate}).year AS y, count(*) AS c ORDER BY c DESC",
+        "n_params": 120,
+        "warmup": 5,
+        "reps": 100,
+        "errors": 0,
+        "timeouts": 0,
+        "empty_results": 0,
+        "wall_s": 4047.5452983379364
+      },
+      "q2-tag-monthly-topk": {
+        "count": 100,
+        "mean_ms": 30.569588504731655,
+        "median_ms": 13.270179042592645,
+        "p90_ms": 51.49451200850308,
+        "p95_ms": 167.44760400615633,
+        "p99_ms": 247.78697290457785,
+        "min_ms": 3.0420860275626183,
+        "max_ms": 266.95396401919425,
+        "query_name": "q2-tag-monthly-topk",
+        "query": "MATCH (m:Message)-[:HAS_TAG]->(t:Tag {name: $tag}) RETURN datetime({epochMillis: m.creationDate}).year * 100 + datetime({epochMillis: m.creationDate}).month AS ym, count(*) AS c ORDER BY c DESC LIMIT 12",
+        "n_params": 120,
+        "warmup": 5,
+        "reps": 100,
+        "errors": 0,
+        "timeouts": 0,
+        "empty_results": 18,
+        "wall_s": 3.849634885787964
+      },
+      "q3-degree-distribution": {
+        "count": 100,
+        "mean_ms": 98.33015750627965,
+        "median_ms": 96.74459742382169,
+        "p90_ms": 106.8155721295625,
+        "p95_ms": 107.47486702166498,
+        "p99_ms": 108.8500078767538,
+        "min_ms": 91.22030902653933,
+        "max_ms": 119.11531700752676,
+        "query_name": "q3-degree-distribution",
+        "query": "MATCH (p:Person) RETURN size((p)-[:KNOWS]-()) AS d, count(*) AS c ORDER BY d",
+        "n_params": 1,
+        "warmup": 5,
+        "reps": 100,
+        "errors": 0,
+        "timeouts": 0,
+        "empty_results": 0,
+        "wall_s": 10.507657766342163
+      }
+    },
+    "2-pet": {
+      "q5-thread-depth": {
+        "count": 100,
+        "mean_ms": 3.719005153980106,
+        "median_ms": 3.662003902718425,
+        "p90_ms": 4.168221028521657,
+        "p95_ms": 4.3326260056346655,
+        "p99_ms": 4.794626962393522,
+        "min_ms": 2.538403030484915,
+        "max_ms": 6.826265016570687,
+        "query_name": "q5-thread-depth",
+        "query": "MATCH path=(root:Post {id: $id})<-[:REPLY_OF*]-(c:Comment) RETURN length(path) AS d, count(*) AS c ORDER BY d",
+        "n_params": 120,
+        "warmup": 5,
+        "reps": 100,
+        "errors": 0,
+        "timeouts": 0,
+        "empty_results": 64,
+        "wall_s": 0.49999308586120605
+      },
+      "q3-degree-distribution": {
+        "count": 100,
+        "mean_ms": 92.32807057909667,
+        "median_ms": 96.23263508547097,
+        "p90_ms": 98.57848798856139,
+        "p95_ms": 98.74219493940473,
+        "p99_ms": 99.65172898955643,
+        "min_ms": 83.91022495925426,
+        "max_ms": 101.25269391573966,
+        "query_name": "q3-degree-distribution",
+        "query": "MATCH (p:Person) RETURN size((p)-[:KNOWS]-()) AS d, count(*) AS c ORDER BY d",
+        "n_params": 1,
+        "warmup": 5,
+        "reps": 100,
+        "errors": 0,
+        "timeouts": 0,
+        "empty_results": 0,
+        "wall_s": 9.813253164291382
+      },
+      "q4-influence-3hop": {
+        "count": 100,
+        "mean_ms": 107.28431825526059,
+        "median_ms": 115.62999151647091,
+        "p90_ms": 144.04555317014456,
+        "p95_ms": 151.9085189793259,
+        "p99_ms": 154.99762911349535,
+        "min_ms": 10.677056852728128,
+        "max_ms": 159.64913298375905,
+        "query_name": "q4-influence-3hop",
+        "query": "MATCH (p:Person {id: $id})-[:KNOWS]-(a) WITH p, collect(DISTINCT a) AS l1 UNWIND l1 AS a MATCH (a)-[:KNOWS]-(b) WHERE b <> p WITH p, l1, collect(DISTINCT b) AS l2raw WITH p, l1, l1 + [x IN l2raw WHERE NOT x IN l1] AS l2 UNWIND l2 AS b MATCH (b)-[:KNOWS]-(c) WITH l1, l2, collect(DISTINCT c) AS l3raw WITH l1, l2, [x IN l3raw WHERE NOT x IN l1 AND NOT x IN l2] AS l3 RETURN size(l1) + size(l2) + size(l3) AS reach",
+        "n_params": 100,
+        "warmup": 5,
+        "reps": 100,
+        "errors": 0,
+        "timeouts": 0,
+        "empty_results": 0,
+        "wall_s": 11.601910591125488
+      },
+      "q1-country-year-window": {
+        "count": 100,
+        "mean_ms": 28369.355516452342,
+        "median_ms": 12743.26578550972,
+        "p90_ms": 81015.32711205073,
+        "p95_ms": 96967.2669339925,
+        "p99_ms": 113667.82403900288,
+        "min_ms": 145.10768302716315,
+        "max_ms": 117896.33980207145,
+        "query_name": "q1-country-year-window",
+        "query": "MATCH (m:Message) WHERE m.creationDate >= $start AND m.creationDate < $end MATCH (m)-[:IS_LOCATED_IN]->(co:Country) RETURN co.name AS country, datetime({epochMillis: m.creationDate}).year AS y, count(*) AS c ORDER BY c DESC",
+        "n_params": 120,
+        "warmup": 5,
+        "reps": 100,
+        "errors": 0,
+        "timeouts": 0,
+        "empty_results": 0,
+        "wall_s": 2869.772933483124
+      },
+      "q2-tag-monthly-topk": {
+        "count": 100,
+        "mean_ms": 16.563720935955644,
+        "median_ms": 7.814325508661568,
+        "p90_ms": 30.4874109569937,
+        "p95_ms": 86.74130612052977,
+        "p99_ms": 122.8013290092349,
+        "min_ms": 3.0325099360197783,
+        "max_ms": 135.21457999013364,
+        "query_name": "q2-tag-monthly-topk",
+        "query": "MATCH (m:Message)-[:HAS_TAG]->(t:Tag {name: $tag}) RETURN datetime({epochMillis: m.creationDate}).year * 100 + datetime({epochMillis: m.creationDate}).month AS ym, count(*) AS c ORDER BY c DESC LIMIT 12",
+        "n_params": 120,
+        "warmup": 5,
+        "reps": 100,
+        "errors": 0,
+        "timeouts": 0,
+        "empty_results": 18,
+        "wall_s": 2.191666603088379
+      }
+    },
+    "3-neo": {
+      "q2-tag-monthly-topk": {
+        "count": 100,
+        "mean_ms": 30.768654260318726,
+        "median_ms": 13.060652883723378,
+        "p90_ms": 51.82798998430371,
+        "p95_ms": 171.33418191224337,
+        "p99_ms": 248.4900699928403,
+        "min_ms": 2.99295992590487,
+        "max_ms": 275.4792710766196,
+        "query_name": "q2-tag-monthly-topk",
+        "query": "MATCH (m:Message)-[:HAS_TAG]->(t:Tag {name: $tag}) RETURN datetime({epochMillis: m.creationDate}).year * 100 + datetime({epochMillis: m.creationDate}).month AS ym, count(*) AS c ORDER BY c DESC LIMIT 12",
+        "n_params": 120,
+        "warmup": 5,
+        "reps": 100,
+        "errors": 0,
+        "timeouts": 0,
+        "empty_results": 18,
+        "wall_s": 3.8181567192077637
+      },
+      "q1-country-year-window": {
+        "count": 100,
+        "mean_ms": 38593.71262324508,
+        "median_ms": 20022.14759949129,
+        "p90_ms": 116067.50928796828,
+        "p95_ms": 137799.61655195802,
+        "p99_ms": 153372.39355198108,
+        "min_ms": 245.7907130010426,
+        "max_ms": 171600.26306007057,
+        "query_name": "q1-country-year-window",
+        "query": "MATCH (m:Message) WHERE m.creationDate >= $start AND m.creationDate < $end MATCH (m)-[:IS_LOCATED_IN]->(co:Country) RETURN co.name AS country, datetime({epochMillis: m.creationDate}).year AS y, count(*) AS c ORDER BY c DESC",
+        "n_params": 120,
+        "warmup": 5,
+        "reps": 100,
+        "errors": 0,
+        "timeouts": 0,
+        "empty_results": 0,
+        "wall_s": 3897.289252281189
+      },
+      "q5-thread-depth": {
+        "count": 100,
+        "mean_ms": 3.9972381014376883,
+        "median_ms": 3.8775005377829075,
+        "p90_ms": 4.437837051227689,
+        "p95_ms": 4.659081110730767,
+        "p99_ms": 7.057459093630314,
+        "min_ms": 3.0848279129713774,
+        "max_ms": 12.793098110705614,
+        "query_name": "q5-thread-depth",
+        "query": "MATCH path=(root:Post {id: $id})<-[:REPLY_OF*]-(c:Comment) RETURN length(path) AS d, count(*) AS c ORDER BY d",
+        "n_params": 120,
+        "warmup": 5,
+        "reps": 100,
+        "errors": 0,
+        "timeouts": 0,
+        "empty_results": 64,
+        "wall_s": 0.5181314945220947
+      },
+      "q3-degree-distribution": {
+        "count": 100,
+        "mean_ms": 96.78407676517963,
+        "median_ms": 95.443349564448,
+        "p90_ms": 101.22557915747166,
+        "p95_ms": 105.33594689331949,
+        "p99_ms": 109.45579805411398,
+        "min_ms": 93.29090896062553,
+        "max_ms": 111.13187414593995,
+        "query_name": "q3-degree-distribution",
+        "query": "MATCH (p:Person) RETURN size((p)-[:KNOWS]-()) AS d, count(*) AS c ORDER BY d",
+        "n_params": 1,
+        "warmup": 5,
+        "reps": 100,
+        "errors": 0,
+        "timeouts": 0,
+        "empty_results": 0,
+        "wall_s": 10.319005727767944
+      },
+      "q4-influence-3hop": {
+        "count": 100,
+        "mean_ms": 156.80818752152845,
+        "median_ms": 170.12950195930898,
+        "p90_ms": 212.55237888544798,
+        "p95_ms": 219.82453390955925,
+        "p99_ms": 238.7549770064652,
+        "min_ms": 13.125238008797169,
+        "max_ms": 253.99843300692737,
+        "query_name": "q4-influence-3hop",
+        "query": "MATCH (p:Person {id: $id})-[:KNOWS]-(a) WITH p, collect(DISTINCT a) AS l1 UNWIND l1 AS a MATCH (a)-[:KNOWS]-(b) WHERE b <> p WITH p, l1, collect(DISTINCT b) AS l2raw WITH p, l1, l1 + [x IN l2raw WHERE NOT x IN l1] AS l2 UNWIND l2 AS b MATCH (b)-[:KNOWS]-(c) WITH l1, l2, collect(DISTINCT c) AS l3raw WITH l1, l2, [x IN l3raw WHERE NOT x IN l1 AND NOT x IN l2] AS l3 RETURN size(l1) + size(l2) + size(l3) AS reach",
+        "n_params": 100,
+        "warmup": 5,
+        "reps": 100,
+        "errors": 0,
+        "timeouts": 0,
+        "empty_results": 0,
+        "wall_s": 16.86542797088623
+      }
+    },
+    "3-pet": {
+      "q5-thread-depth": {
+        "count": 100,
+        "mean_ms": 3.8494825456291437,
+        "median_ms": 3.7316189846023917,
+        "p90_ms": 4.4727330096066,
+        "p95_ms": 4.61331894621253,
+        "p99_ms": 5.549560999497771,
+        "min_ms": 2.655664924532175,
+        "max_ms": 7.613844936713576,
+        "query_name": "q5-thread-depth",
+        "query": "MATCH path=(root:Post {id: $id})<-[:REPLY_OF*]-(c:Comment) RETURN length(path) AS d, count(*) AS c ORDER BY d",
+        "n_params": 120,
+        "warmup": 5,
+        "reps": 100,
+        "errors": 0,
+        "timeouts": 0,
+        "empty_results": 64,
+        "wall_s": 0.5445671081542969
+      },
+      "q1-country-year-window": {
+        "count": 100,
+        "mean_ms": 31534.64620247716,
+        "median_ms": 17365.57903944049,
+        "p90_ms": 90597.31118497439,
+        "p95_ms": 108993.83887182921,
+        "p99_ms": 121677.14703804813,
+        "min_ms": 217.4107728060335,
+        "max_ms": 133198.51065287367,
+        "query_name": "q1-country-year-window",
+        "query": "MATCH (m:Message) WHERE m.creationDate >= $start AND m.creationDate < $end MATCH (m)-[:IS_LOCATED_IN]->(co:Country) RETURN co.name AS country, datetime({epochMillis: m.creationDate}).year AS y, count(*) AS c ORDER BY c DESC",
+        "n_params": 120,
+        "warmup": 5,
+        "reps": 100,
+        "errors": 0,
+        "timeouts": 0,
+        "empty_results": 0,
+        "wall_s": 3192.209417104721
+      },
+      "q2-tag-monthly-topk": {
+        "count": 100,
+        "mean_ms": 16.958174956962466,
+        "median_ms": 8.08306795079261,
+        "p90_ms": 29.985143104568124,
+        "p95_ms": 89.77464400231838,
+        "p99_ms": 128.20679205469787,
+        "min_ms": 3.144752001389861,
+        "max_ms": 136.8997769895941,
+        "query_name": "q2-tag-monthly-topk",
+        "query": "MATCH (m:Message)-[:HAS_TAG]->(t:Tag {name: $tag}) RETURN datetime({epochMillis: m.creationDate}).year * 100 + datetime({epochMillis: m.creationDate}).month AS ym, count(*) AS c ORDER BY c DESC LIMIT 12",
+        "n_params": 120,
+        "warmup": 5,
+        "reps": 100,
+        "errors": 0,
+        "timeouts": 0,
+        "empty_results": 18,
+        "wall_s": 2.2358486652374268
+      },
+      "q3-degree-distribution": {
+        "count": 100,
+        "mean_ms": 102.07784088794142,
+        "median_ms": 104.04984257183969,
+        "p90_ms": 110.1385890506208,
+        "p95_ms": 113.37839998304844,
+        "p99_ms": 124.11881098523736,
+        "min_ms": 91.67558001354337,
+        "max_ms": 126.46837718784809,
+        "query_name": "q3-degree-distribution",
+        "query": "MATCH (p:Person) RETURN size((p)-[:KNOWS]-()) AS d, count(*) AS c ORDER BY d",
+        "n_params": 1,
+        "warmup": 5,
+        "reps": 100,
+        "errors": 0,
+        "timeouts": 0,
+        "empty_results": 0,
+        "wall_s": 10.81369948387146
+      },
+      "q4-influence-3hop": {
+        "count": 100,
+        "mean_ms": 187.02908118488267,
+        "median_ms": 195.56975737214088,
+        "p90_ms": 274.3034700397402,
+        "p95_ms": 301.08507513068616,
+        "p99_ms": 341.6901999153197,
+        "min_ms": 13.748973840847611,
+        "max_ms": 366.2749610375613,
+        "query_name": "q4-influence-3hop",
+        "query": "MATCH (p:Person {id: $id})-[:KNOWS]-(a) WITH p, collect(DISTINCT a) AS l1 UNWIND l1 AS a MATCH (a)-[:KNOWS]-(b) WHERE b <> p WITH p, l1, collect(DISTINCT b) AS l2raw WITH p, l1, l1 + [x IN l2raw WHERE NOT x IN l1] AS l2 UNWIND l2 AS b MATCH (b)-[:KNOWS]-(c) WITH l1, l2, collect(DISTINCT c) AS l3raw WITH l1, l2, [x IN l3raw WHERE NOT x IN l1 AND NOT x IN l2] AS l3 RETURN size(l1) + size(l2) + size(l3) AS reach",
+        "n_params": 100,
+        "warmup": 5,
+        "reps": 100,
+        "errors": 0,
+        "timeouts": 0,
+        "empty_results": 0,
+        "wall_s": 20.306447982788086
+      }
+    }
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "date": "2026-10-28",
+  "phase": "Phase 2 T-LDBC（IS1-IS7，LDBC SNB sf0.1）",
+  "machine": "PowerEdge-T630 (mashuai@server, 192.168.1.60), 188GiB, 32核",
+  "dataset": "LDBC SNB Interactive sf0.1：327588 顶点 / 1477965 边；复用 FCS ldbc-v2 资产（converted-sf0.1 CSV、pet-sf0.1-baseline 指纹验证快照）；AeonG 侧导入文件 ldbc_interactive_sf0.1.cypher（Memgraph S3 重下，1805553 行）",
+  "op_stream": {
+    "generator": "AeonG T-LDBC create_graph_op_queries.py 修复版（scripts/ldbc_op_gen_fixed.py）：id 去引号（数据集整型 id）、seed 42；纯 update（create/delete 路径在其代码有 bug 且不启用）",
+    "num_op": 1000000,
+    "statements": 1500000,
+    "composition": {"person.locationIP": 500000, "person.browserUsed": 500000, "comment.content": 250000, "post.content": 250000},
+    "aeong_sha256": "1cf57d79cb4c585b3ea73ea1e9537363519723cb32ffc124d966856c6e0892f6",
+    "petgraph_sha256": "f244f91dfaa91755afd75c8b155a8cdc6db7f259407d55e3c9e52140cead3329",
+    "note": "PETG 版 rewrite 注入逻辑时间戳 t=行号 ∈[1,1500000]"
+  },
+  "petgraph_side": {
+    "image": "songjinghe/petgraphdb:4.4-latest = 3cf7a71c73d7（导入）/ petgraphdb:4.4-query-cache-fix = aa2a58dcc85b（查询，日志确认 32/16/256 生效）",
+    "base": "pet-sf0.1-baseline 快照副本 + 4 属性时态化（Person.locationIP/browserUsed、Comment/Post.content，[0,Int.Max) 基线；REMOVE 静态属性后 tp.set，见 README §4.4-6 坑）",
+    "ops": {"statements": 1500000, "failures": 0, "wall_s": 1457.1, "avg_ms": 0.971, "throughput_ops_s": 1029.5},
+    "storage_bytes_neo4j_store": 207638318,
+    "storage_baseline_bytes": 178929664,
+    "storage_temporal_delta_bytes": 28708654,
+    "storage_excluded": {"tx_log_wal_mb": 501, "audit_mb": 414, "external_logs_mb": 0.7, "system_db_mb": 1.1},
+    "storage_note": "论文口径=data/databases/neo4j 图存储（含时态属性数据）；不含事务日志、audit、外部 logs、system 库（2026-10-30 精确测量）"
+  },
+  "aeong_side": {
+    "image": "songjinghe/temporal-graph-dbms:aeong-2.2-latest = afb858534be6",
+    "import": {
+      "method": "官方逐句 cypher 重放不可行（每事务固定开销 ~0.5s/边，与并发无关）；改用等价批量 UNWIND（scripts/ldbc_batch_convert.py：按点标签组合/边类型分组、行级属性表达式内联、组内 seed42 打乱、2000/批）；点数/边数断言与官方文件一致（327588/1477965）；须补 Tag/TagClass/Organisation 等 id 索引（缺 Tag 索引时 HAS_TAG 组近乎挂死）",
+      "vertices_s": 37, "edges_s": 205
+    },
+    "ops": {"count": 1500000, "duration_s": 64.45, "avg_ms": 0.043, "throughput_ops_s": 23274, "retries": 291974},
+    "storage_mb_snapshot_deltas": 306.4,
+    "db_dir_mb": 763,
+    "tt_window": {"lo": 1010000, "hi": 1350000,
+      "note": "探针实测：TT 可见历史覆盖操作提交区间约 [1.0M,1.38M]；快照控制 ts（至 3293868）超出操作区间，窗口取操作区间内；越界查询 TT 返回空（版本 te 有限），两侧查询时间均在各自操作区间内均匀采样"}
+  },
+  "query_protocol": {
+    "aeong": "evaluate_temporal_q.py，单线程，每组文件跑两遍取第二遍，组间独立容器+drop_caches",
+    "petgraph": "run_benchmark.py：每请求 1 预热+5 稳态，报 median/p95",
+    "sets": "双侧逐行同顶点（IS1-3 用 person 清单、IS4-7 用 comment 清单，mix=34/33/33），时间各自窗口均匀采样 seed 42；manifest 全量 SHA"
+  },
+  "aeong_query_results_avg_ms": {"IS1": 2.80, "IS2": 118.40, "IS3": 25.90, "IS4": 1.26, "IS5": 2.73, "IS6": 5.10, "IS7": 9.17},
+  "petgraph_query_results_ms": {
+    "steady_median": {"IS1": 3.85, "IS2": 5.04, "IS3": 3.27, "IS4": 3.01, "IS5": 2.83, "IS6": 3.04, "IS7": 3.02},
+    "steady_p95": {"IS1": 5.49, "IS2": 6.41, "IS3": 5.44, "IS4": 3.29, "IS5": 3.15, "IS6": 4.60, "IS7": 4.15},
+    "failures": 0, "executions": 4200,
+    "source": "petgraph-bench-tldbc-v1.json"
+  },
+  "logs": ["aeong-create.log", "aeong-eval.log", "petgraph-queries-manifest.json", "aeong-queries-manifest.json"]
+}

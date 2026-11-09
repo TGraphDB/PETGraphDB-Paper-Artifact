@@ -1,0 +1,15 @@
+{
+  "tag": "tldbc-v1",
+  "bolt": "bolt://server:17687",
+  "steady": 5,
+  "groups": {
+    "IS1": {"queries": 100, "failures": 0, "warm_median_s": 0.022708, "steady_median_s": 0.003852, "steady_p95_s": 0.005487, "steady_mean_s": 0.004056},
+    "IS2": {"queries": 100, "failures": 0, "warm_median_s": 0.024912, "steady_median_s": 0.005035, "steady_p95_s": 0.006406, "steady_mean_s": 0.005015},
+    "IS3": {"queries": 100, "failures": 0, "warm_median_s": 0.010617, "steady_median_s": 0.003265, "steady_p95_s": 0.005436, "steady_mean_s": 0.00344},
+    "IS4": {"queries": 100, "failures": 0, "warm_median_s": 0.020837, "steady_median_s": 0.003012, "steady_p95_s": 0.003289, "steady_mean_s": 0.003012},
+    "IS5": {"queries": 100, "failures": 0, "warm_median_s": 0.017049, "steady_median_s": 0.002833, "steady_p95_s": 0.003152, "steady_mean_s": 0.002719},
+    "IS6": {"queries": 100, "failures": 0, "warm_median_s": 0.026679, "steady_median_s": 0.003042, "steady_p95_s": 0.004596, "steady_mean_s": 0.003193},
+    "IS7": {"queries": 100, "failures": 0, "warm_median_s": 0.02725, "steady_median_s": 0.003023, "steady_p95_s": 0.004146, "steady_mean_s": 0.003114}
+  },
+  "note": "steady 列为 median（s）；原始 stdout 见会话任务日志，此为归档重建"
+}

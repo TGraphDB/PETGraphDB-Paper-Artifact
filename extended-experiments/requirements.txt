@@ -1,0 +1,5 @@
+# Python 3.10+ for plotting; Python 3.11+ for the database driver.
+matplotlib==3.10.7
+numpy==2.2.6
+neo4j==6.4.1
+pandas==2.2.3

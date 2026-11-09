@@ -1,0 +1,6 @@
+[phase0] start aeong (start_dataset flags)
+[phase1] index done 0s
+[phase2] vertices import done 37s
+[phase3] edges import done 205s
+[phase4] graph ops done ret=[{'count': 1500000, 'duration': 64.44914234340001, 'metadata': {'cost_estimate': {'average': 3.2493838666681354, 'maximum': 17.6, 'minimum': 1.1}, 'parsing_time': {'average': 0.00011173940451933324, 'maximum': 0.009943543, 'minimum': 7.5347e-05}, 'plan_execution_time': {'average': 5.0678086529333454e-05, 'maximum': 0.002079491, 'minimum': 3.3945e-05}, 'planning_time': {'average': 7.562500894733331e-05, 'maximum': 0.083265732, 'minimum': 4.8242e-05}}, 'num_workers': 20, 'retries': 291974, 'throughput': 23274.16541879877}]
+4.2966094895600006e-05 306.4081287384033 1793191812219618 1793191880958109

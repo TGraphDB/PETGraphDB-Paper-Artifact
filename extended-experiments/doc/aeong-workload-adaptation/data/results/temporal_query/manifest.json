@@ -1,0 +1,97 @@
+{
+  "seed": 42,
+  "time_min": 1,
+  "time_max": 320000,
+  "interval": 100,
+  "per_type": 100,
+  "files": {
+    "q1_mix.txt": {
+      "lines": 100,
+      "sha256": "ddf45684b817a73840ec086e43a48bc61da97272cde5ffa779e0987c6f52ec2b"
+    },
+    "q2_mix.txt": {
+      "lines": 100,
+      "sha256": "06cc2984622e7d7a8ebeb3cfdc3c107adf20aa8c60fd3c416a9f70ea5d682924"
+    },
+    "q3_mix.txt": {
+      "lines": 100,
+      "sha256": "06b417b643823932fb43f50504bb77228062e5c249899fe8e30269a3037f7b78"
+    },
+    "q4_mix.txt": {
+      "lines": 100,
+      "sha256": "87ba1f39d08bca72f70075d78b98bc704195b17b9f22ad0a4a8aeb626a84c919"
+    },
+    "q1_hot.txt": {
+      "lines": 100,
+      "sha256": "96edb48d626d6d4c4d27cd20c3e48032d78c752cdeecf5e50608ce073c7f21f5"
+    },
+    "q2_hot.txt": {
+      "lines": 100,
+      "sha256": "dc4b46446186de0198721166344c50074b1decc86764fc4c5901c55a26e747d8"
+    },
+    "q3_hot.txt": {
+      "lines": 100,
+      "sha256": "71392a8ae2311a6814bcab2e57699661dbf5138f872fe733a7303342a20e4821"
+    },
+    "q4_hot.txt": {
+      "lines": 100,
+      "sha256": "0b7cd86a609634944f884f461a4960789f80ed9a0ea8a8617a8c910f7e961bfd"
+    },
+    "q1_warm.txt": {
+      "lines": 100,
+      "sha256": "f2ad3db1d8a77b78c000fc3f8d8781d127c3e8c89d0fe51811df7981257c7acd"
+    },
+    "q2_warm.txt": {
+      "lines": 100,
+      "sha256": "4388faa8be0b5072bf6d9eff92ec45bfc00ec96176767c04d872d8358246f47c"
+    },
+    "q3_warm.txt": {
+      "lines": 100,
+      "sha256": "19705b1af911d06f99e89c812ded18f872809c58bdb46ab89cef6f6113f5d087"
+    },
+    "q4_warm.txt": {
+      "lines": 100,
+      "sha256": "f539f6a463da9db0c21c01fa2b07711bb3c001473ee4743390cbaa13af764bdd"
+    },
+    "q1_cold.txt": {
+      "lines": 100,
+      "sha256": "80de0ad143bf73962cf9d78f6c927fa3183f0dfa6008c7934b20c735f43ed8da"
+    },
+    "q2_cold.txt": {
+      "lines": 100,
+      "sha256": "e98edfc318eb8b1868f0d128e99ff752016826f77a8a4b9324a7c464ff145437"
+    },
+    "q3_cold.txt": {
+      "lines": 100,
+      "sha256": "41fb8c735fee69cb161a63c92dfcdd5539dc659a7d212dd85ce7e1e01b52d3cc"
+    },
+    "q4_cold.txt": {
+      "lines": 100,
+      "sha256": "d94cb002caec3479455e010075adc5a756db31a48b93f851c7ca5ae61b9a6832"
+    },
+    "q4_mix_int1.txt": {
+      "lines": 100,
+      "sha256": "5cfc7c375302fc923b09fd0aefbfdb63caf11e4d895fce4752467ede5754f96b"
+    },
+    "q4_mix_int20.txt": {
+      "lines": 100,
+      "sha256": "1de8f125176fa7e62e7cfca22b396d480d113ac8c5f830c32c7a79624ee92258"
+    },
+    "q4_mix_int50.txt": {
+      "lines": 100,
+      "sha256": "031983577f755c14a53a684183b7b1a84c5a22d66c96f99c0138aedc5b5accaa"
+    },
+    "q4_mix_int100.txt": {
+      "lines": 100,
+      "sha256": "2595c2bda44e377c99c4c7fdec3ce92b69490f65183ba8d1e3403c319cc0e139"
+    },
+    "q4_mix_int150.txt": {
+      "lines": 100,
+      "sha256": "6ca925781a3f2941bf720637c7ffb3afd09ed5e46333b802731a5aa90e7cc2f6"
+    },
+    "q4_mix_int200.txt": {
+      "lines": 100,
+      "sha256": "aae0583a0b2430f70cb617fab58848e945b749236d95fb1cc55727ab3ef59e15"
+    }
+  }
+}

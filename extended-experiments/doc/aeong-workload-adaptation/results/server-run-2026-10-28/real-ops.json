@@ -1,0 +1,12 @@
+{
+  "tag": "real-ops-20w",
+  "file": "data/petgraph_ops.txt",
+  "workers": 20,
+  "statements_total": 320000,
+  "statements_ok": 320000,
+  "failures": 0,
+  "failure_samples": [],
+  "wall_seconds": 365.984,
+  "avg_latency_seconds": 0.001144,
+  "throughput_ops_per_s": 874.4
+}

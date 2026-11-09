@@ -1,5 +1,21 @@
 # PETGraphDB
 
+## Paper artifact and data availability
+
+This repository contains the original PETGraphDB implementation and benchmarks,
+plus the appendix's **extended experiments**:
+
+* [Impact of extending Neo4j: LDBC SNB SF10](extended-experiments/doc/neo4j-vs-petgraphdb-benchmark-v2/README.md): interactive operations, operator microbenchmarks, graph algorithms, and analytical queries.
+* [Generality: adapted T-mgBench and T-LDBC](extended-experiments/doc/aeong-workload-adaptation/README.md): workload adapters, frozen Pokec operations/queries, archived measurements, write costs, and storage footprints.
+
+Start with [extended-experiments/README.md](extended-experiments/README.md) for
+dependency installation, offline validation, figure regeneration, dataset acquisition,
+and database rerun instructions. No paper checkout or laboratory server is needed
+to validate the packaged measurements and regenerate the appendix plots.
+Large datasets and database snapshots are not bundled; the documentation states
+which inputs are included and which must be obtained separately. Original source
+modules and their licenses are preserved below.
+
 ## Description
 
 PETGraphDB is a data management system specifically designed for Property Evolution Temporal Graph (PETG) data. Built on top of Neo4j, it adopts a valid-time temporal property graph data model to facilitate intuitive data modeling while supporting ACID features with transactions. Unlike traditional systems that treat topological changes and property evolution identically, PETGraphDB addresses scenarios where property values change frequently while the graph topology remains relatively stable.

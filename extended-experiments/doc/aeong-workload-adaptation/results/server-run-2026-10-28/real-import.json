@@ -1,0 +1,23 @@
+{
+  "dataset": "data/pokec_small_import.cypher",
+  "t0": 0,
+  "phases": {
+    "index_seconds": 0.16,
+    "vertices_seconds": 1.95,
+    "edges_seconds": 15.76,
+    "check_seconds": 1.22
+  },
+  "parsed": {
+    "vertices": 10000,
+    "edges": 121716,
+    "unmatched_lines": 0
+  },
+  "check": {
+    "user_count": 10000,
+    "edge_count": 121716,
+    "users_valid_at_0": 10000,
+    "users_cp_missing_at_0": 0,
+    "edges_valid_at_0": 121716
+  },
+  "init_complete": true
+}

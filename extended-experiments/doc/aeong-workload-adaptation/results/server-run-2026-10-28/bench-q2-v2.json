@@ -1,0 +1,15 @@
+{
+  "tag": "q2-v2",
+  "bolt": "bolt://server:17687",
+  "steady": 5,
+  "groups": {
+    "q2_mix": {
+      "queries": 100,
+      "failures": 0,
+      "warm_median_s": 0.028423,
+      "steady_median_s": 0.003839,
+      "steady_p95_s": 0.006846,
+      "steady_mean_s": 0.004373
+    }
+  }
+}
